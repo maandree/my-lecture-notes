@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="200"
+   height="140"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="2010-(11)nov-03 figur 3.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="116.27791"
+     inkscape:cy="67.01535"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1589"
+     inkscape:window-height="1117"
+     inkscape:window-x="1600"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-midpoints="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       d="M 91.71875 10.90625 C 91.070311 11.015631 90.523436 11.261725 90.125 11.6875 C 89.593749 12.257818 89.343749 13.101567 89.34375 14.21875 C 89.343749 15.292971 89.593749 16.140626 90.125 16.75 C 90.648436 17.347656 91.316403 17.65625 92.09375 17.65625 L 92.09375 20 L 93.15625 20 L 93.15625 17.65625 C 93.949214 17.65625 94.589838 17.34375 95.09375 16.75 C 95.628899 16.121095 95.906243 15.277346 95.90625 14.21875 C 95.906243 13.066411 95.628899 12.207037 95.09375 11.65625 C 94.59765 11.140632 94.078119 10.906257 93.53125 10.90625 C 92.562496 10.906257 92.093746 11.476569 92.09375 12.65625 L 92.09375 16.6875 C 91.656247 16.687501 91.269529 16.496095 90.96875 16.09375 C 90.632811 15.644533 90.468748 15.007815 90.46875 14.21875 C 90.468748 13.476567 90.632811 12.886723 90.96875 12.4375 C 91.19531 12.132818 91.460935 11.9336 91.71875 11.84375 L 91.71875 10.90625 z M 93.53125 11.8125 C 93.742182 11.812505 94.007808 11.988287 94.28125 12.34375 C 94.617182 12.781255 94.781244 13.406254 94.78125 14.21875 C 94.781244 15.089846 94.613275 15.699221 94.28125 16.0625 C 93.910151 16.468751 93.527339 16.687501 93.15625 16.6875 L 93.15625 12.65625 C 93.156246 12.089849 93.277339 11.812505 93.53125 11.8125 z "
+       id="path4341" />
+    <path
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       d="M 47.625 11.4375 C 46.976561 11.546881 46.460936 11.824225 46.0625 12.25 C 45.531249 12.820318 45.249999 13.664067 45.25 14.78125 C 45.249999 15.855471 45.531249 16.671876 46.0625 17.28125 C 46.585936 17.878906 47.222653 18.1875 48 18.1875 L 48 20.53125 L 49.0625 20.53125 L 49.0625 18.1875 C 49.855464 18.1875 50.527338 17.875 51.03125 17.28125 C 51.566399 16.652345 51.812493 15.808596 51.8125 14.75 C 51.812493 13.597661 51.566399 12.769537 51.03125 12.21875 C 50.53515 11.703132 50.015619 11.437507 49.46875 11.4375 C 48.499996 11.437507 47.999996 12.007819 48 13.1875 L 48 17.21875 C 47.562497 17.218751 47.207029 17.027345 46.90625 16.625 C 46.570311 16.175783 46.406248 15.570315 46.40625 14.78125 C 46.406248 14.039067 46.570311 13.417973 46.90625 12.96875 C 47.13281 12.664068 47.367185 12.46485 47.625 12.375 L 47.625 11.4375 z M 49.46875 12.34375 C 49.679682 12.343755 49.914058 12.519537 50.1875 12.875 C 50.523432 13.312505 50.687494 13.937504 50.6875 14.75 C 50.687494 15.621096 50.519525 16.261721 50.1875 16.625 C 49.816401 17.031251 49.433589 17.218751 49.0625 17.21875 L 49.0625 13.1875 C 49.062496 12.621099 49.214839 12.343755 49.46875 12.34375 z "
+       id="path4329" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 5,113.75 0,1 191,0 0,-1 -191,0 z"
+       id="path2905" />
+    <path
+       style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+       d="m 185.30955,109.81289 12.01847,4.4195 -12.01847,4.41949 c 1.92005,-2.60927 1.90899,-6.1792 0,-8.83899 z"
+       id="path4398" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 12,109.5 0,9.25 1,0 0,-9.25 -1,0 z"
+       id="path4127" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 52,109.5 0,9.25 1,0 0,-9.25 -1,0 z"
+       id="path4129" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 92,109.5 0,9.25 1,0 0,-9.25 -1,0 z"
+       id="path4131" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 132,109.5 0,9.25 1,0 0,-9.25 -1,0 z"
+       id="path4133" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 172,109.5 0,9.25 1,0 0,-9.25 -1,0 z"
+       id="path4135" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 52.5,49.8125 -0.4375,0.65625 -40,63.375 0.875,0.5625 39.5625,-62.6875 39.5625,62.6875 0.875,-0.5625 -40,-63.375 L 52.5,49.8125 z"
+       id="path4141" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 92.09375,51.0625 0.5625,0.84375 L 93.5,51.375 92.96875,50.53125 z"
+       id="path4584" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="M 90.5,52.96875 91.34375,53.5 91.875,52.65625 91.03125,52.125 z"
+       id="path4582" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="M 93.71875,53.59375 94.25,54.4375 95.09375,53.90625 94.5625,53.0625 z"
+       id="path4580" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="M 88.90625,55.5 89.75,56.03125 90.28125,55.1875 89.4375,54.65625 z"
+       id="path4578" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="M 95.3125,56.125 95.84375,57 96.6875,56.4375 96.15625,55.59375 z"
+       id="path4576" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 87.3125,58.03125 0.84375,0.5625 0.53125,-0.875 -0.84375,-0.53125 z"
+       id="path4574" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="M 96.90625,58.6875 97.4375,59.53125 98.28125,59 97.75,58.15625 z"
+       id="path4572" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="M 85.6875,60.59375 86.5625,61.125 87.09375,60.28125 86.25,59.75 z"
+       id="path4570" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 98.5,61.21875 0.53125,0.84375 0.875,-0.53125 -0.5625,-0.84375 z"
+       id="path4568" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="M 84.09375,63.125 84.9375,63.65625 85.46875,62.8125 84.625,62.28125 z"
+       id="path4566" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 100.125,63.75 0.53125,0.84375 0.84375,-0.53125 -0.53125,-0.84375 z"
+       id="path4564" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="M 82.5,65.65625 83.34375,66.1875 83.875,65.34375 83.03125,64.8125 z"
+       id="path4562" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="M 101.71875,66.28125 102.25,67.125 103.09375,66.59375 102.5625,65.75 z"
+       id="path4560" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="M 80.90625,68.1875 81.75,68.71875 82.28125,67.875 81.4375,67.34375 z"
+       id="path4558" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 103.3125,68.8125 0.53125,0.84375 0.84375,-0.53125 -0.53125,-0.84375 z"
+       id="path4556" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="M 79.3125,70.71875 80.15625,71.25 80.6875,70.40625 79.84375,69.875 z"
+       id="path4554" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 104.90625,71.375 0.53125,0.84375 0.875,-0.53125 -0.5625,-0.875 z"
+       id="path4552" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 77.6875,73.28125 0.84375,0.53125 0.53125,-0.84375 -0.84375,-0.5625 z"
+       id="path4550" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="M 106.53125,73.90625 107.0625,74.75 107.90625,74.21875 107.375,73.375 z"
+       id="path4548" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="M 76.09375,75.8125 76.9375,76.34375 77.46875,75.5 76.625,74.96875 z"
+       id="path4546" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 108.125,76.4375 0.53125,0.84375 L 109.5,76.75 108.96875,75.90625 z"
+       id="path4544" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="M 74.5,78.34375 75.34375,78.875 75.875,78.03125 75.03125,77.5 z"
+       id="path4542" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="M 109.71875,78.96875 110.25,79.8125 111.09375,79.28125 110.5625,78.4375 z"
+       id="path4540" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="M 72.90625,80.875 73.75,81.40625 74.28125,80.5625 73.4375,80.03125 z"
+       id="path4538" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 111.3125,81.5 0.53125,0.84375 0.84375,-0.53125 -0.53125,-0.84375 z"
+       id="path4536" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="M 71.28125,83.40625 72.125,83.9375 72.65625,83.09375 71.8125,82.5625 z"
+       id="path4534" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 112.9375,84.03125 0.53125,0.875 0.84375,-0.5625 L 113.78125,83.5 z"
+       id="path4532" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="M 69.6875,85.9375 70.53125,86.5 71.0625,85.625 70.21875,85.09375 z"
+       id="path4530" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 114.53125,86.59375 0.53125,0.84375 0.84375,-0.53125 -0.53125,-0.84375 z"
+       id="path4528" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="M 68.09375,88.5 68.9375,89.03125 69.46875,88.1875 68.625,87.65625 z"
+       id="path4526" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 116.125,89.125 0.53125,0.84375 0.84375,-0.53125 -0.53125,-0.84375 z"
+       id="path4524" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="M 66.5,91.03125 67.34375,91.5625 67.875,90.71875 67.03125,90.1875 z"
+       id="path4522" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="M 117.71875,91.65625 118.25,92.5 119.09375,91.96875 118.5625,91.125 z"
+       id="path4520" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 64.875,93.5625 0.84375,0.53125 0.5625,-0.84375 -0.875,-0.53125 z"
+       id="path4518" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="M 119.34375,94.1875 119.875,95.03125 120.71875,94.5 120.1875,93.65625 z"
+       id="path4516" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="M 63.28125,96.09375 64.125,96.625 64.65625,95.78125 63.8125,95.25 z"
+       id="path4514" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 120.9375,96.71875 0.53125,0.84375 0.84375,-0.53125 -0.53125,-0.84375 z"
+       id="path4512" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 61.6875,98.625 0.84375,0.53125 0.53125,-0.84375 -0.84375,-0.53125 z"
+       id="path4510" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 122.53125,99.28125 0.53125,0.84375 0.84375,-0.53125 -0.53125,-0.875 z"
+       id="path4508" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 60.09375,101.1875 0.84375,0.53125 0.53125,-0.84375 -0.84375,-0.5625 z"
+       id="path4506" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 124.125,101.8125 0.53125,0.84375 0.84375,-0.53125 -0.53125,-0.84375 z"
+       id="path4504" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="M 58.46875,103.71875 59.3125,104.25 59.875,103.40625 59.03125,102.875 z"
+       id="path4502" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 125.71875,104.34375 0.5625,0.84375 0.84375,-0.53125 -0.53125,-0.84375 z"
+       id="path4500" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 56.875,106.25 0.84375,0.53125 0.53125,-0.84375 -0.84375,-0.53125 z"
+       id="path4498" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 127.34375,106.875 0.53125,0.84375 0.84375,-0.53125 -0.53125,-0.84375 z"
+       id="path4496" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 55.28125,108.78125 0.84375,0.53125 0.53125,-0.84375 -0.84375,-0.53125 z"
+       id="path4494" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 128.9375,109.40625 0.53125,0.84375 0.84375,-0.53125 -0.53125,-0.84375 z"
+       id="path4492" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 53.6875,111.3125 0.84375,0.53125 L 55.0625,111 54.21875,110.46875 z"
+       id="path4490" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 130.53125,111.9375 0.53125,0.875 0.84375,-0.5625 -0.53125,-0.84375 z"
+       id="path4488" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 52.0625,113.84375 0.875,0.5625 0.53125,-0.875 L 52.625,113 z"
+       id="path4143" />
+    <path
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       d="m 81.585938,123.89849 -2.373046,3.19336 2.496093,3.36914 -1.271484,0 -1.910156,-2.57813 -1.910157,2.57813 -1.271484,0 2.548828,-3.43359 -2.332031,-3.12891 1.271484,0 1.740235,2.33789 1.740234,-2.33789 1.271484,0"
+       id="path4313" />
+    <path
+       style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       d="m 86.821778,130.85747 c 0.202143,-0.36328 0.443842,-0.63134 0.725097,-0.8042 0.281245,-0.17284 0.612299,-0.25927 0.993164,-0.25928 0.512689,1e-5 0.908196,0.18019 1.186524,0.54053 0.278312,0.35743 0.417472,0.86719 0.41748,1.5293 l 0,2.9707 -0.812988,0 0,-2.94433 c -7e-6,-0.47168 -0.0835,-0.82178 -0.250488,-1.0503 -0.166999,-0.22851 -0.421882,-0.34277 -0.764649,-0.34277 -0.418951,0 -0.750005,0.13916 -0.993164,0.41748 -0.243169,0.27832 -0.364751,0.65772 -0.364746,1.13818 l 0,2.78174 -0.812988,0 0,-2.94433 c -4e-6,-0.47461 -0.0835,-0.82471 -0.250488,-1.0503 -0.166996,-0.22851 -0.424808,-0.34277 -0.773438,-0.34277 -0.413088,0 -0.741213,0.14063 -0.984375,0.42187 -0.243166,0.27833 -0.364748,0.65626 -0.364746,1.13379 l 0,2.78174 -0.812988,0 0,-4.92187 0.812988,0 0,0.76465 c 0.184569,-0.30176 0.40576,-0.52441 0.663574,-0.66797 0.25781,-0.14355 0.563962,-0.21533 0.918457,-0.21534 0.357419,1e-5 0.660641,0.0908 0.909668,0.27247 0.251949,0.18164 0.437984,0.44531 0.558106,0.79101"
+       id="path4316" />
+    <path
+       style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       d="m 97.917969,129.19194 0,2.44776 2.447751,0 0,0.74707 -2.447751,0 0,2.44775 -0.738281,0 0,-2.44775 -2.447754,0 0,-0.74707 2.447754,0 0,-2.44776 0.738281,0"
+       id="path4318" />
+    <path
+       style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       d="m 105.30078,134.08745 1.4502,0 0,-5.00537 -1.57764,0.31641 0,-0.8086 1.56885,-0.3164 0.88769,0 0,5.81396 1.4502,0 0,0.74707 -3.7793,0 0,-0.74707"
+       id="path4320" />
+    <path
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       d="m 51.335938,123.89849 -2.373046,3.19336 2.496093,3.36914 -1.271484,0 -1.910156,-2.57813 -1.910157,2.57813 -1.271484,0 2.548828,-3.43359 -2.332031,-3.12891 1.271484,0 1.740235,2.33789 1.740234,-2.33789 1.271484,0"
+       id="path4323" />
+    <path
+       style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       d="m 56.571778,130.85747 c 0.202143,-0.36328 0.443842,-0.63134 0.725097,-0.8042 0.281245,-0.17284 0.612299,-0.25927 0.993164,-0.25928 0.512689,1e-5 0.908196,0.18019 1.186524,0.54053 0.278312,0.35743 0.417472,0.86719 0.41748,1.5293 l 0,2.9707 -0.812988,0 0,-2.94433 c -7e-6,-0.47168 -0.0835,-0.82178 -0.250488,-1.0503 -0.166999,-0.22851 -0.421882,-0.34277 -0.764649,-0.34277 -0.418951,0 -0.750005,0.13916 -0.993164,0.41748 -0.243169,0.27832 -0.364751,0.65772 -0.364746,1.13818 l 0,2.78174 -0.812988,0 0,-2.94433 c -4e-6,-0.47461 -0.0835,-0.82471 -0.250488,-1.0503 -0.166996,-0.22851 -0.424808,-0.34277 -0.773438,-0.34277 -0.413088,0 -0.741213,0.14063 -0.984375,0.42187 -0.243166,0.27833 -0.364748,0.65626 -0.364746,1.13379 l 0,2.78174 -0.812988,0 0,-4.92187 0.812988,0 0,0.76465 c 0.184569,-0.30176 0.40576,-0.52441 0.663574,-0.66797 0.25781,-0.14355 0.563962,-0.21533 0.918457,-0.21534 0.357419,1e-5 0.660641,0.0908 0.909668,0.27247 0.251949,0.18164 0.437984,0.44531 0.558106,0.79101"
+       id="path4326" />
+    <path
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       d="m 63.881477,8.935713 c -0.523441,0.898446 -0.912112,1.787117 -1.166016,2.666016 -0.253908,0.878912 -0.380861,1.769536 -0.380859,2.671875 -2e-6,0.902346 0.126951,1.796877 0.380859,2.683594 0.25781,0.882812 0.646482,1.771483 1.166016,2.666015 l -0.9375,0 c -0.58594,-0.917969 -1.025392,-1.820312 -1.318359,-2.707031 -0.289064,-0.886717 -0.433595,-1.767575 -0.433594,-2.642578 -1e-6,-0.871089 0.14453,-1.748042 0.433594,-2.63086 0.28906,-0.882805 0.728513,-1.785148 1.318359,-2.707031 l 0.9375,0"
+       id="path4331" />
+    <path
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       d="m 70.162727,11.672041 0,1.019532 c -0.304692,-0.156245 -0.621098,-0.273432 -0.949219,-0.351563 -0.328129,-0.07812 -0.667972,-0.117182 -1.019531,-0.117187 -0.535159,5e-6 -0.937502,0.08204 -1.207031,0.246093 -0.265627,0.164068 -0.398439,0.410162 -0.398438,0.738282 -10e-7,0.250004 0.0957,0.44727 0.28711,0.591796 0.191404,0.14063 0.576169,0.275395 1.154297,0.404297 l 0.36914,0.08203 c 0.765621,0.164066 1.308589,0.396487 1.628906,0.697265 0.324214,0.296878 0.486323,0.712893 0.486329,1.248047 -6e-6,0.609376 -0.242193,1.091798 -0.726563,1.447266 -0.480473,0.355468 -1.142582,0.533203 -1.986328,0.533203 -0.351565,0 -0.718752,-0.03516 -1.101563,-0.105469 -0.378907,-0.06641 -0.779297,-0.167969 -1.201171,-0.304687 l 0,-1.113282 c 0.398436,0.207033 0.791014,0.363283 1.177734,0.46875 0.386717,0.101564 0.769529,0.152345 1.148437,0.152344 0.50781,10e-7 0.898434,-0.08594 1.171875,-0.257812 0.273434,-0.175781 0.410152,-0.421874 0.410157,-0.738282 -5e-6,-0.292966 -0.09961,-0.517576 -0.298828,-0.673828 -0.195317,-0.156247 -0.626957,-0.306638 -1.294922,-0.451172 l -0.375,-0.08789 c -0.667971,-0.140622 -1.150392,-0.355466 -1.447266,-0.644532 -0.296876,-0.292964 -0.445313,-0.693355 -0.445312,-1.201171 -10e-7,-0.617183 0.218749,-1.093745 0.65625,-1.429688 0.437498,-0.335931 1.058591,-0.503899 1.863281,-0.503906 0.398434,7e-6 0.773433,0.0293 1.125,0.08789 0.351558,0.0586 0.675776,0.146491 0.972656,0.263672"
+       id="path4333" />
+    <path
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       d="m 72.067024,8.935713 0.9375,0 c 0.585935,0.921883 1.023435,1.824226 1.3125,2.707031 0.292965,0.882818 0.439449,1.759771 0.439453,2.63086 -4e-6,0.875003 -0.146488,1.755861 -0.439453,2.642578 -0.289065,0.886719 -0.726565,1.789062 -1.3125,2.707031 l -0.9375,0 c 0.51953,-0.894532 0.906248,-1.783203 1.160156,-2.666015 0.25781,-0.886717 0.386716,-1.781248 0.386719,-2.683594 -3e-6,-0.902339 -0.128909,-1.792963 -0.386719,-2.671875 -0.253908,-0.878899 -0.640626,-1.76757 -1.160156,-2.666016"
+       id="path4335" />
+    <path
+       style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       d="m 56.420051,18.437664 c 0.202143,-0.363277 0.443842,-0.631343 0.725097,-0.8042 0.281245,-0.172846 0.612299,-0.259272 0.993164,-0.259277 0.512689,5e-6 0.908196,0.180181 1.186524,0.540527 0.278312,0.357426 0.417472,0.867192 0.41748,1.529297 l 0,2.970703 -0.812988,0 0,-2.944335 c -7e-6,-0.471677 -0.0835,-0.821774 -0.250488,-1.050293 -0.166999,-0.228512 -0.421882,-0.34277 -0.764649,-0.342774 -0.418951,4e-6 -0.750005,0.139164 -0.993164,0.417481 -0.243169,0.278324 -0.364751,0.657718 -0.364746,1.138183 l 0,2.781738 -0.812988,0 0,-2.944335 c -4e-6,-0.474606 -0.0835,-0.824704 -0.250488,-1.050293 -0.166996,-0.228512 -0.424808,-0.34277 -0.773438,-0.342774 -0.413088,4e-6 -0.741213,0.140629 -0.984375,0.421875 -0.243166,0.278324 -0.364748,0.656253 -0.364746,1.133789 l 0,2.781738 -0.812988,0 0,-4.921875 0.812988,0 0,0.764649 c 0.184569,-0.301753 0.40576,-0.524409 0.663574,-0.667969 0.25781,-0.14355 0.563962,-0.215327 0.918457,-0.215332 0.357419,5e-6 0.660641,0.09082 0.909668,0.272461 0.251949,0.181645 0.437984,0.445317 0.558106,0.791016"
+       id="path4338" />
+    <path
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       d="m 127.07069,8.395917 c -0.52344,0.898446 -0.91212,1.787117 -1.16602,2.666016 -0.25391,0.878912 -0.38086,1.769536 -0.38086,2.671875 0,0.902346 0.12695,1.796877 0.38086,2.683594 0.25781,0.882812 0.64648,1.771483 1.16602,2.666015 l -0.9375,0 c -0.58594,-0.917969 -1.0254,-1.820312 -1.31836,-2.707031 -0.28907,-0.886717 -0.4336,-1.767575 -0.4336,-2.642578 0,-0.871089 0.14453,-1.748042 0.4336,-2.63086 0.28906,-0.882805 0.72851,-1.785148 1.31836,-2.707031 l 0.9375,0"
+       id="path4343" />
+    <path
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       d="m 133.35194,11.132245 0,1.019532 c -0.3047,-0.156245 -0.6211,-0.273432 -0.94922,-0.351563 -0.32813,-0.07812 -0.66798,-0.117182 -1.01953,-0.117187 -0.53516,5e-6 -0.93751,0.08204 -1.20704,0.246093 -0.26562,0.164068 -0.39844,0.410162 -0.39843,0.738282 -10e-6,0.250004 0.0957,0.44727 0.28711,0.591796 0.1914,0.14063 0.57617,0.275395 1.15429,0.404297 l 0.36914,0.08203 c 0.76562,0.164066 1.30859,0.396487 1.62891,0.697265 0.32421,0.296878 0.48632,0.712893 0.48633,1.248047 -1e-5,0.609376 -0.2422,1.091798 -0.72656,1.447266 -0.48048,0.355468 -1.14259,0.533203 -1.98633,0.533203 -0.35157,0 -0.71876,-0.03516 -1.10157,-0.105469 -0.3789,-0.06641 -0.77929,-0.167969 -1.20117,-0.304687 l 0,-1.113282 c 0.39844,0.207033 0.79102,0.363283 1.17774,0.46875 0.38671,0.101564 0.76953,0.152345 1.14843,0.152344 0.50781,1e-6 0.89844,-0.08594 1.17188,-0.257812 0.27343,-0.175781 0.41015,-0.421874 0.41016,-0.738282 -1e-5,-0.292966 -0.0996,-0.517576 -0.29883,-0.673828 -0.19532,-0.156247 -0.62696,-0.306638 -1.29492,-0.451172 l -0.375,-0.08789 c -0.66797,-0.140622 -1.1504,-0.355466 -1.44727,-0.644532 -0.29688,-0.292964 -0.44531,-0.693355 -0.44531,-1.201171 0,-0.617183 0.21875,-1.093745 0.65625,-1.429688 0.4375,-0.335931 1.05859,-0.503899 1.86328,-0.503906 0.39843,7e-6 0.77343,0.0293 1.125,0.08789 0.35156,0.0586 0.67578,0.146491 0.97266,0.263672"
+       id="path4345" />
+    <path
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       d="m 135.25623,8.395917 0.9375,0 c 0.58594,0.921883 1.02344,1.824226 1.3125,2.707031 0.29297,0.882818 0.43945,1.759771 0.43946,2.63086 -1e-5,0.875003 -0.14649,1.755861 -0.43946,2.642578 -0.28906,0.886719 -0.72656,1.789062 -1.3125,2.707031 l -0.9375,0 c 0.51953,-0.894532 0.90625,-1.783203 1.16016,-2.666015 0.25781,-0.886717 0.38672,-1.781248 0.38672,-2.683594 0,-0.902339 -0.12891,-1.792963 -0.38672,-2.671875 -0.25391,-0.878899 -0.64063,-1.76757 -1.16016,-2.666016"
+       id="path4347" />
+    <path
+       style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       d="m 100.5077,17.897867 c 0.20214,-0.363277 0.44384,-0.631343 0.72509,-0.8042 0.28125,-0.172846 0.6123,-0.259272 0.99317,-0.259277 0.51269,5e-6 0.90819,0.180181 1.18652,0.540527 0.27831,0.357426 0.41747,0.867192 0.41748,1.529297 l 0,2.970703 -0.81299,0 0,-2.944335 c 0,-0.471677 -0.0835,-0.821774 -0.25048,-1.050293 -0.167,-0.228512 -0.42189,-0.34277 -0.76465,-0.342774 -0.41895,4e-6 -0.75001,0.139164 -0.99317,0.417481 -0.24317,0.278324 -0.36475,0.657718 -0.36474,1.138183 l 0,2.781738 -0.812991,0 0,-2.944335 c -4e-6,-0.474606 -0.0835,-0.824704 -0.250488,-1.050293 -0.166996,-0.228512 -0.424808,-0.34277 -0.773438,-0.342774 -0.413088,4e-6 -0.741213,0.140629 -0.984375,0.421875 -0.243166,0.278324 -0.364748,0.656253 -0.364746,1.133789 l 0,2.781738 -0.812988,0 0,-4.921875 0.812988,0 0,0.764649 c 0.184569,-0.301753 0.40576,-0.524409 0.663574,-0.667969 0.25781,-0.14355 0.563962,-0.215327 0.918457,-0.215332 0.357419,5e-6 0.660641,0.09082 0.909668,0.272461 0.251949,0.181645 0.437979,0.445317 0.558109,0.791016"
+       id="path4350" />
+    <path
+       style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       d="m 111.60389,16.232339 0,2.447754 2.44775,0 0,0.747071 -2.44775,0 0,2.447753 -0.73828,0 0,-2.447753 -2.44776,0 0,-0.747071 2.44776,0 0,-2.447754 0.73828,0"
+       id="path4352" />
+    <path
+       style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       d="m 118.9867,21.127847 1.4502,0 0,-5.005371 -1.57764,0.316406 0,-0.808593 1.56885,-0.316407 0.88769,0 0,5.813965 1.4502,0 0,0.74707 -3.7793,0 0,-0.74707"
+       id="path4354" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 58.125,27.5625 0.96875,0.21875 0.21875,-0.96875 -0.96875,-0.25 z"
+       id="path4484" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 56.9375,32.40625 0.96875,0.25 0.25,-1 -1,-0.21875 z"
+       id="path4482" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="M 55.75,37.25 56.71875,37.5 56.9375,36.53125 56,36.28125 z"
+       id="path4480" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 54.5,42.09375 0.96875,0.25 0.25,-0.96875 -0.96875,-0.25 z"
+       id="path4478" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 53.25,46.4375 -0.03125,0.0625 -0.15625,0.28125 0.90625,0.4375 0.15625,-0.3125 0.03125,-0.03125 0,-0.03125 0.21875,-0.625 -0.96875,-0.3125 z"
+       id="path4308" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 109.3125,26.71875 0.8125,0.59375 0.59375,-0.8125 -0.8125,-0.59375 z"
+       id="path4474" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 106.375,30.75 0.8125,0.59375 0.59375,-0.8125 -0.8125,-0.5625 z"
+       id="path4472" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 103.4375,34.8125 0.8125,0.59375 0.59375,-0.8125 L 104.03125,34 z"
+       id="path4470" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 100.5,38.875 0.8125,0.5625 0.59375,-0.8125 -0.8125,-0.5625 z"
+       id="path4468" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="M 97.5625,42.90625 98.375,43.5 l 0.59375,-0.8125 -0.8125,-0.59375 z"
+       id="path4466" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+       d="m 94.65625,46.96875 0.78125,0.5625 0.59375,-0.8125 -0.8125,-0.5625 z"
+       id="path4310" />
+  </g>
+</svg>
