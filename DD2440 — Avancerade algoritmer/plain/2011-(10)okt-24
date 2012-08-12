@@ -1,0 +1,206 @@
+[] Om hemtal A
+[] Faktorisering, "naivt"
+[] Pollard-rho
+[] x² ≡ y² (mod n)
+
+
+
+Problem 1
+
+    a = 2^r u,  b = 2^s v,  gcd(a, b) = 2^min(r,s) gcd(u, b)
+    alg first extracts min(r,s) factors 2 then it removes any
+    extra 2s. Always d|a, d|b → d|(a−b),  and
+        d|b, d|(a−b) → d(a−b+b)
+
+
+
+Problem 1 (cont.)
+
+    If at least one is, then divide at least one with 2 within 2 rounds
+    
+    If both oss, then (a − b) is even, so one even within two rounds.
+    At least one divison by 2 at least every fourth ................
+
+
+
+Problem 2
+
+    Can use Chinese remainder theorem since gcd(N, N + 1) = 1
+    
+    "Just do it"
+    
+    Don't forget to say what X is
+    
+    Be safe: check your results
+
+
+
+Problem 3
+
+    Briefly: Do a radix sort in base n rather than 2
+    
+    Explain what that means
+
+    Explain why it yeilds an 𝓞(n) algorithm
+
+
+
+Problem 3 (cont.)
+
+    sort(x):    //X has n elements
+        d = 1
+        for i = 0 to 10:
+            for j = 0 to n; L_j = []
+            for x in X:
+                j = (x div d) mod n
+                L_j.addLast(X)
+            X = concat(L_1, .., L_{n-1})
+            d = d * n
+        return X
+
+
+Problem 4
+
+    Briefly: Insert elements into balanced binary search tree (e.b. red:en:black)
+    
+    For each value, keep a counter or linked list of elements with that value
+    
+    Tree has at most m nodes, so insert n elements takes time 𝓞(n log m)
+    
+    Do in-order traversal of tree to get result in 𝓞(n)
+            𝓞(m) for only listing
+    
+    Total time 𝓞(n log m)
+
+
+
+Problem 5
+
+    Important observation 1: There are no more than 4n² distinct clauses of size 1 or 1 with n variables
+    
+    Important observation 2: resolving two clauses of size ≤ 2 yields another clause of size ≤ 2
+    
+    For all paris of clauses f,h in C, if f and g can be resolved to h, add h to C (𝓞(m⁴) per round)
+    
+    Repeat until we get a contraction or no new clauses can be formed (𝓞(n²) rounds)
+
+
+
+Problem 5 (cont.)
+
+    Resolution of f and g to get h DOES NOT remove f and g from the set of clauses
+    
+    The task was to analyse solving 2SAT with resolution, not by DPLL or some other algorithm.
+
+
+
+
+
+
+Faktorisering
+
+    N = Π p↓i↑{α_i}
+    
+    naiv faktorisering
+    
+        testa atta dividera med allt större primtal
+        
+        Räcker testa primtal ≤ √N
+        
+        Använd primtalssåll för att generera alla primtal ≤ B
+    
+    isprime[i] initieras till true
+    
+        [f|f|t|t|f| |f| |f|f]
+         0 1 2 3 4 5 6 7 8 9
+
+    Välj slumpvis x₁, …, x_t ∈ ℤ_N
+    
+        Hoppas att något par i < j      x_i ≡ x_j (mod p)
+        
+                        för något       p|N   (p primtal)
+                        
+        p|(x_i − x_j), N∤(x_i − x_j)    x_i ≢ x_j (mod N)
+        
+        d = gcd(x_i − x_j, N)    d < N, p|d
+        
+        Låt p vara minsta primtal som delar N
+        
+        Vi väljer x₁, …, x_t
+        
+        Hur stort ska t vara för att vi med god sannolikhet ska
+        ha x_i ≡ x_j (mod p) för något par i < j?
+        
+        (Om N inte är primtal så p ≤ √N)
+        
+        Födelsedagsparadoxen:   Om t ≥ √{2p} så är sannolikheten
+                                att det finns x_i ≡ x_j (mod p) ≥ ½
+        
+        
+        God nyhet:  behöver bara 𝓞(∜N) värden x.
+        
+        Dålig nyhet:    kolla alla par tar tid  (t över 2) par   Θ(t²)    Θ(√N)
+        
+        
+        
+    Pollard-rho     f(x) = x² + 1
+    Startvärde x₀   x_i = f(x_{i−1}) mod N
+    
+    Pollard(N, x₀)
+        x1 ← f(x₀) mod N
+        x2 ← f(f(x₀)) mod N
+        
+        while gcd(x2 − x1, N) = 1
+            x1 ← f(x1) mod N
+            x2 ← f(f(x2)) mod N
+        d ← gcd(x2 − x2, N)
+        return d
+    
+    
+    Titta på x1 med p för p|N
+    
+        y_i = x_i (mod p)
+                               ↙ ← ← ↖
+                             ↙         ↖
+                            ↓           ↑
+                            ↓           ↑                   (rho-format)
+        y₀ → y₁ → y₂ → … → y_i → … → y_{t−1}
+        
+        
+        
+    
+    
+    a² ≡ b²  (mod N)
+    a ≢ ±b   (mod N)
+    
+    N = 65      4 ≡ 2² ≡ 63² ≡ 28² ≡ 37²    (mod 65)
+    
+    x² ≡ c  (mod p)
+    
+    
+    a² − b² ≡ 0   (mod N)       N | (a − b)(a + b)
+    
+    a ≢ b   (mod N)     N ∤ (a − b)
+    a ≢ −b  (mod N)     N ∤ (a + b)
+    
+    1 < gcd(a − b, N), gcd(a + b, N) < N
+    
+    
+    
+    
+    Metod från Fermat
+    
+    Beräkna q² (mod N) = C och hoppas att c är kvadrat över heltalen
+    
+    N = 65      q = 37
+                q² mod 65 = 4 = 2²
+                37² ≡ 2² (mod 65)
+                gcd(35, 65) = 5
+                
+    Välj q på formen ⌈√{aN}⌉ + b        a, b små heltal
+    
+        q² (√{aN} + b)² = aN + 2√{aN}⋅b + b²
+                        ≡ 2√{aN}⋅b + b²
+                        ~ √N
+
+

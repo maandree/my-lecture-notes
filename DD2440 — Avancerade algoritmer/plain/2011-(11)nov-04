@@ -1,0 +1,215 @@
+Aritmetik på stora heltal – algebra, algoritmer och assembly
+
+    Torbjörn Granlund
+    
+    Kommer finnas på nätet
+
+
+
+DEL 1   Optimering
+    
+
+
+Vektyg 1:  Algebra. Exempel: RSA-signering
+
+    Vi ska beräkna RSA-n (i tid 𝓞(n³))
+    
+            s = m↑d mod pq
+            
+    där p och q är primtal, och n = log pq ≈ log m ≈ log d
+    
+    Sätt d_p = d mod (p − 1) och d_q = d mod (q − 1).
+    
+Utför sedan de två exponentieringarna:
+
+    s_p = (m mod p)^{d_p} mod p
+    s_q = (m mod q)^{d_q} mod q
+
+Sedan ges s med CRT från s_p och s_q (i tid 𝓞(n²)).
+
+
+
+Vektyg 2:  Effektiva algoritmer
+
+    Exempel:
+    Karatsubas dekompositionsalgoritm för multiplikation.
+    
+        U = 2↑{n/2} U₁ + U₀
+        V = 2↑{n/2} V₁ + V₀
+        
+    UV = (2↑n )
+
+
+Vektyg 3:  Aloritmval efter operandstorlek (1)
+
+    Naiv Karatsuba-implementation:
+    
+    mul (word *w, word *u, word *v, size_t n)
+    {
+        if (n == 1)                     // if (n < 17)              //(2)
+            w[0] = u[0] * v[0];         //     mul_skolbok (w, u, v, n);
+        else /*Karatsuba code*/
+            U1 = u + n/2;
+            U0 = u
+            V1 = v + n/2;
+            V0 = v;
+            
+            mul (P0, U1, V1, n / 2);
+            mul (P1, U0, V0, n / 2);
+            mul (Ud, U0, V0, n / 2);    //sub ..............................
+            
+            ................................................
+    }
+
+
+Vektyg 3 (3):
+
+    Resultat:
+    
+        Naiva Karatsuba-koden är enligt mina tester snabbare än
+        skolboksmultiplikation från 8000 bitar (cd 2400 decimaler)
+
+
+Verktyg 4:  Minnes- och cache-lokalitet
+
+    > Temporal lokalitet
+    > Spatial lokalitet
+    > Data layout, padding
+    
+    Algoritmegenskap: Dekompositionsalgoritmer har god lokalitet.
+    
+
+Vektyg 5:  Utryllning av loppar
+
+    for (i = 0; i < n; i++)
+        jobbenhet
+ 
+    
+    for (i = 0; i < n; i += 4)  //se till att göra rätt när 4 inte delar n.
+        jobbenhet
+        jobbenhet
+        jobbenhet
+        jobbenhet       ((inte alltid optimalt i Java))
+
+
+Verktyg 6:  Software pipelining (1)
+
+    Mål: Hantera fördröjningar (latency) för operation.
+    
+    ................
+
+
+Verktyg 5 + 6:
+
+    Kombinera utrulllning och software pipelining
+
+
+Verktyg 7:  ”Grundifiering” av rekurrenser (1)
+
+    Definition: Rekurrens = beroende mellan loopsteg.
+    
+    I bignum-kod: Olika varianter av propagering av minnessiffra (”carry”)
+    
+    Påstående: Har vi k operationer för att generera utdata för en rekurrens
+    från det att vi konsumerar indata för rekurrensen, ......................
+    
+    
+Verktyg 7 (2):
+
+    Ganska djup rekurrens:
+    
+    add (word *r, word *u, word *v, size_t n)
+    {
+        cy = 0
+        for (i = 0; i < n; i++)
+        {
+            uword = u[i];
+            vword = v[i];
+            sum0 = uword + cy;
+            cy0 = sum0 < uword; //underflow     //kan köras parallellt med nästa rad
+            sum1 = sum0 + vword; 
+            cy1 = sum1 < sum 0;
+            cy = cy0 + cy1;
+            r[i] = sum1;
+        }
+    }
+    
+    
+Verktyg 7 (3):
+
+    Ganska djup rekurrens:
+    
+    add (word *r, word *u, word *v, size_t n)
+    {
+        cy = 0
+        for (i = 0; i < n; i++)
+        {
+            uword = u[i];
+            vword = v[i];
+            sum0 = uword + vword;
+            cy0 = sum0 < uword;
+            sum1 = sum0 + cy; 
+            cy1 = sum1 < sum 0;
+            cy = cy0 + cy1;
+            r[i] = sum1;
+        }
+    }
+    
+    
+Verktyg 7 (3):
+
+    Ganska djup rekurrens:
+    
+    add (word *r, word *u, word *v, size_t n)
+    {
+        cy = 0
+        for (i = 0; i < n; i++)
+        {
+            uword = u[i];
+            vword = v[i];
+            sum0 = uword + vword;
+            cy0 = sum0 < uword;
+            sum1 = sum0 + cy;                           //kan köras parallellt med nästa rad
+            cy1 = cy & (sum0 == ~0); // ((~0 = −1))
+            cy = cy0 + cy1;
+            r[i] = sum1;
+        }
+    }
+
+
+Verktyg 8:  Assembly
+
+    Implementerar i assembly!
+    
+        > Leta användbara instruktioner
+        > Designa mikro-algoritmer efter tillgängliga instruktioner
+        > Ta hänsyn till fördröjning för vald intruktioner
+        > Vilka instruktioner kan utföras parallellt?
+        > Alignment
+        > Trial-and-measure
+        > Trial-and-measure
+        > ...
+
+
+Verktyg 9:  Av-hoppning (debranching)
+
+    Villkorliga hopp av två sorter:
+    
+        1:  Prediktabla
+        2:  Slumpmässiga (eller av andra skäl icke-prediktabla)
+    
+    Ett icke-prediktablet hopp kostar som kanske 30 andra instruktioner.
+
+    
+    Ta bort hopp, kanske genom maskning.        ((inte alltid optimalt i Java))
+
+
+
+
+DEL 2:  GMP
+
+
+.............................................
+
+
+

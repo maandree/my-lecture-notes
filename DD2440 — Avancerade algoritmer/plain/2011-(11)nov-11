@@ -1,0 +1,67 @@
+:sum:	:all:	:(_:	:<_:	:_>:	:in:	:/in:	:/=:	:*:	:=>:	:->:
+
+Missade första timmen
+
+
+Traviling Salesman Problem (TSP)
+
+
+Linjärprogrammering för TSP
+
+    x_ij = {1  om kanten (i, j) ska ingå i turen
+    	   {0  annars
+
+				1 3 2
+				x_13 = x_32 = x_21 = 1
+				x_ij = 0 för övriga
+
+    min :sum:[i,j] x_ij d_ij
+
+    då { :all: i :sum:[j] x_ij = 2				(a)
+       { S :(_: {i, ..., n}, 1 :<_: |S| < n			(b)
+       {   :sum:[i :in: S] :sum:[k :/in: S] x_ij :_>: 2
+       { x_ij :in: {0, 1} :all: i, j				(c)
+
+
+    Ersätt (c) med 0 :<_: x_ij :<_: 1 :all: i, j
+
+    (b)  Hanteras inte explicit (eller "skrivs i alla fall inte ner"
+    	 av en TSP-lösare)
+
+
+
+
+Approximation för TSP
+
+Generell (symmetrisk) TSP kan inte approximeras inom någon
+konstant i polynomisk tid om P :/=: NP
+
+(Approximera TSP inom konstant K betyder att vår algoritm
+hittar lösning med konstnad :<_: K :*: OPT)  ((OPT = Optimum))
+
+P :/=: NP :=>: Hamiltoncykel kan 
+
+       	       V, E :->: V, d_ij
+	       	    	 d_ij = 1 om (i,j) :in: E
+			 d_ij = |V| :*: K om (i,j) :/in: E
+
+	       Om Hamiltoncykel i G så OPT_TSP = |V|
+
+
+Apprimoximation för TSP
+
+TSP med triangelolikhet
+
+- Christofides algoritm  approximation med triangel-TSP inom 3/2
+
+
+Tänk på städerna som noder i en fullständig graf.
+Kant (i,j) har vikt d_ij
+Hitta minimalt spännande träd i grafen T
+vikt(T) = :sum:[e :in: T_E] d_e			vikt(T) :<_: OPT_TSP
+
+
+deg(u) jämnt graden sitter ihop.
+Finns Eulertur
+Kostnad för Eulertur :<_: 2 :*: OPT_TSP
+

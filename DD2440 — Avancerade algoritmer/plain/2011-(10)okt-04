@@ -1,0 +1,253 @@
+[] Algoritmer relaterade till RSA
+    () Modulär exponentiering   (gammalt(?, Matematik diskret))
+    () Kinesiska restsatsen     (nytt)
+    () Primalitetstestning      (gammalt, Matematik diskret)
+
+
+
+
+Preliminär version av hemtal A upplagt på hemsidan.
+(måste rätta ≥ 1 feltryck)
+
+    gcd (a, b):
+        ⋮
+        else
+            return gcd(b, a − b)
+
+Inlämning i början föreläsning nästa vecka.
+
+
+
+RSA:
+
+    n ← p⋅q
+    e, d    e⋅d ≡ 1 (mod (p − 1)(q − 1))
+    m ∈ ℤ_n
+
+    ⎡c = m↑e    (mod n)
+    ⎣m = c↑d    (mod n)
+
+
+    Beräkna a↑b mod n
+    a, b, n är t-bitars tal
+    t = 1000
+
+    a⋅a⋅a⋅…⋅a   (mod n)
+    {        b        }
+
+    b ~ 2↑t
+
+
+    b = Σ[i = 0 → t−1] b_i⋅2^i      b₀ … b_{t−1}            a
+                                                            a²
+    a^b = Π[b_i = 1 → t] a↑b↑i↑{a↑[x + y] = a↑x a↑y}        (a²)²
+
+
+    p ← 1                   ⎫
+    for i ← 0 to t − 1      ⎮                   ”Snabb multiplikation”
+        if b_i = 1          ⎮                   𝓞(t↑(1+ε)) = 𝓞(t ⋅ log t ⋅ log log t)   Bygger på snabba Fouriertransformer
+            p ← p⋅a  (mod n)⎬ 𝓞(t)
+        a ← a⋅a  (mod n)    ⎮
+       //p = a↑b            ⎮
+    return p (mod n)        ⎭
+
+
+
+    n = a ⋅ b   gcd(a, b) = 1
+
+    x ∈ ℤ_n →  ℤ_a × ℤ_b
+
+        f(x) = (x mod a, x mod b)
+
+
+    (3 ⋅ 13) mod 20 = 19
+    (3, 3) ⋅ (1, 3) = (3, 9 mod 5) = (3, 4)
+
+
+    Ring-isomorfi:              (se Matematik fördjupning)
+
+                ℤ_20 = 3⋅13     →   19
+
+                      t ↓            ↓ t
+
+           ℤ_4 × ℤ_5   (3,3)(1,3) →  (3, 4)
+
+
+    (m↑e)↑d ≡ m     (mod n)
+
+            ⇕
+
+    (m↑e)↑d ≡ m     (mod p, q)
+
+
+
+    ⎧ x ≡ r₁  (mod a)               gcd(a, b) = 1
+    ⎨                               ua + vb = 1
+    ⎩ x ≡ r₂  (mod b)
+
+    (uar₂ + vbr₂)   (mod n)
+    {     ≡↓    }
+
+        ≡ 0 + vbr₁ (mod a) ≡ (1 − ua)r₁ ≡ r₁ (mod a)
+
+
+    m↑ed ≡ m (mod n)            n = pq
+
+    x ≡ m↑ed
+
+    x ≡ m   (mod n)
+
+        ↓
+
+    (x mod p, x mod q) = (m mod p, m mod q)
+
+
+
+    m↑ed ≡ m    (mod p)                     Fermats lilla sats  (se förra föreläsningen, Matematik diskret, Matematik fördjupning)
+
+    Om m ≡ 0 (mod p)                                Om p är primtal och sgd(a, p) = 1
+                                                        a↑(p − 1) ≡ 1 (mod p)
+        så 0↑ed ≡ 0 (mod p)
+
+    Om m ≢ 0 (mod p)
+                                            ed = 1 + k↑{(p − 1)(q − 1)}
+        gcd(m, p) = 1
+                                            m↑ed = m ⋅ m↑{k(p − 1)(q − 1)} = m ⋅ (m↑(p − 1))↑(q − 1) ≡ m (mod p)
+        m↑(p−1) ≡ 1 (mod p)                                                      {≡ 1 mod p}
+
+
+
+
+    ℤ*_n = {x | x ∈ ℤ_n, gcd(x, n) = 1}
+
+        x ⋅ x⁻¹ ≡ 1  (mod n)
+
+        |ℤ*_n| = (p − 1)(q − 1)
+
+        m ∈ ℤ*_n
+
+        m↑|ℤ*_n| = 1
+
+
+
+
+Fermats
+
+    Om p är primtal och gcd(a, p) = 1
+    så a↑(p − 1) ≡ 1  (mod p)
+
+
+
+n = p⋅q                         (Matematik diskret)
+
+e⋅d ≡ 1 mod (p − 1)(q − 1)
+
+c = m↑e     (mod n)
+
+m = c↑d     (mod n)
+
+
+Hur hittar man e och d?
+
+    Välj slumpvis e där gcd(e, (p − 1)(q − 1)) = 1
+    Försök igenom om det inte uppfylldes.
+
+    Använd egcd (Euklides' utvigdade algoritm) för att hitta u, v
+
+        ue + v(p − 1)(q − 1) = 1
+
+        u = d
+
+
+Vill ha primtal p med 1000 bitar.
+
+    Välj slumpvis udda tal z med t bitar.
+
+    Kolla om primtal.
+    Om inte, gör om
+
+
+    Låt Π(n) = #primtal ≤ n
+    Π(n) ≈ n / mn
+
+    Inte ofantligt mycket.
+
+
+Fermat-test av om n är primtal         (Matematik diskret) 
+
+    Välj a (slumpvis)
+
+        2 ≤ a ≤ n − 1
+
+    Kontrollera om a↑{n − 1} ≡ 1 (mod n)
+
+        Om n är primtal och 2 ≤ a ≤ n − 1 så
+        gcd(a, n) = 1.
+        Så enligt Fermat a↑{n − 1} ≡ 1 (mod n)
+
+    Om a↑{n − 1} ≢ 1  (mod n)   så sammansatt
+    Om a↑{n − 1} ≡ 1  (mod n)   så kanske primtal
+
+
+    n är sammansatt
+
+    ℤ*_n = {x ∈ ℤ_n | gcd(n, x) = 1}
+
+    B = {b ∈ ℤ*_n | b↑{n − 1} ≡ 1 mod n}
+
+    Anta att c ∈ ℤ*_n och att c↑{n − 1} ≢ 1 (mod n)
+
+    Bilda A = {c⋅b | b ∈ B}
+
+    (c⋅b)↑{n − 1} = c↑{n − 1} ⋅ b↑{n − 1} ≡ c↑{n − 1} ⋅ 1 ≢ 1
+
+
+        ℤ*_n lite mindre än ℤ_n,    B är som mest halva ℤ*_n
+        ℤ_n \ ℤ*_n ∋ a↑{n − 1} ≢ 1
+
+
+    (ℤ*_n, ⋅) är en grupp
+    (B, ⋅) är en grupp
+    B är en delgrupp av ℤ*_n
+
+        |B| \ |ℤ*_n|
+
+
+    Problem         (Matematik diskret)
+
+        Det finns s.k. Carmichael-tal, n, så att
+
+        a↑{n − 1} ≡ 1 mod a ∀ a : gcd(a, n) = 1
+
+
+
+//Itererara med olika a
+ProbablyPrime(a, n)         Miller–Rabin    (Matematik diskret)
+
+    // n − 1 = 2↑t⋅n där n är udda
+
+    x₀ ← a↑u (mod n)                                a↑u     a↑{n − 1} = (a↑n)↑2↑t
+
+    for i = 1 to t
+
+        x_i ← (x_{i − n})² mod n
+
+        if x_i = 1 and x_{i−1} ≢ −1 mod n       (x_{i−1} ≠ n − 1)
+
+            return COMPOSITE
+
+    if x_t ≠ 1
+        return COMPOSITE
+    else
+        return MAYBE PRIME
+
+
+
+    x² ≡ 1  har rötterna 1, −1 mod p om p är ett primtal
+
+    x² ≡ 1 mod 7    1, 6
+
+        Om n = p⋅q för udda primtal p, q så har  x² ≡ 1 mod n  4 rötter
+
+
+

@@ -1,0 +1,196 @@
+DD2440  Avancerade Algoritmer
+
+Mikael Goldmann     migo@kth.se
+
+
+
+[] Administration
+
+[] Examination
+
+[] Några inledande exempel
+
+        () Komplexitet (Enhetskostnad / bitkostnad)
+
+        () Euklides' algoritm   RSA
+
+
+4   Hemuppgifter    max 25 + styck
+
+    Löses individuellt
+
+    Lämnas in skriftligt på engelska
+
+
+2   Miniprojekt 50p + 50p  vardera
+
+        Två personsers grupper
+
+        Redovisas muntligt
+
+        Uppsatsdel – engelsk
+
+        Implementationsdel — Kattis
+
+
+(4 + 2) Max 300
+        A ≥ 236
+        B ≥ 200
+        C ≥ 180
+        D ≥ 160
+        E ≥ 140
+
+
+Kurslittatur
+
+    Kurshemsidan
+
+
+
+
+
+Euklides' algoritm för största gemensamma delare                sida 21 i SF1610
+    (GCD  greatest common divisor)
+
+                            a, b, d     heltal ≥ 0
+
+    gcd(a, b) = d
+
+    d|a, d|b    för alla e|a, e|b   gäller e ≤ d
+
+
+    gcd(a, b)   // a ≥ b ≥ 0, a > 0
+        if b = 0
+            return a
+        else
+            q ← ⌊a/b⌋
+            r ← a − q⋅b     // a % b
+            return gcd(b, r)
+
+
+    Om d|a och d|b så
+        d|(ua + vb)  ∀ heltal u, v
+
+    a = d⋅a'    b = d⋅b'
+
+    ua + vb = d(ua' + vb')
+
+
+    d|a     ty      r = a − q⋅b     a = r + q⋅b
+                        ↑   ↑
+                    u = 1   v = −q
+
+
+    0 ≤ r < b så andra argumentet minskar i varje anrop
+
+    Hur lång tid tar det?                       n = log (x)
+
+        Vi vet att det tar högst
+            b rekursiva anrop
+
+        Indatastorlek:      lb a + lb b
+
+        Exponetielltid.
+
+
+
+        a ≥ b
+        r < b
+        a % b ≤ a − b
+
+        r < b
+        r ≤ a − b
+        2r < a
+        2 ≤ ⌊a/2⌋
+
+        gcd(a, b)
+            ↓
+        gcd(b, r)               r ≤ a/b
+            ↓
+        gcd(r, r')
+
+        På två nivåer halveras första-parametern
+
+            gcd(_a_, b)
+
+        Så högst  2⋅lb a  nivåer
+
+            a, b  har t bitar
+
+        Komplexitet 𝓞(t)        (?)
+
+            Stämmer med enhetskostnad.
+
+        Vad kostar addition / subtraktion / multiplikation / division av t-siffriga tal?
+
+            c      1
+              1001011           bit för bit
+            + 1101101
+            =1      0       t + 1 siffror
+
+            add 𝓞(t),   sub 𝓞(t)
+
+
+            skrivarbetet är kvadratiskt för naiv multiplikation
+
+      𝓞(t) omgångar och 𝓞(t²) bitoperationer per omgång 𝓞(t³).       (total tid för gcd, överskattat)
+
+
+
+
+
+
+Lösa linjära ekvationssytem
+
+    n × n-matris            ℤ₇
+
+    ⎛3 2 1⎞⎛x⎞ = ⎛3⎞        x = 1
+    ⎜1 1 1⎟⎜y⎟ = ⎜6⎟        y = 2
+    ⎝2 0 2⎠⎝z⎠ = ⎝1⎠        z = 3
+
+    𝓞(n³) operationer (Gauss–Jordan)
+
+            (ℤ₇, +, ⋅)  är en kropp
+
+                (ℤ₇, +) är kommutativ grupp
+                (ℤ₇ \ {0}, ⋅) är kommutativ grupp
+
+
+Hur hittar man inverser effektivt med p?
+
+    För primtal p gäller Fermats lilla sats
+
+    1 ≤ a ≤ p − 1       (gcd(a, p) = 1)
+
+    a↑(p − 1) ≡ 1 (mod p)
+    a↑(p − 2)a ≡ 1 (mod p)          a↑(p − 2) ≡ a⁻¹ (mod p)
+
+
+Om d = gcd(a, b) så finns heltal u,v  så att  ua + vb = d
+
+Om gcd(n, a) = 1    un + va = 1
+
+    va = 1 − un = 1 (mod n)
+    v = a⁻¹
+
+Om inte gcd(n, a) = 1 så finns ingen inverse
+
+
+egcd(a, b)  // a ≥ b ≥ 0    a > 1
+    r₀ ← a  //r_i = u_i ⋅ a + u_i ⋅ i
+    r₁ ← b
+    u₀ ← 1; v₀ ← 0
+    u₁ ← 0; v₁ ← 1
+    i ← 0
+    
+    while r_{i+1} ≠ 0
+        q ← ⌊r_i / r_{i+1}⌋
+        r_{i+2} ← r_i − q⋅r_{i+1}
+        u_{i+2}
+        v_{i+2}
+        i ← i + 1
+
+    return (r_i, u_i, v_i)
+
+
+

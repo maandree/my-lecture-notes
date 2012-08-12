@@ -1,0 +1,129 @@
+[] Linjärprogrammering
+[] Simplexmetoden
+[] Linjär heltalsprogrammering
+
+
+   \ 2x + y = 16
+    \ 
+    |\         / x − y = 2
+ 10-+-\-------/------------------------- y = 110
+    |. \     /
+    | . \   /
+    |. . \ /
+  5-+ . . X
+    |. . / \
+    |\ ←/ ← \ ← ← ← ← x + 2y = 2
+    | \/     \
+    +-/\------\------------------
+     /         \
+    /           \
+
+
+Allmänt optimeringsproblem
+
+    max f(x)    //målfunktionen
+        
+                       x = (x₁, x₂, …, x_n)     x ∈ ℝ↑n 
+        
+        g₁(x)  ≤ b₁     //bivillkor
+        g₂(x)  ≤ b₂
+        ⋮
+        g_m(x) ≤ b_m
+
+
+    min h(x) = max − h(x)
+
+        g_r(x) = b_r    g_r(x) ≤ b_r
+                       −g_r(x) ≤ −b_r
+
+
+    Linjärprogrammering
+    
+        f och alla g_i är linjära
+    
+    
+    max x + 2y
+    
+        x ≥ 0
+        y ≥ 0
+        y < 10
+        x − y ≤ 2
+        2x + y ≤ 16
+
+
+
+x, y, z ≥ 0
+2x + 3y + z ≤ 6
+
+    n variabler
+    I ett hör är n olikheter uppfyllda med likhet.
+    Längst en kant är n − 1 olikheter uppfyllda med likhet.
+
+
+max a₁ ⋅ x₁ + a₂ ⋅ x₂ + a₃ ⋅ x₃
+
+    x_i ≥ 0         i = 1, 2, 3
+    x₁ + x₂ + x₃ ≤ K
+    r₁x₁ + r₂x₂ + r₃x₃ ≤ R(x₁ + x₂ + x₃)
+
+
+                              {     A     }              {b}
+                          ⎛   1     1     1   ⎞  {x}     ⎛K⎞
+                ⎛x₁⎞      ⎜  −1     0     0   ⎟ ⎛x₁⎞     ⎜0⎟
+max(a₁  a₂  a₃) ⎜x₂⎟      ⎜   0    −1     0   ⎟ ⎜x₂⎟  ≤  ⎜0⎟
+{  max C^T x  } ⎝x₃⎠      ⎜   0     0    −1   ⎟ ⎝x₃⎠     ⎜0⎟
+                          ⎝ r₁−R  r₂−R  r₃−R  ⎠          ⎝0⎠
+    Ax ≤ b
+
+
+
+max C^T x   då Ax ≤ b
+
+    Börja i tillåten punkt
+    Förbättra iterativt
+
+Vill hitta x så att Ax ≤ b
+
+
+    ⎡   │:⎤⎛ x₁⎞
+    ⎢ A │:⎥⎜ : ⎟  ≤ b
+    ⎢   │:⎥⎜x_n⎟        y + Σ a_ij x_j  ≤ b
+    ⎣   │:⎦⎝ y ⎠            j
+    y ≤ 0
+
+
+
+Simplexalgoritmen
+
+    Börja i görn, gå från hörn till hörn längst kanter
+    så länge varje steg ger förbättring.
+
+    max C^T x då Ax ≤ b
+
+    A_H x̃ = b_H   x̃ = A↓H↑−1 b_H    C_T x̃ = C_T A↓H↑−1 b_H
+    
+    x = A↓H↑−1 (b_H − t⋅e_i)  t > 1
+    
+      = A↓H↑−1 − t A↓H↑−1 e_i
+
+    C^T x = C^T x̃ - t⋅C^T A↓H↑−1 e_i
+                      {   om < 0   }
+
+    Öka t till t_max som är det värde då
+    någon oliket < blir =
+    
+    x = x̃ − t_max A↓H↑−1 e_i
+    
+    
+Simplexalgoritmen
+
+    1. Starta i hörn x̃
+    
+    2. Finn A_H : A_H x̃ = b_H
+       invertera till A↓H↑−1
+       
+    3. Finn i : C^T A↓H↑−1 e_i < 0
+       om i inte finns är vi klara
+    
+    4. Finn t_max = max {t | t > 0, A(x̃ − t A↓H↑−1 e_i) ≤ b}
+       x̃ := x̃ − t A↓H↑−1 e_i
