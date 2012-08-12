@@ -1,0 +1,117 @@
+NP-fullständighetsbevis
+
+    Motivering: Vi får ett problem A och vill veta
+    om det går att lösa effektivt eller inte.
+
+    Visa att A är NP-fullständigt eller till och
+    med oavgörbart.
+
+
+
+Föreläsning 18
+
+    Satisfierbarhetsproblem
+    Andra användbara problem
+    ............
+
+
+
+NP
+    Polynomiska tid för att visa att en lösning är korrekt
+    
+    SAT problemet är NP-fullständigt, alla problem i NP kan
+    reduceras i polynomiska tid till SAT.   (Cooks sats)
+    
+    
+SAT kan reduceras till 3CNFSAT.  Alltså är 3CNFSAT NP-fullständig.
+
+
+Om A reduceras till B och B reduceras till SAT som reduceras till A så
+är A NP-svårt, men inte nödvändigtvis i NP.
+
+Om C reduceras till SAT så är C i NP, men inte nödvändigtvis NP-svårt.
+
+
+Vidare reduktion från SAT
+
+    SAT
+    CNF-SAT
+    3CNF-SAT
+    Klick (Clique)                          Graffärgning      Hamiltonsk cykel            Heltalsprogrammering
+    Oberoende mängd     Hörntäckning                          TSP
+                        Delmängdssumma
+
+
+Satisfierbarhetsproblem
+
+    Allmänt:
+    
+        Indata: Boolesk formel med booleska variabler
+        
+        Fråga:  Finns det någon variabeltilldelning som satisfierar formeln?
+        
+    Olika varianter med olika krav på indataformeln.
+    
+    SAT     Formeln får innehålla operanderna
+            ∧ ∨ ¬ ≡ ⇒
+    
+    ................................
+
+
+
+CND-SAT är NP-fullständigt
+
+    1.  CNF-SAT ∈ NP
+    
+        Bevis:
+        
+            SAT ∈ NP        ⎫
+                            ⎬ CNF-SAT ∈ NP
+            CNF-SAT ≤_p SAT ⎭
+    
+    
+    2.  CNF-SAT är NP-svårt
+    
+        Bevis 1:    Använd Cooks sats (som visade att
+                    SAT är NP-svårt) och notera att den
+                    resulterande formeln kan skrivas om
+                    i CNF ...................................
+
+
+
+3CNF-SAT är NP-fullständigt
+
+    ............
+    
+    2.  3CNF-SAT är NP-svårt
+    
+        Bevis:  Reducera CNF-SAT till 3CNF-SAT
+        
+        Givet en CNF-SAT-formel φ = c₁ ∧ c₂ ∧ … ∧ c_m
+        
+        .................
+
+       
+(x₁ ∨ ¬x₂) ∧ (x₂ ∨ x₃ ∨ ¬x₁₀) ∧ (¬x₁ ∨ x₃ ∨ ¬x₇ ∨ x₁₇) ∧ …
+    ↓             oförändrad              ↓
+(x₁ ∨ ¬x₂ ∨ y)(x₁ ∨ ¬x₂ ∨ ¬y)       (¬x₁ ∨ x₃ ∨ y₁)(¬y₁ ∨ ¬x₇ ∨ x₁₇)
+((konstant mycket större))          ((linjärt mycket större))
+
+
+
+Användbara NP-fullständiga problem
+
+    ...................
+
+
+(fortsättning.............)
+
+
+
+Exempel:
+    
+    Visa att följande problem är NP-fullständiga!
+    
+    ..............
+
+

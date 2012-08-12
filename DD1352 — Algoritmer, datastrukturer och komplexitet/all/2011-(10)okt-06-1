@@ -1,0 +1,105 @@
+Probabilistiska algoritmer
+
+    Probabilistisk analys
+    Las Vegas-algoritmer
+    Monte Carlo-algoritmer
+    Slumpeliminering
+
+
+Kom ihåg
+
+    Mästarprovsinlämning klockan 9 på måndag
+    Boka tid för muntlig redovisning
+    Använd helst Kattio för IO i labb 3 och 4
+
+
+Hur snabb i medel?
+
+Exempel:
+
+    Sortering:  Alla permutationer av indata
+                Lika sannolika
+
+Beräkna väntevärdet för tidskomplexiteten
+
+
+Probabilistiska algoritmer      (stordia)
+
+    Algoritmer som använder slump
+
+    Exempel: Quicksort med slump
+
+    RandomQuicksort(v[i..j]) =
+
+        if i < j then
+
+            x ← v[random(i, j)]
+            m ← Partition(v[i..j], x)
+            RandomQuicksort(v[i..m − 1])
+            RandomQuicksort(v[m + 1..j])
+
+    Analys: (beviset skippat)
+
+        Med sannolikhet > 1 − 1/(n↑k) tar RandomQuicksort tid ...........................................
+
+
+Exempel: MAX 3CNFSAT        (stordia)
+
+    Givet en mängd {c_o}↓n=1↑n med klausuler över .............................
+
+
+Exempel:        ((3CNF))
+
+     x₁ ∨  x₂ ∨ ¬x₃ ⎫                   m stycken variabler
+    ¬x₁ ∨  x₂ ∨ ¬x₄ ⎮
+    ¬x₁ ∨  x₂ ∨  x₄ ⎬ n st
+    ¬x₁ ∨ ¬x₂ ∨  x₄ ⎮
+    ¬x₂ ∨  x₃ ∨ ¬x₄ ⎭
+    {   3 stycken   }
+
+
+Slumpeliminering        (stordia)
+
+    Gör en probabilistisk algoritm deterministisk
+    genom att arbeta bort slumen
+
+    Metod 1:    Pröva alla utfall
+
+    .............................................
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

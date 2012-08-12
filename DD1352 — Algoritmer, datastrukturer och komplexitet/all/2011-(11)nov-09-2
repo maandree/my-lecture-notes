@@ -1,0 +1,9 @@
+a > b betyder att a är reducibelt till b
+
+A < B <> C    	  B är NP-fullständigt (i NP och NP-svårt)
+v   v 	 	  NP = verifiera lösning i P
+D > E
+
+A, D, E är NP-svårt
+C är NP-fullständigt
+

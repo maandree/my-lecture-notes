@@ -1,0 +1,44 @@
+(övning)
+
+                                    π
+                              . . . | . . .
+                            σ ------+------
+                              . . . | . . .
+                              . . . | . . .
+                              . . . | . . .
+
+
+1.
+    π_namn(σ_{avd = 'leksak'}(Anställd))
+
+
+2.
+    π_varunr(σ_{våning = 2}(Försäljning ⋈ Avdelning))
+    
+    ELLER
+    
+    π_varunr(σ_{våning = 2 ∧ Försäljning.avd = Avdelning.avd}(Försäljning × Avdelning))
+
+
+3.
+    π_varunr(Vara) / (:fråga 2:)
+                   −
+
+4.
+    π_varunr(Försälning) ÷ (σ_{våning = 2}(Avdelning))
+                         %                                  ‽
+
+
+5.
+    #   {↓avd}𝓖_{avg(lön)}         =         select avg(lön) group by avd
+
+    
+    tmp ← {↓varunr}𝓖_{count distict(avd)}(σ_{våning = 2}(Försäljning ⋈ Avdelning)
+    
+    π_varunr(σ_antal ≥ 2({ρ_x(carunr, antal)}(tmp)))
+
+
+6.
+    π_lön(σ_{namn = chefnamn}(Anställd × ρ_{chefs(chefnamn)}(π_chef(σ_{namn = 'Andersson'}(Anställd)))))
+
+

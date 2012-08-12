@@ -1,0 +1,76 @@
+(Övning)
+Grupp A : Göran
+
+
+
+
+Datamodellering uppgift 1
+
+
+Object:			<--- Nästan alltid substantiv
+	Passagerare
+	Flighter
+	Flygplan
+	Personal
+	Flygplanstyp
+
+
+
+Gafflar:
+	A -------- B		<--- 1:1
+	A -------[ B		<--- 1:N	Flera B kan ha samma A
+	A ]------[ B		<--- M:N
+
+
+
++-------------+  Tillhör  +----------+		<---- "Tillhör" är ett samband, ibland är det svårt att namnge ett samband
+| Flyplanstyp |----------[| Flygplan |
++-------------+	          +----------+		+-------+
+     V		 +-------^|=====================| Datum |		<---- Datum brukar vara bra att införa
+     |behörighet |	  |  +------------------+-------+
+     A 		/   avgång|  |
++----------+   | +--------+  | +-------------+  
+| Personal |-----| Flight |----| Passagerare |
++----------+  ^  +--------+  ^ +-------------+
+         handhavande	  forsling
+
+
+
+Ett objects I-term kan vara ett annat objects E-term.
+Typ = objekt eller samband
+
+
+T-matris:
+
+
+Typ         Namn               I-term		    E-term
+--------    ---------------    ----------	    ---------------------------------------------------------
+Obj   	    Passagerare	       Pnr           	    pnamn, padress, ptel
+Obj	    Flight	       Fnr	     	    avgångsort, destinationsort, avgångstid, ankomstid
+Obj	    Flygplan	       Plannr	     	    plannamn, typnr[regel e]
+Obj	    Personal	       PPnr	     	    namn, adress, yrke
+Obj	    Flygplanstyp       Typnr	     	    tillverkare, modell
+---	    ---		       ---	     	    ---
+Sam   M:N   Behörighet	       PPnr, Typnr	    tillDatum
+Sam   1:N   Tillhör	       Typnr, Plannr
+Sam   3.s   Handhavare	       PPnr, Fnr, Datum
+Sam   3.s   Avgång	       Plannr, Fnr, Datum
+Sam   3.s   Forsling	       Pnr, Datum, Fnr
+---	    ---		       ---		    ---
+Obj	    Datum	       Datum
+
+
+(Egentligen vill man inte spara undan personnumer, special inte som I-term av flera anledning)
+
+
+
+
+Passagerare ((Pnr), pnamn, padress, ptel)
+Flight	    ((Fnr), avgångsort, destinationsort, avgångstid, ankomsttid)
+Flygplan    ((Plannr), plannamn)
+Personal    ((PPnr), namn, yrke, adress)
+Flygplanstyp((Typnr), tillverkare, modell)
+Handhavare  ((PPnr, Fnr, Datum))
+Avgång      ((Plannr, Fnr, Datum))
+Forsling    ((Pnr, Datum, Fnr))
+Behörighet  ((PPnr, Typnr), tillDatum)

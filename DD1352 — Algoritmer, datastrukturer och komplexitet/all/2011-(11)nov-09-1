@@ -1,0 +1,59 @@
+Approximationsalgoritmer
+
+	- Vad gör man när man identifierat problemet
+	  man vill lösa som NP-svårt?
+
+	- Mått på approximerbarhet
+
+	- Komplexitetsklasser för approximerbarhet
+
+	- Forskningsfrågor om approximerbarhet
+
+
+1. Träning i sjukhus med hiss
+
+   ............
+
+
+Om man _måste_ lösa ett NP-fullständigt problem, vad gör man då?
+
+   1. Begränsa problemet - vissa typer av indata kanske är enklare
+
+   2. Lös bara för små indata med en exponentiell algoritm
+
+   3. Använd en _approximationsalgoritm_ som garanterat ger en
+      lösning som är nära den optimala
+
+   4. Använd en _heuristik_ som ger en lösning som förhoppningsvis
+      är bra. Prova helst flera heuristiker.
+
+   5. Kombinera 1 med 2, 3 eller 4.
+
+
+Approximerbarhet
+
+    NP-fullständiga problem kan (nog) inte lösas i polynomisk tid.
+
+    Många NP-fullständiga problem är egentligen optimeringsproblem.
+
+    Kan man i polynomisk tid approximera ett optimeringspoblem,
+    det vill säga hitta en lösning som säkert är nära den optimala
+    lösningen?
+
+    Svar: Ja, för vissa problem, men inte för alla.
+
+    	  .............
+
+Analys av approximationsalgoritmen:
+
+       ..............
+
+
+Mått på approximerbarhet
+
+     .............
+
+
+Problemklasser för approximation
+
+	       .............

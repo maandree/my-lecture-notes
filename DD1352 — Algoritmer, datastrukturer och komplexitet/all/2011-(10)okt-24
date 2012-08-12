@@ -1,0 +1,131 @@
+Idag:    9-10   Oavgörbara problem
+        10-11   Prosam: Valinformation
+        11-12   Visualisering av NP-reduktioner
+        
+Imorgon tisdag:
+         9-10   Cooks sats (SAT är NP-fullständigt)
+        10-12   Övning: Mästarprov 1 + Oavgörbarhet
+
+Iövermorgon onsdag:
+        13-15 i K2: Johnny Bigert tallar om OO systemdesign
+
+
+
+Föreläsning 16
+    Avgörbarhet och oavgörbarhet
+    Oavgörbara problem
+    Bevis av oavgörbarhet
+    Gemensam egenskap
+    Rekursiv och rekursivt uppräknelig
+
+
+
+
+Avgörbart och oavförbart
+    Ett problem som har en algoritm som hör alla instanser kan hitta en lösning i ändlig tid kallas _avgörbart_.
+    
+    Ett problem som inte kan lösas i ändlig tid av någon algoritm kallas _oavgörbart_.
+    
+    ..........
+
+
+Komplexitets-"ägget"
+
+        Oavgörbara problem
+        inte beräkningsbara problem
+        -----
+        Problem som tar orimligt lång tid att lösa
+        -----
+        Problem som kan lösas i rimlig tid              .......
+                    P
+
+
+Kakelläggarproblemet            (oavgörbart problem)
+
+    Instans:    Ett antal typer av kvadratiska kakelplattor, där en viss kant ska vara nedåt.
+    Fråga:      Går det att kakla varje m:times:m:en:ruta med kakelplattor av endast de givna
+                typerna så att mönstret stämmer överallt?
+    ........
+
+
+Oavgörbart problem 2:  ordöverensstämmelse
+
+    Instans:    Mängd ordpar    {(x_i; y_i)}
+    Fråga:      Finns det någon ändlig talföljd a:_1:, a:_2:, :...:
+                så att x_a:_1: x_a:_2: x_a:_3: :...: = y_a:_1: y_a:_2: y_a:_3: :...:
+
+    Exempel 1:
+        {(abb,bbab), (a,aa), (bab,ab), (baba,aa), (aba,a)}
+
+        .............
+
+Oavgörbart problem 3: Orm i kakel
+
+    Instans:    Mängd typer av kakelplattor, tvp punkter, p:_1: och p:_2:, i planet.
+    Fråga:      Går det att kakla en "orm" som börjar i p:_1: och slutar i p:_2:,
+        där mönstret passar överallt och där ormen håller sig i övre halvplanet?
+
+    ...........
+
+
+Oavgörbart problem 4: Stopproblemet
+
+    .............
+
+
+Oavgörbart problem 5: PRogramverifiering
+
+    ..............
+
+
+
+Bevis av oavgörbarhet
+
+    Reducera ett problem som du vet är oavgörbart till ditt problem.
+    Om reduktionen i seg är beräkningsbart så är också ditt problem oavgörbart.
+    
+    Exempel:    Visa att detta problem är oavförbart:
+    
+        Instans:    Program P
+        Fråga:      Stannar P på alla indata?
+
+    Reduktion från stopproblemet:
+    
+        Stopp(P, X) =
+            konstruera programmet Q(Y) =
+                    If X=Y Then P(X)
+                    Else Stop
+            Return Stopp-för-alla(Q)
+
+
+P stannar på indata X :<=>: Q stannar på alla indata
+
+
+Stopp-på-blankt(P)
+
+    Är problemet: "Stannar P någonsin om det startas med tomt indata?"
+    
+    Visa att _Stopp-på-blankt_ är oavgörbart genom att reducera vanliga stopproblemet!
+
+    ...........
+
+
+Bevis av stopproblemets oavgörbarhet
+
+    .........
+
+
+Gemensam egenskap:
+    .......
+
+
+Dubbel ändlig verifiktion
+    .......
+
+
+Rekursiv och rekursivt uppräknelig
+
+    .......     R.E = recursively enumerable
+
+
+

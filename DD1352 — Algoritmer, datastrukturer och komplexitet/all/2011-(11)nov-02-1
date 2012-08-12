@@ -1,0 +1,91 @@
+:(_:    :in:    :E:    :<-:     :<=>:   :_1:    :_2:    :=>:    :<=:    :<_:
+
+
+Idag: NP-fullständighetsreduktioner
+
+- Delgrafsisomorfi
+- Minimal dominerande mängd
+
+
+G:_1:                    G:_2:
+    O-----------O            O-----------O
+    |         / |          /   \         | \
+    |       /   |        /       \       |   \
+    |     /     |      /           \     |     \
+    |   /       |    O---------------O---+------O
+    | /         |                        |     /
+    O-----------O                        |   /
+                                         | /
+                                         O
+    
+
+Exempel:
+    Visa att följande problem är NP-fullständiga!
+    
+    1. Delgrafsisomorfi
+    
+        Givet: Oriktade grafer G:_1: och G:_2:
+        
+        Fråga: Är G1 en delgrafs isomorfi
+        
+        - Visa att delgrafsisomorfi tillhör NP
+        
+        - Visa att problemet är NP-svårt genom att reducera
+
+
+Hamiltonskcykel(G) =
+
+    G:_1: :<-: cykel med lika många hörn som G
+    G:_2: :<-: G
+    
+    return delgrafsisomorfi(G:_1:, G:_2:)
+    
+    :E: Hamiltoncykel i G :<=>: G:_1: är delgraf till G:_2:
+    
+        :=>:: Självklart
+        :<=:: ........................................... (inte stordia)
+        
+
+
+Clique(G, K) =
+
+    G:_1: :<-: Clique med K hörn
+    
+    G:_2: :<-: G
+    
+    return Delgrafsisomorfi(G:_1:, G:_2:)
+    
+    :E: K-clique i G :<=>: G:_1: är delgrafs till G:_2:
+    
+        :=>:: Självklart
+        :<=:: .............................................. (int stordia)
+
+
+
+Minimalt dominerande mängd
+
+    Indata:     Oriktad graf G = (V, E)
+    Lösning:    Delmängd hörn S :(_: V som dominerar V.
+                Det vill säga v :in: V är antingen v :in: S eller :E: u :in: S : (u, v) :in: E.
+    
+    Målfunktion: |S|, det vill säga antalet hörn i S.
+    Problem: Minimera målfunktionen!
+
+
+
+Beslutsproblem dominerande mängd:
+
+    Indata: Graf G, heltal M  (M = mål)
+    Fråga:  Finns det en dominerande mängd i G av storlek :<_: M
+
+    Visa att dominerande mängd är NP-fullständigt!
+    
+    1. Visa dominerande mängd :in: NP
+    
+    2. Reducera känt NP-fullständigt problem
+    
+
+Användbara NP-fullständiga problem
+
+    ............................ (från igår)
+

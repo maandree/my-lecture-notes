@@ -1,0 +1,99 @@
+Algoritmkonstruktion
+
+    Beskrivande text / bra namn
+    Pseudokod
+    Korrekthet
+    Tidskomplexitet
+    Minneskomplexitet
+    Maintainability
+
+
+Avgöra ifall en given punkt ligger innanför en convex n-polygon i 𝓞(log n)
+
+    2D binärsökning
+
+        insideConvex(P, q, l, u)
+            if (a == l + 1)
+                Välj q utanför triangeln ????
+                if q − q' skär exakt en av konterna i trangelen
+                    return true
+                else
+                    return false
+            else
+                mid = ceiling((l + u) / 2)      // (l + u >> 1) + ((l + u) & 1)
+                if q är på samma sida om linjen P₁–P_mid som P_{mid+1} then
+                    return insideConvex(P, q, .......)
+                else
+                    return insideConvex(P, q, .......)
+
+
+        insideConvex(P, q, 2, n)
+
+
+    Basfall – inuti triangel?
+
+    n hörn, n > 3
+
+
+    T(n) = T(n/2) + c = c log n
+    𝓞(n)            ∈ 𝓞(log n)
+
+
+
+
+Sortering av små heltal
+
+    n stycken heltal
+
+        1 ... n³
+        𝓞(n)
+
+        MIN ALGORITM:       // 𝓞(n), och om känd gräns: 𝓞(n)        minneskomplexitet: 𝓞(max(is))
+
+            final int[] x = new int[max(is)];
+            final ArrayDeque<int> j = new ArrayDeque<int>();
+
+
+            for (int i : is)
+                x[i]++;
+                j.offer(i);
+
+            final int[] rc = new rc[n];
+
+
+            r = 0;
+            for (int i : j)
+                for (int k = 0; k < x[i]; k++)
+                    rc[r++] = i;
+
+            return rc;
+
+        Algorithm:      (rejäl konstant)
+
+            Sortera efter första siffran, andra siffran och så vidare
+
+
+Vilket tal saknas i linjär tid och konstant minne.
+
+
+Party problem
+
+    n facebook-kompisar
+    k
+
+
+    foreach x ∈ V
+        if d_x < k
+            Q.offer(x)
+    while not Q.isEmpty()
+        x ← Q.get()
+        foreach (x, v) ∈ x.kantlista
+            if d_v ≥ k
+                d_c ← d_v − 1
+                if d_v < k
+                    Q.offer(v)
+    for x ∈ V
+        if d_x ≥ k
+            write x
+
+

@@ -1,0 +1,81 @@
+Dekomposition   Divide and conquer   Divide, conquer and combine
+Teori 2 i slutet av första timmen.
+
+
+Max ┌─┬─┬─┬─┬─┬─┬─┐
+    │6│7│3│4│2│5│1│
+Min └─┴─┴─┴─┴─┴─┴─┘
+
+    int min = v[0];
+    int max = v[0];
+
+    for (auto it = v.begin(); it <= v.end; ++it)
+    {
+        if (*it < min)
+            min = *it;
+        if (*it > max)      //else if
+            max = *it;
+    }
+    return max, min
+
+
+
+    ( 6 )( 7 ) ( 3 )( 4 )  ( 2 )( 5 )  ( 1 )( 19)  (-23)( 7 )
+     \      /   \      /    \      /    \      /    \      /
+      (6, 7)     (3, 4)      (2, 5)     ( 1, 19)    (-23, 7)
+           \     /                \     /           /
+           (3,  7)                (1, 19)          /
+              \                          \        /
+               \                          (-23, 19)
+                \________         _______/
+                         \       /
+                          (-23, 9)
+
+        3n
+        —— − 2  jämförelser,            sällan nödvändigt.
+         n
+
+
+
+
+n stycken metallprylar mellan 0 och 1 kg stora sköra lådor.         NP-fullständig
+Mål: minst antal lådr för att förvara prylar.
+
+    Girig algoritm, som inte läser korrekt.
+
+    Bygg ett binär träd med hur mycket den största lådan rymmer mest och uppdatera vid inställning.
+
+
+
+
+
+(a + bi)(c + di) = ac + adi + bci − bd
+
+    Re: ac − bd             Fyra multiplicationer
+    Im: ad + bc             Två additioner
+
+
+(a + b)(c + d) = ac + ad + bc + bd = z
+
+    ac = t      Im: z − t − u       Tre multiplicationer
+    bd = u      Re: t − u           Fem additioner
+
+
+
+Bestäm majoritetsvärdet av inkomperativa element. (Majoritet ≠ mest)        ((får vi inte indexera?))
+
+Majority(A[1..n)
+    if n == 1 return 1
+    m ← ⌈(n + 1) / 2⌉
+    v ← Majority(A[1..m−1])
+    n ← Majority(A[m..n])
+    if n == h return v
+    vn ← 0
+    hn ← 0
+    for i ← 1 to n do
+        if A[i] = v
+        else if A[i] = h
+    if vn ≥ return m return v
+    if hn ≥ return m return h
+    return nulll
+

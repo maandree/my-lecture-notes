@@ -1,0 +1,124 @@
+Last Time
+
+    A random function {n, 1}↑n → {0, 1}
+    requires circuit size Ω(2↑n / n).
+
+    Explicit functions?      Time ~ 2↑2↑n
+                             Space ~2↑n
+                             
+    Best lower bound for function in NP s_n − o(n)
+    
+    On input on length n take lexiongraphically
+    first function that need ≥ 2↑n / 10n
+    
+    Average — NP    A, µ
+    
+    A ∈ NO      µ   probability measure
+                    (sampleable)
+                    
+    ∃ complete problem but rare
+    a not very natural
+    No really satisfyinh general theory
+
+
+
+    A ⊆ BPP     Poly time M
+    
+    X ∈ A   ⇒   Pr_r[M(x, r) = 1] ≥ 2/3     1 − c↑k
+    X ∉ A   ⇒   Pr_r[M(x, r) = 1] ≤ 1/3     c↑k
+
+
+
+ECCC
+Electronic Colloquim of Computational Complexity
+
+
+
+Classical randomised computation
+
+Primality
+
+N prime?        N has n bits
+
+Miller–Rabin
+                        𝓞(n³)
+Schönhage–Strassen
+
+Agrawal–Kayal–Saxena    2002    ∈ P
+
+
+
+
+Polynomial identity testing     n variables
+
+                                    │ 1  x₁  x₁²    x₁↑{n−1}  │
+Π[n ≥ i > j ≥ 1]  (x_j − x_i)   =   │ 1  x₂         x₂↑{n−1}  │
+                                    │                  ⋮      │
+                                    │ 1             x_n↑{n−1} │     degree is n − 1 in each variable
+
+det(M) = Σ[σ] sgn(σ) Π[i = 1 → n] m_i p(i)
+
+
+
+Checking P₁ = P₂
+
+For two polynomials that are easy to evaluate
+but hard to write on some canoncial form
+(sum of monomials).
+
+Idea: Pick random values for variables.
+
+Theorem:
+    Given P₁ & P₂ of degree d in each of n variables
+    where P₁ ≢ P₂.
+    If we choose x_i ∈ [−R; R] at random
+    Pr[P₁(x) = P₂(x)] ≤ n₁d / (2R + 1)
+
+Cor:    PID ∈ BPP
+
+Proof:
+    Induction over n
+    
+    n = 1   two nonequal polynomials of x₁ & degree d
+    
+    How many solutions to P₁(x₁) − P₂(x) = 0
+    
+    ≤ d solutions choosing
+    
+    x₁ from 2R + 1 possible values Pr ≥ d / (2R + 1)
+    
+
+Induction       P₁ ≢ P₂
+
+Pick x_n {= α_nn} randomly. Get two polynomials of n − 1 variables
+P'₁ & P'₂
+
+P'_i (x₁, …, x_n{n−1}) = P_i(x₁, …, x_n{n−1}, α_n)  i = 1, 2
+
+
+To get final value equal
+Two cases.
+
+1.  P'₁ ≡ P'₂
+2.  P'₁ ≢ P'₂   and we are unlucky in the future. (induction)
+                        ≤ (n − 1)d / (2R + 1)
+
+Functions in BPP can be computed by poly size circuit.
+
+Make error probability ≤ 2↑{−(n + 1)}
+∃r that gives correct output for all x.
+
+
+R = One-sided error                     R as in Randomness
+co-R
+RNC         Nicks's class with randomness
+
+
+
+
+Perfect matchning
+
+    Det without sign(σ) counts # of perfect matchings "permanent"
+    NP-hard to compute. #P-complete.
+
+

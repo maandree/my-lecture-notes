@@ -1,0 +1,147 @@
+Last time                                                               NP-komplätt borde heta NP-fullständigt
+                                                                        NP-hårt borde heta NP-svårt
+    Non-deterministic polytime NP
+
+    Value on x = 1 ⇔ ∃ computation with output 1
+
+    Decision problems ~ languages = sets
+
+
+    A ≤_p B f poly time
+
+            x ∈ A ⇔ f(x) ∈ B
+
+    B   NP-complete
+
+    1.  B ∈ NP                       NP-hard without property 1.
+    2.  ∀ A ∈ NP   A ≤_p B
+
+    A   NP-complete
+
+    Theorem:  P = BP ⇔ A ∈ P
+
+    Cook:  Sat is NP-complete
+
+    Proof:          T space
+               ┌──────────────┐         M runs in time T
+               │              │         T² variables describing
+            T  │     ┌──┐     │         computation
+         time  │     │  │     │         T = 𝓞(|x|↑k)
+               │     └──┘     │
+               │              │
+               │              │
+               └──────────────┘
+
+
+
+φ =     1.  Starts correctly
+        2.  OK computation
+        3.  Ends correctly with output 1
+
+Observation: φ can be put on CNF (conjunctive normal form)
+             And of disjunctions
+
+            (x₁ ∨ ¬x₂) ∧ (x₃ ∨ ¬x₄) …
+
+            in poly time
+
+‘Obviouvs’
+
+φ is and of many samll (constant size) conditions.
+
+
+φ = ⋀[i] φ_i(yz)      where each φ_i depends on constant number of variables.
+
+And of CNF's is a CNF thus φ  can be put on CNF in time 𝓞(T²).
+k-CNF       CNF each clause of size sk.
+
+k-Sat is satisfibility of k-CNF's.
+
+Cook: 3Sat is NP-complete
+
+2Sat ∈ P
+
+
+
+Once you have one NP-complete problem it is easy to get more.
+
+A       NPC
+
+        ⎧  B ∈ NP
+B       ⎨               ⇒   B       NP-C
+        ⎩  A ≤_p B
+
+        ∀ C ∈ NP        C ≤_p A ≤_p B
+
+
+Some favourite problems
+
+1.  Clique      given a graph                       O───O
+                and k are there k vartices         ╱ ╲ ╱│
+                aall pairwise connected           O   ╳ │
+                                                   ╲ ╱ ╲│
+                                                    O───O
+
+2.  Vertex cover
+
+    Given a graph and k find k vertices such that each edge has and endpoint chosen.
+
+3.  Hamiltonian circuit:
+
+    Given a graph find a circuit of edges visiting each vertex once.
+
+
+1.5   Independent set.
+Given a graph and k find k vertices of which no pair is connected.
+
+
+Indep ~ Clique
+
+Change edges to non-edgs.
+Indep ~ Vertex Cover
+A set of vertices is a VC ⇒ Its complements being an independent set.
+
+
+
+Thoerm: Clique is NPC.
+
+    Given φ create graph G & k φ satisfiable iff ∃ Clique of size k in G.
+
+
+As 3-Sat is NP-C φ can be 3-CNF
+
+φ = (x₁ ∨ x₂ ∨ x₃)  ∧  (¬x₁ ∨ ¬x₂ ∨ ¬x₃)  ∧  (x₁ ∨ ¬x₂ ∨ x₃)
+
+    m clauses (m = 3 in this case)
+
+    3m vertices each with a literal
+
+    Connect nodes which are not each other negation and in
+    different rows.
+
+
+    Claim:
+
+        Claim Clique of size m if satisfiable.
+
+
+    If φ is satisfiable consider the satisfying assignment…
+    
+    pick one true literal in each row. They are a Clique.
+    Conversely given a Clique
+    put x₁ = true if a node  called x₁ is in Clique
+             false ¬x₁
+             arbitratry otherwise
+
+
+
+
+PSPACE
+
+Problems that can be solved in polynomial space.
+P ⊆ PSPACE  not more space than memory.
+
+P ⊆ NP ⊆ PSPACE     P ≠ PSPACE  (⊆ EXPTIME)
+                          open
+
+

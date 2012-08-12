@@ -1,0 +1,31 @@
+:^}:    :>}:    :v}:
+
+
+NP-fullständighetsbevis
+
+
+tillhör NP  :^}:
+            :>}: NP-fullständigt
+är NP-svårt :v}:
+
+
+1.  Visa att en ickedeterministisk Turingmaskin (NDTM) kan lösa problemet i polynomisk tid.
+
+        ELLER
+        
+    Givet en lösning kan en deterministisk TM verifiera lösningen i polynomisk tid.
+    
+    
+2.  Reducera ett känt svårt probblem (K) till det nya problemet (N).
+
+
+Vanliga fel:    Se till att det är beslutsproblem. Reducera åt rätt håll.
+
+                Reduktionen ska gå i polynomisk tid (bitkostnad, där det spelar roll).
+
+                Högst polynomiskt många anrop Turing reduktion
+                
+                eller
+                
+                Högst ett anrop som returneras direkt Karpreduktion.
+

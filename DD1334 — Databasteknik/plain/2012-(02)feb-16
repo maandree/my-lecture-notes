@@ -1,0 +1,87 @@
+(övning: efter redovisning)		:in:	:&:	:|:	:!: (exists)	:/=:
+
+
+Uppgift:
+
+--------+-------------------------------------+---> Tid
+        | R(A)    W(A)		              |
+   T1---+-------------			      |
+  W(A)	|				      |
+T2----  |				      |
+	|	        R(A)           W(B)   |
+ T3-----+-------------------------------------+
+	|          R(A)      W(C)	      |
+	|	T4---------------             |
+	|     R(D)       W(D)		      |
+	|  T5---------------------------------+
+	|				      |
+	|  				      |
+     checkpoint			             error
+
+
+Vi antar att A, B, C och D har startvärde 0.
+
+T_1 = 1,  T_2 = 2,  T_3 = 3,  T_4 = 4,  T_5 = 5
+
+Nu kan vi skriva hur databasen ändras.
+
+<T_2, start>
+<T_2, A, 0, 2>
+<T_3, start>
+<T_1, slut>
+<T_2, commit>
+<checkpoint(T_1, T_3)>
+<T_5, start>
+<T_4, start>
+<T_1, A, 2, 1>
+<T_1, commit>
+<T_5, D, 0, 5>
+<T_4, C, 0, 4>
+<T_4, commit>
+<T_3, B, 0, 3>
+
+sen blir det error
+
+
+Vid återstart så skapar vi två listor
+
+- Redo: T_1, T_4
+- Undo: T_3, T_5
+
+Undo:	        Redo:
+-------		-------
+W(D, 0)		W(A, 1)
+W(B, 0)		W(C, 4)
+
+
+
+
+Tupelkalkyl
+-----------
+
+1:	{t.namn | t :in: Anställd :&: t.avd = 'leksaker'}
+
+2:	{t.varunr | t :in: Förläsning :&: :!:u :in: Avdelning
+	 (u.avd = t.avd :&: u.våning = 2)}
+
+3:	 FEL
+	{t.varunr | t :in: Föreläsning :a: ¬:!:u :in: Avdelning
+	 (u.avd = t.avd :&: u.våning = 2)}
+
+	 RÄTT
+	{t.varunr | t :in: Vara :&: ¬:!:u :in: Försäljning
+	 (u.varunr = t.varunr :&::!:w :in: Avdelning
+	  (w.avd = u.avd :&: w.våning = 2))}
+
+4:	{t.varunr | t :in: Vara :&: ¬:!:u :in: Avdelning
+	 (u.våning = 2 :&: ¬:!:w :in: Försäljning
+	  (w.varunr = t.varunr :&: u.avd = w.avd))}
+
+5:	{t.varunr | t :in: Försäljning :&: :!:u :in: Försäljning
+	 (t.varunr = u.varunr :&: t.avd :/=: u.avd :&: :!:w :in: Avdelning
+	  (t.avd = w.avd :&: w.våning = 2 :&: :!:x :in: Avdelning
+	   (u.avd = x.avd :&: x.våning = 2)))}
+
+6:	{t:lön |  t :in: Anställd :&: :!:u :in: Anställd
+	 (t.namn = u.chef :&: u.namn = 'Andersson')}
+

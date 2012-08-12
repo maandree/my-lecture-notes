@@ -1,0 +1,105 @@
+Nordisk mästerskap i programmering den 1/10
+www.csc.kth.se/contest/ncpc
+Gratis pizza
+
+
+Andreas Lundblad vikar för Viggo
+
+
+
+Föreläsning
+
+Algoritmkonstruktion
+
+Dynamisk programmering
+
+1.  Bestäm strukturen hos optimal lösning
+2.  Ställ upp rekursion för optimalvärdet
+3.  Beräkna delproblemens optimlvärden från små till stora
+4.  Konstruera optimallösningen (eventuellt med etra information som lagras i steg 3)
+
+
+
+
+Exempel 1:  Maximal triangelstig
+
+Problem: Hitta stigen från toppen ner till botten som mximerar summan av dem ingående talen.
+
+
+                            7
+                          ↙
+                        3       8
+                      ↙
+                    8       0       1
+                      ↘
+                2       7       4       4
+                      ↙
+            4       5       2       6       5
+
+n = antal rader
+Finns 2ⁿ⁻¹ stigar pröva
+a_ij = element nummer j på rad i
+
+
+
+
+1.  Optimala lösningens struktur
+
+    Stig uppbyggd av delstigar
+
+2.  Rekursion
+
+    Låt V[i,j] = värdet på bästa stigen från a_ij ner till rad n
+
+              ⎧ a_ij        Om i = n (det vill säga sista raden)
+    V[i, j] = ⎨
+              ⎩ a_ij + max(V[i+1, j], V[i+1, j+1])        Annars
+
+3. Beräkning
+
+    for j ← i to n do
+        V[n, j] ← a_nj
+    for i ← n − 1 downto 1 do
+        for j ← 1 to i do
+            V[i, j] ← a_ij + max(V[i+1, j], V[i+1, j+1])
+    return V[1, 1]
+
+    Tidskomplexitet: 𝓞(n²)
+
+
+
+
+Exempel på dymnamisk programmering
+
+Roboten R2D2 ska röra sig i ett rutnät med n² rutor.
+R2D2 startar i ruta (1, 1) och ska ta sig till rutan (n, n).
+Han rör sig med ett steg per sekund, antingen österut eller söderut.
+Har han otur tar batteriet slut och han blir stående.
+Om haan går öster eller söder om rutnätet ramlar han av och är förlorad.
+I varje ruta (i, j) finns två tal p_i,j och q_i,j.
+När R2D2 står på ruta (i, j) gäller följande:
+
+    R2D2 går åt öster med sannolikhet p_i,j
+    han går åt söder med sannolikhet q_i,j
+    batteriet tar slut med sannolikhet 1 − (p_i,j + q_i,j)
+
+>>> bild, och en liten text
+
+
+          ⎧ 0                                               i = 0   eller   j = 0
+          ⎪
+S[i, j] = ⎨ 1                                               i = j = 1
+          ⎪
+          ⎩ p_i,j−1 ⋅ S[i, j−1]  +  q_i−1,j ⋅ S[i−1, j]     annars
+
+
+for i ← 0 to n do
+    S[i, 0] ← 0
+    S[0, i] ← 0
+S[1, 1] = 1
+for i ← 1 to n do
+    for j ← 1 to n do
+        if i ≠ 1 or j ≠ 1
+            S[i, j] ← p_i,j−1 ⋅ S[i, j−1]  +  q_i−1,j ⋅ S[i−1, j]
+return s[n, n]
+

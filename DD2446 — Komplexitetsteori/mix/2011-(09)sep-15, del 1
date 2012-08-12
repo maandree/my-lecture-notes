@@ -1,0 +1,163 @@
+Reminders:
+
+    1) Proof complexity course in periods 2 and 3.
+
+    2) Master's thesis projects
+
+    3) PhD student positions starting August 2012
+
+
+Resolution
+
+    π 8s a resolution derivation of D from F if π = {C₁, C₂, C₃, …, C_L}
+    where C_L = D and each C_ii is
+
+    a) axiom of F
+
+    b) derived from C_j, C_k ∈ π
+       k, k < i by resolution
+
+            ((C-syntax))
+
+                    C | x       D | ¬x
+                    ––––––––––––––––––
+                          C | D
+
+     c) derived from C_j, j < i by weakening
+
+            ((C-syntax))
+
+                      C
+                    –––––
+                    C | D
+
+
+Length of π
+
+    L(π) = number of clauses
+
+Width of π
+
+    W(π) = size of a largest clauses in π
+
+Refutation of F
+
+    Derivation of empty clause 0
+
+    L(F ⊢ 0) = ⎫      ⎧ length ⎫
+               ⎬ Best ⎨        ⎬ possible
+    W(F ⊢ 0) = ⎭      ⎩ width  ⎭
+
+
+
+PHP↓n↑m     (pigeonhole principe)               ((C-syntax))
+
+    m       pigeons
+    n       holes
+    x_ij    ”pigeon i sits in hole j”
+
+
+    number of varibles = Θ(n²)
+    size = Θ(n²)
+
+
+    ∀ i         P↑i = x_i,1 | x_i,2 | ... | x_i,n
+
+    ∀ i ≠ j     H↑i,i'↓j = ¬x_ij | ¬x_i'j
+
+
+    Unsatisfiable iff m > n
+
+    m = n − 1
+
+
+1) Sketch proof of W(F ⊢ 0) large [≈ linear],
+   then L(F ⊢ 0) is large [≈ exponential]
+
+2) W(PHP↑n+1↓n ⊢ 0) large
+   (with a twist)
+
+
+Tree-like resolution
+
+    Theorem 1:
+        W(F ⊢ 0) ≤ W(F) + log₂ L_T(F ⊢ 0)                   (T : must be tree-like)
+
+    Cor 1:
+        L_T(F ⊢ 0) ≥ 2↑[W(F ⊢ 0) − W(F)]
+
+    Theorem 2:
+        n = number of variables in F
+        W(F ⊢ 0) ≤ W(F) + √[8n ln L(F ⊢ 0)]
+
+    Cor 2:
+        L(F ⊢ 0) ≥ exp([W(F ⊢ 0) − W(F)]² / 8n)
+
+
+Technical lemma 1:                   (F with x = true ((, x is written in subscript)))
+
+                                               ⎧ W(F)
+    If W(F|x ⊢ D) ≤ w then W(F ⊢ D ∨ ¬x) ≤ max ⎨
+                                               ⎩ w + 1
+
+    Proof:
+
+        π : D₁, …, D_L
+        derives D from F|x
+        Create π'
+        Frist, list all axioms C ∈ F                :Part 1
+        Then, list D₁ ∨ ¬x, D₂ ∨ ¬x, …, D_L ∨ ¬x    :Part 2
+
+        Claim:  OK derivition in width ≤ max{W(F), w + 1}.
+
+        All of part 1 is trivially OK.
+
+        D₁ ∈ F|x
+        either D₁ ∈ F
+               D₁ ∨ ¬x ∈ F
+
+        1st ¤¤¤ is 2nd either an oxiom or can be derived by weakening
+
+        This holds for all D_i ∈ F|x
+
+        Remaining case:
+
+            D_i ∨ ¬x    ———    D_i
+
+                                           D_j ∨ y    D_k ∨ ¬y
+            D_j ∨ ¬x ∨ y   D_k ∨ ¬x ∨ ¬y   –––––––––––––––––––
+                                             D_i = D_j ∨ D_k
+
+            D_j ∨ D_k ∨ ¬x = D_i ∨ ¬x
+
+            Weakening
+
+                D_j ∨ ¬x                D_j
+                ––––––––                –––
+                D_i ∨ ¬x                D_i
+
+
+
+Technical lemma 2:
+
+    If W(F|x ⊢ 0) ≤ w − 1 and W(F|¬x ⊢ 0) ≤ w
+    then W(F ⊢ 0) ≤ max(W(F), w)
+
+    Proof:
+
+        1)  By technical lemma 1
+            Derive ¬x from F in width ≤ max(W(F), W)
+
+        2)  Resolve ¬x with all clauses C ∨ x ∈ F
+            deriving C ⇒ F|¬x
+
+        3)  Use refutation F|¬x in width w
+
+        width max(W(F), w)
+
+
+
+
+
+
+>>> Anteckningar från Jakob Nordströms MIT-gästföreläsningar

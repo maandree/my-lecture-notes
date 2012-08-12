@@ -1,0 +1,160 @@
+Admin.
+
+Did anyone check rules for examination?
+
+
+
+Last time
+Gödel:  Proof system.
+
+1.  Mechanically checkable
+2.  Sound   (can't prove false theorems)
+3.  Can express TM halt
+
+is not complete A true but not provalbe.
+
+
+      {1    If M_x halts on x in time T(|x|) with output 0
+D_T = {
+      {0    Otherwise
+
+
+D_T not computable in time T(n)
+
+Hierarchy T time constructible
+D_T in 𝓞(T log T)
+(two-tape TM)
+
+
+
+
+The most basic complexity class
+
+P, polynomial time
+
+𝓞(n↑k) time on input of length n, some constant k.
+
+
+
+1.  Given an integer N is it a prime?       What is polynomial time in this situation?
+                                                                                                                     𝓞(N↑k)  or  𝓞((log N)↑k)
+                                            n = log N is the length of N.
+                                                                                                                     𝓞((log N)↑k) is polynomial time.
+    Yes!    AKS
+            Aggarwal K? Saxen
+
+            5–10 years ago
+
+
+2.  Integer factorisation.
+
+    Given N find P, Q.
+
+    N = P⋅Q
+
+
+            Best algorithm                          (we do not use quantium computation)
+
+            2↑𝓞((log N)↑⅓ ⋅ (log log N)↑⅓)
+
+
+
+3.  Satisfiability
+
+    Given Boolean formula
+
+    φ = (x₁ ∨ x₂) ∧ (x₂ ∨ ¬x₄)
+
+    Is it satisfiable?
+
+
+4.  Given x↑n and y, does M_x hlt in 2↑|y| steps on y.      Not in P way to prove problems rd is to prove
+
+
+
+Proving problems to belong to P.
+Easy.
+Design an algorithm adnd analyse it.
+
+Proving problems not to belong to P is hard!
+
+Must prove that any algorithm is slow or makes errors.
+Works “only” for D_T type.
+
+
+
+
+Complexity theory is good at comparing problems.
+If we can solve problem A quickly then we can also
+solve problem B quickly.
+
+
+Given an efficient subroutine that solves A then we
+can write a fast program that solves B.
+
+
+Turing-reducability
+
+More restrive notation
+
+Given an instance of problem B we can efficiently
+convert it to one instance of A with same answer.
+
+
+
+
+P easy problems
+
+
+Many problems in between, almost all equivalent.    (NP-complete)
+
+
+D_T for T non-polynomial are not in P.
+Take T(n) = 2↑n. (exponential type)
+
+
+
+Other unconditionally hard problems?
+
+Yes (homework)
+
+“Only” way to prove problems hard is to prove
+
+    D_T ≤_P X
+
+where B ≤_P A is either of the two reducabilities.
+
+
+
+
+NP-complete problems
+
+all (polynomially equivalent)
+
+A ≤_P B  &  B ≤_P A
+
+NP is a nicely^? defined class.
+
+
+NP =
+Nondeterministic Polynomial time.
+
+Decision problems where if the answer is “yes”,
+this has a short proof that is easy to verify.
+
+
+
+Given φ = (x₁ ∨ x₂) …
+is it satisfiable?
+
+
+Nondeterministic TM
+can do many things at a given time.
+Write 0 or 1.
+
+Can have different outputs.
+
+M nondet. x input
+Value of M on x is 1 if 1 is a possible output.
+
+

@@ -1,0 +1,264 @@
+Jakob Nordström
+jakobn@kth.se
+
+Covering for Johan Håstad
+On Thursday as well
+
+2 “Guest lectures” (2h each): proof complexity
+
+
+Ad.:s:
+
+    1)  Proof complexity course
+        Period 2 and 3.
+        Advanced course
+
+    2)  Master's thesis projects
+        starting date: as soon as possible
+
+    3)  PhD paritions
+        Starting autumn 2012
+
+
+
+Proof complexity today.
+
+
+Philosophical question (cannot be answered):
+
+    What is a proof?
+
+    Claim   25947 is a product of 2 primes
+
+    1) Proof by intimidation            ”If you don't see it you're an idiot”
+
+    2) 25957 ≡ 1 (mod 2)
+              ≡ 1 (mod 3)
+              ≡ 19 (mod 99)
+              ≡ 0 (mod 101) ***
+              ≡ 1 (mod 103)
+              ≡ 0 (mod 257) ***         *** are the only ones with a zero remainder
+
+    3) 25957 = 101 ⋅ 257
+
+       Left to reader to ckeck that the multiplication is correct and that 101 and 257 are primes.
+
+
+    A proof should be efficiently verifiable. (polynomial time)
+    And also succinct (shorter and more to the point).
+
+
+
+Formally a proof system for a language L is a (deterministic) algorithm
+P(x, π) that runs in time polynomial in |x| + |π|.
+
+    x ∈ L ∃ π   :   P(x, π) = 1 / “yes” / “true”
+
+    x ∉ L ∀ π   :   P(x, π) = 0 / “no” / “false”
+
+L = unsatisfiable CNF formulæ   (co-NP)
+
+Propositional proof system
+
+
+
+Why care?
+
+    1)  P vs NP
+
+          ____  _______
+         /    \/       \
+        |  NP /\        \
+        |    /P/  co-NP |
+         \___\/        /
+              \_______/
+
+
+        co-P = the complement to P: P 1 ↔ 0.
+
+
+    2)  Understanding the limits of mathematical reasoning
+
+    3)  SAT solving / Automated theorem proving
+
+
+
+
+Goal
+
+    Focus on proof system       resulution
+    Prove “strong” lower bound                          (strong tendes to mean exponential to the size of the input)
+    ⇒ Lower bound on SAT solvers using resolution.
+
+
+Notation
+
+    x, y, z     x_ij = ⎰true    1
+                       ⎱false   0
+
+                        _
+    literals    x   or  x (“not x”)
+
+                    _
+    clause      x ∨ y ∨ z
+
+
+    CNF formula     conjuction of clauses
+
+                     _
+                (x ∨ y ∨ z)
+
+                      _   _
+                F = ⋀(x ∨ z)
+
+
+
+    If all clauses have size ≤ k
+    k-CNF formula
+
+    F = is 3-CNF
+
+    Vars(F) = {x, y, z}
+
+    F ⊨ D       F implies D
+
+    [n] = {1, 2, …, n}
+
+
+    Resolution derivation of a clause D from formula F      π : F ⊢ D
+
+    π = {D₁, D₂, D₃, …, D_L}
+
+    Each D_i is either
+
+        a)  clause in F     (“axioms”)
+
+        b)  derived by resolution rule
+
+                                _
+                C ∨ x       D ∨ x           (if ~ is satisficed)
+                –––––––––––––––––
+                      C ∨ D                 (then ~ is satisficed)
+
+
+            from  D_j, D_k   j, k < i
+
+
+            Resolution refutation of F
+            (Resolution proof of F)
+
+            Derivation of the empty clause
+
+            0 (contianing not literals)
+            from F
+
+
+            x
+            _
+            x
+
+            0
+
+        c)  derived by weakening
+
+              C
+            –––––
+            C ∨ D
+
+
+
+((I'm switching to C-syntax))
+
+
+axioms:
+    1.  !x |  y
+    2.   x |  z
+    3.  !z |  w
+    4.   x | !w
+    5.  !x | !y
+
+6.   Res(2, 3)   x | w
+7.   Res(4, 6)   x
+8.   Res(1, 5)   !x
+9.   Res(7, 8)   0              contradiction
+
+
+Length L(π) = 9
+L(F ⊢ 0) = length of refuting F = shortest refutation
+
+
+
+Resolution is:
+    sound:          ∃ refutation ⇒ F unsatisfible
+    completeness:   F unsatisfible ⇒ ∃ refutation
+
+
+
+                          (x)
+                          / \
+                         /   \
+                       0/     \1
+                       /       \                            Tree-like resolution refutations
+                      /         \
+                    (w)         (y)                         Any unsatisfible formula F over n variables
+                    / \          \\                         can be refutated (disproved) in tree-like
+                  0/   \1         \\                        resultionen in length ≤ 2↑(n + 1).      [Theorem]
+                  /     \          \\
+                (z)     (w | !w)    \\                      In general; “usual” resolution refutations
+                / \                  \\                     can be exponentionally shorter than tree-like
+               |   |                  \\                    refutations.
+             0 |   | 1                / \
+              /     \              0 /   \ 1
+             /       \              /     \
+            /         \            /       \
+         (x | z)  (!z | w)   (!x | y)     (!x | !y)
+
+
+
+
+Restriction (also known as partial assignment)
+
+ρ sets some variables to true/false and leaves others variables unset.
+
+ρ = {set of literals set to true by ρ}
+
+
+C|ρ = ⎰1    ρ ∩ C ≠ ∅
+      ⎱C\{ā | a ∈ ρ}
+
+F = C₁ ∧ C₂ ∧ … ∧ C_m
+
+F|ρ = C₁|ρ ∧ C₂|ρ ∧ … ∧ C_m|ρ
+
+
+If π is a refutation of F then
+π|ρ is a refutation of F|ρ
+
+
+
+
+Road map for Thursday:
+
+    Want to prove lower bounds on L(F ⊢ 0)
+
+    Hard problem        Took 20–25 years
+    Haken 1985 (the son of the Haken behind the colouring theorem)
+    Simplication Ben-Sasson & Wigderson 1999
+
+    Look at width of refuataton
+
+    a) If a refutation is narrow (all clauses are small), then it is short      (easy)
+
+    b) [BW99] If there is a short proof then there is a narrow proof
+
+
+    Road map for Thursday:
+
+        1)  Prove short W(F ⊢ 0) large ⇒ L(F ⊢ 0) large
+
+        2)  Find formula family such that W(F_n ⊢ 0) large
+
+        Rough idea: W(F_n ⊢ 0) ≳ n
+                    ⇒ L(F_n ⊢ 0) ≳ exp(n)
+
+

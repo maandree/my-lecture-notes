@@ -1,0 +1,54 @@
+(Övning)
+
+
+1a frågan:
+
+   SELECT namn FROM anställd WHERE avd = 'leksak';
+
+
+2a frågan:
+
+   SELECT distinct(varunr) FROM försäljning WHERE avd IN
+   (
+	SELECT avd FROM avdelning WHERE våning = 2
+   );
+
+
+3e frågan:
+
+   SELECT varunumm FROM avdelning EXCEPT
+   (
+	SELECT distinct(varunr) FROM försäljning WHERE avd IN
+   	(
+		SELECT avd FROM avdelning WHERE våning = 2
+   	)
+   );
+
+
+4e frågan:
+
+   SELECT varunr FROM försäljning WHERE avd IN
+   (
+	SELECT avd FROM avdelning WHERE våning = 2
+   )
+   GROUP BY varunr HAVING count(distinct avd) =
+   (
+	SELECT count(avd) FROM avd WHERE våning = 2
+   );
+
+
+5e frågan:
+
+   SELECT varunr FROM försäljning WHERE avd IN
+   (
+	SELECT avd FROM avd WHERE våning = 2
+   )
+   GROUP BY varunr HAVING count(distinct avd) >= 2;
+
+
+6e frågan:
+
+   SELECT lön FROM anställd WHERE namn IN
+   (
+	SELECT chef FROM anställd WHERE namn = 'Andersson'
+   );

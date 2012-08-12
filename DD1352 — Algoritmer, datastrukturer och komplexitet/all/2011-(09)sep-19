@@ -1,0 +1,55 @@
+Algorithkonstruktion
+
+    Dekomposition
+
+        Matrismultiplikation
+
+        Heltalsmultiplikation
+
+
+
+Divide-and-conquer-algorithmer
+
+    Quicksort
+    Binärsökning
+    Mergesort       𝓞(n log n)
+    Median          (selection)
+
+
+
+Matrismultiplikation
+
+
+           [n]      [n]         [n]
+        ⎛A₁₁│A₁₂⎞⎛B₁₁│B₁₂⎞   ⎛C₁₁│C₁₂⎞
+    [n] ⎜───┼───⎟⎜───┼───⎟ = ⎜───┼───⎟ [n]
+        ⎝A₂₁│A₂₂⎠⎝B₂₁│B₂₂⎠   ⎝C₂₁│C₂₂⎠
+            A        B           C
+
+    C_ik = Σ↓j=1↑n a_ij⋅b_ij            Trivialalgoritmens tid: 𝓞(n³)
+
+
+    C₁₁ = A₁₁B₁₁ + A₁₂B₂₁  ⎫  
+                           ⎮  8 st multiplicationer ⎫    n   n
+    C₁₂ =        +         ⎮                        ⎬ Av – × –-matriser
+                           ⎬  4 st additioner       ⎭    2   2
+    C₂₁ =        +         ⎮  
+                           ⎮  Varje addition tar 𝓞((n/2)²) = 𝓞(n²)
+    C₂₂ =        +         ⎭  
+    
+
+
+⎧ T(n) = 8 T (n/2) + 4⋅Θ(n²)            (*)
+⎨
+⎩ T(1) = 1
+
+    n↑(log_2 8) = n³                    8 och 2 kommer från (*)
+
+    ⇒  T(n) ∈ 𝓞(n²)
+
+    Under gräns: Ω(n²)
+
+
+    Strassen:  𝓞(n↑2.81)
+
+

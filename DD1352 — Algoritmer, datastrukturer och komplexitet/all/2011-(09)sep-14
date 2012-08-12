@@ -1,0 +1,25 @@
+Algoritmer på viktade grafer
+
+-   Minimalt spännande träd
+-   -   Prims algoritm
+-   -   Kruskals algoritm
+-   Kortaste stig
+-   -   Dijkstras algoritm
+
+
+       17
+    O-----O
+    3\  2/ \7
+      \ /   \
+       O----O
+      /  8 /
+    4/    /10
+    /  5 /
+   O----O
+
+
+
+
+<<Minimalt spännande träd i viktad graf>>
+<<Minimalt spännande träd, Kruskal>>
+<<Algoritm för grafproblemet "kortaste stig">>

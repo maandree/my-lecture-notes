@@ -1,0 +1,146 @@
+Korrekthet hos program
+
+- Vad är korrekthet?
+- Hur visar man det?
+- Slinginvarianter
+- Strukturell induktion
+
+
+
+
+
+Korrekthet
+
+Bevis av att ett program uppfyller sin specifikation
+
+Specifikation  av ett (del-)programs funktion:
+	Ingångsvillkor PRE som måste vara uppfyllt då programmet starts. (Förutsättning)
+	Utgångsvillkor POST som måste vara uppfyllt då programmet avslutas.
+
+Programbevis:
+	Matematiskt/logiskt bevis av att om PRE är sant och programmet exekveras till slut så
+	kommer sedan POST att vara sant.
+
+		PRE {program} POST
+
+Det är omöjligt att skriva ett program som bevisar att ett program är korrekt!
+
+
+
+
+
+
+Grader av korrekthet
+
+Partiell korrekthet
+	För varje indata som uppfyller PRE så kommer programmet antingen att avslutas med POST uppfyllt
+	eller att aldrig avslutas.
+
+Total korrekthet
+	För varje indata som uppfyller PRE så kommer programmet att avslutas och POST att vara uppfyllt.
+
+Det är oftast enklast att först visa partiell korrekthet och sedan visa att programmet alltid avslutas för lorrekta indata.
+
+Slingor och rekursioner bryts => Programmet avslutas
+
+Studera ett ...........................
+
+
+
+
+
+Tips för programbevisning
+
+- Specificera varje procedur (önskade)
+  Beteende med ingångs- och utgångsvillkor.
+
+	Visa PRE {procedurkod} POST
+
+- Specificera slingor med invarianter.
+  Invarianten ska vara sanna precis innan slingan börjar
+  och efter varja varv i slingan.
+
+- Specificera varje viktigt läge med en försäkran (assertion)
+
+	Exempel: PRE A			  Bevisa följande:
+		Kod 1			| A {Kod 1} B
+		while .. { INV B	| B {Kod 2} B
+		  Kod 2 }		| B {Kod 3} C
+		Kod 3			| C {Kod 4} D
+		ASSERT C		|
+		Kod 4			|
+		POST D			|
+
+- Gräv inte ner dig i detaljer!
+
+
+
+
+InsertionSort(v[1..n]) =			//Givet av syntax att indata måste vara en array. Behövs alltså inte uppges i PRE
+POST = v[1..n] sorterd,                         //   [   sorterat               ]
+       v[1..n] permutation av indata		//   +-+-+-+--------------------+-+------------------+-+
+for i:= 2 to n do				// v | | | |...                 | |                  | | 
+  INV =						//   +-+-+-+--------------------+-+------------------+-+
+  x:=v[i]					//    1                          i                    n
+  j:=i						//
+  while j>1 and v[j-1]>x do			// INV A = v[1..n-1] sorterad  &&(^)  v[1..n] Permutation av indata
+    INV =					// A &&(^) i = n+1 => Post
+    v[j]:=v[j-1]				//
+    j:=j-1					//
+  v[j]:=x					//   [ sorterat    ] [sorterat>x]x
+						//   +-+-+-+-------+-+----------+^+------------------+-+
+						// v | | | |...    | |          | |                  | |
+						//   +-+-+-+-------+-+----------+-+------------------+-+
+						//    1             j            i                    n
+						//
+						// INV B  =  v[i..j-1] sorterade &&(^)
+						//           v[j+1..i] sorterade &&(^)
+						//   j<i => (v[j+1]>x  &&(^) v[j-1]<v[j+1])
+						//          (v[i..n] där v[j] sätt till x) permutation av indata
+						//
+						//
+						// A {v <- v[i]; j <- i} B
+						// B &&(^) (j>1 &&(^) v[j-1]>x) {v[j] <- v[j-1]; j <- j-1} B
+						// B &&(^) not(j>1 &&(^) v[j-1]>x) {v[j] <- x; i <- i+1} A
+						// A ^ i=n+1 => POST
+
+SelectionSort(v[1..n]) =
+POST = v[1..n] sorterad,
+       v[1..n] permutation av indata
+for i:=1 to n-1 do
+  INV = 
+  mini:=i
+  for j:=i+1 to n do
+    INV =
+    if v[j]<v[mini] then mini:=j
+  tmp:=v[i]
+  v[i]:=v[mini]
+  v[mini]:=tmp
+
+
+
+
+
+
+Binära sökträd
+
+Ett träd som är sorterad så att mindre element är till vänster kallas sökträd.
+
+Exempel:
+
+				Viggo
+			Kimmo
+		Gerd		Linda
+	    Elon    Henrik
+
+
+TreeSearch(root, x) =	//söker efter x i sökträd
+  if root = nil then return nil
+  if root.key > x then
+    return TreeSearch(root.left, x)
+  if root.key < x then
+    return TreeSearch(root.right, x)
+  return root
+
+PRE root är rot till ett sökträd
+POST (x finns i trädet => ...........................

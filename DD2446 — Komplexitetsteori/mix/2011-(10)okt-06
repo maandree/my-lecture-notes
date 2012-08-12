@@ -1,0 +1,133 @@
+Last time
+
+    Straight Line Program evaluation is P-complete
+
+    NL = Nondeterministic L             L = log-space
+    NL ⊆ P
+
+    Graphreachability NL-complete
+
+    Theorem:    NL = co-NL
+
+    Graph-nonreachability ∈ NL
+
+    Idea counting
+
+    If we know the number of nodes reachable (in i steps)
+
+    we can generate them all in NL
+
+    r_i → r_{i + 1}     # nodes reachable in i steps
+
+    non-reachability
+
+    Sit   G directed graph s⇝t?
+
+
+
+
+Boolean circuits
+
+                    ∧
+                  /   \                 size 6 gates        (number of gates)
+     c₃         ∨       ∨
+              /   \   /   \             depth 3     longest path from input to output
+            ∧       ∧       ∨
+           / \     / \     / \          “Parallel time”
+          x₁  x₂  x₃ ¬x₂ ¬x₃ ¬x₁
+
+
+    Depth log₂ n is best depth we can hope for if output depends on all inputs.
+
+
+    Easy example.   Or of n inputs can be done in depth ⌈log₂ n⌉.
+
+
+
+
+Sum of two n-bits numbers.
+
+Small circuit carray + two inputs → output next carry
+
+Gives circuit of size 𝓞(n) and depth 𝓞(n) depth
+
+
+Computing carries
+
+    3 types of bits
+
+        S   Stops           00
+        P   Propagates      01  10
+        G   Generates       11
+
+    Idea
+
+        On stretches of length  of length 2↑i, i = 0,1,2,3,…,log n
+        see if thery are of type S, P, G.
+
+
+
+    “Multiplication table”
+
+              G
+        {           }
+        G           G
+    {       }   {      }        Going down binary tree
+    G       S   G      G        taking symbols to the
+   {  }  {¦ }  {  }  {  }       right when we go left.
+   P  G  S¦ P  G  P  P  G
+   0  1  0¦ 1  1  0  1  1
+   1  1  0¦ 0  1  1  0  1
+
+
+
+    Building a height ⌈log₂ n⌉ binary tree we can figure
+    out the nost significant bit of answer.
+
+    Going down tree you can calculate all carries in another log n steps.
+
+
+
+    Multiplication?     Adding n n-bit numbers
+
+         _____________
+        [_____________]
+        _______________
+        _______________
+       /              /
+      /              /
+     /              /
+    /______________/
+
+
+
+Complexity class NC↑k           (NC = Nick's class, not non-det.)
+
+    Size polynomial
+    depth 𝓞((log n)↑k)
+    Add ∈ NC¹
+    Mult ∈ NC², NC¹ for homework
+
+Theorem
+
+    NL ⊆ NC²            L ⊆ NC¹
+
+Will only look at graph reachability
+
+
+Give G, s & t and lots of processors, find if we can go from s to t
+𝓞((log n)²) parallel time.
+
+
+Compute Reach(v, v', i)
+
+    possible to go from v to v in ≤ 2↑i steps
+
+    Reach(v, v', i) = ⋁     Reach(v, v'', i − 1) ∧ Reach(v'', v', i − 1)
+                     v''
+
+    If G has n nodes we can compute this with n³ processors in time 𝓞(log n)
+        Reach(......, i) from Reach(......, i − 1)
+
+
+

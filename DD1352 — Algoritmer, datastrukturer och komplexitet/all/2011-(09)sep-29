@@ -1,0 +1,53 @@
+Dynamisk programmering
+eller Rekursioner botton upp
+
+*   Rekursioner
+*   Kombinatorik
+*   Lite problem
+
+
+Strategi:
+
+    Formulera rekursionsekvation
+    Bevisa korrekthet
+    Ställ upp dynprogmatris
+    Vad hör en ruta i
+    Vilken beräkningsordning har din
+    Visa att den löser rekursionen
+    Beräkna tidskomplexitet
+    Backtracking
+
+
+
+Hitta längsta gemensamma delsträng i a och b.
+
+
+
+                _____
+     │\DRACULA ATTACKERAR
+    ─┼───────────────────
+    \│0000000000000000000
+    H│000
+   │A│0  1     1
+   │C│0   2     2
+   │K│0    0     3
+   │E│0           5
+   │R│0            6
+    S│0             0
+
+
+
+Längsta ökande (icke)sammanhängande delsekvens
+
+    945998  369202  598531  328899
+    365837  663399  601791  683275
+    1024495 296812
+
+    Strikt ökande lista
+
+
+            1   2   3   10  4   5
+    Longest 1   2   3   4   4   5
+    Mamma   -1  1   2   3   3   5
+
+

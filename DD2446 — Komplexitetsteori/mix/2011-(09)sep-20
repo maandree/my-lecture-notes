@@ -1,0 +1,169 @@
+Three times ago
+
+    P poly time         𝓞(|x|↑k) on input x, constant k.
+
+    P ∌ primes
+
+    ? ∋ factorisation
+
+    ? ∋ satisfiabiity (x₁ ∨ ¬x₂) ∧ …
+
+    P ∌ Halt(2↑n)       Does M_x halt in tim 2↑|y| on y.
+
+    {0, 1}* → {0, 1} ⇔ A ⊆ {0, 1}*
+
+    ”Language”
+
+    Language of all primes
+
+    A ⊆_p B     B ∈ P   ⇒   A ∈ P
+                A ∉ P   ⇒   B ∉ P
+
+    NP — Nondeterministic poly time
+
+    Many possible computation
+
+    value = 1  ⇔  ∃ computation that outputs 1
+    on x
+
+        Guess and verify.
+
+
+    Jakob did resolution
+
+        (x ∨ C)      ¬x ∨ D
+        –––––––––––––––––––
+               C ∨ D
+
+
+
+
+
+
+P ≠ SPACE[𝓞(n)]
+
+    P = SPACE[𝓞(n)]
+
+    A computed by M in poly time  ⇒  ∃ M' which does A in linear space
+
+
+
+Coding and P
+
+    short  ~short  long code
+    BINARY DECIMAL UNARY
+
+
+    binary and decimal are ~ same length so you get the same set of problems
+
+    equal amount of time
+    coding amount of time
+
+
+
+
+    
+NP-complete problems
+
+    P       polynomial time
+
+    NP      nondeterministic
+
+    P ⊆ NP  (do not use nondeterministic)
+
+            value = output for 0/1.
+
+    P ≠ NP ?
+
+            Obviously not[=]!    (Unknown)
+
+
+
+
+Program to prove P = NP
+
+1.  identify hardest problems in NP
+    [full succuess]
+
+2.  Prove that these cannot be solved in polynomial time
+    [complete failure]
+
+
+
+
+B is NP-complete
+
+1.  B ∈ NP
+
+2.  ∀ A NP      A ⊆_p B
+
+
+Theorem:    B   NP-complete
+
+            B ∈ P ⇔ NP = P
+
+NP = P ⇒ B ∈ P by 1)
+
+B ∈ P ⇒ {2)} ⇒ ∀ A ∈ NP ⇒ A ∈ P     NP = P
+
+
+
+
+
+Cook's theorem:     (1971)
+
+    Satisfiability of Boolean formulae in NP-complete
+
+    Even only considering Conjunctive Normal Form
+
+      (x₁ ∨ ¬x₂ ∨ x₃) ∧ (¬x₂ ∨ ¬x₃) ∧ (x₄ ∨ ¬x₅ ∨ x₆)
+
+                ∨ = ”or”        ∧ = ”and”
+
+                SAT
+
+SAT ∈ NP
+
+Non-deterministically guess values of all variables and output one if it satisfies φ
+
+
+∀ A ∈ NP    A ⊆_p SAT
+
+A is recognised by non-deterministic machine M in time 𝓞(|x|↑k) on input x
+
+Given x write formula
+
+φ = φ(M, x):    ∃ computation of M on input x that outputs 1.
+
+
+Suppose M is a one-tape TM
+Think of the entire computation
+
+    >>> figure 1
+
+Variables
+
+y_itk   0 ≤ i ≤ T − 1       0 ≤ t ≤ T − 1
+        k ∈ {0, 1, B}   (or more generally alphabet used)
+
+should be true if square i at time t contians k.
+
+z_itq   0 ≤ i ≤ T − 1       0 ≤ t ≤ T − 1
+        1 ≤ q ≤ Q_max   (number of states of M)
+
+meaning: Head is in square i at time t and in state q.
+
+
+y's and z's completely describe comp.
+Write forumla that says (is true iff):
+
+φ₁ 1.  Starts correctly
+φ₂ 2.  Computes correctly (as by M)     [description of the next step]
+φ₃ 3.  Ends with output 1.
+
+
+2   ⋀(possible next step for every point in space and time)
+
+
+
+

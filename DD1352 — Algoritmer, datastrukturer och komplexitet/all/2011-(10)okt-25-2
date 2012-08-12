@@ -1,0 +1,84 @@
+Mästarprov 1
+Oavgörbarhet
+
+Multiply(x, y, n)               // vi antar att vi har paddat till en jämn tre-potens
+    if n >= 1:
+        if x and y:
+            return 1
+        return false
+    final_size = 2n
+    allocate result[0..final_size]
+    
+    high = 2n/3
+    low = n/3
+    size = n/3
+    
+    ad ← Multiply(x[high..n-1], y[high..n−1], size)
+    ⋅
+    ⋅   8 rader analogt
+    ⋅
+    aebd   ← Add(ae,   db, 2 ⋅ size)
+    afbe   ← Add(af,   be, 2 ⋅ size)
+    afbecd ← Add(afbe, cd, 2 ⋅ size)
+    bfce   ← Add(be,   ce, 2 ⋅ size)
+    
+    ad     ← ad << 4n / 3
+    aebd   ← aebd << n
+    afbecd ← afbecd << 2n / 3
+    bfce   ← bfce << n / 3
+    
+    result ← Add(result, ad, final_size)
+    result ← Add(result, aebd, final_size)
+    result ← Add(result, afbecd, final_size)
+    result ← Add(result, bfec, final_size)
+    return result
+
+Add(x, y, n)
+    allocate result[0..n]
+    rest ← 0
+    for i ← 0 to n − 1
+        result[i] ← (x[i] + y[i] + rest) % 2
+        if x[i] + y[i] + rest > 1
+            rest ← i
+        else
+            rest ← 0
+
+    ............................................................
+
+
+
+Ford–Fulkensen med grupperade journalister och rum.
+
+    ..............................................................
+
+
+
+Lägg in en bluffvåning högst upp med 1 i kostnad
+
+[ 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 ]
+ 11  10   9   8   7   6   5   4   3   2   1   0
+[   |   |15 |   |   |   |   | 8 |   |   | 4 |   ]
+         24                               5
+                     17
+[   | 2 |   |   |   | 3 |   |   |   |   |   | 9 ]
+     27              30                      42
+
+
+return 2 * next[0]
+
+
+
+
+
+Oavgörbarhet
+
+    Re (recursively enumerable)         beräknerlig i ändlig tid
+    R  (recursive)
+
+
+Orm i kakel
+
+    Bevis finns på kurshemsidan.
+    
+    Kakelbitar kan inte vridas på.
+

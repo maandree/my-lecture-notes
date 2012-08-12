@@ -1,0 +1,124 @@
+Algoritmkonstruktion 2
+
+    Giriga algoritmer
+
+    Totalsökning
+
+        Handelsresandeproblement
+
+        8-damsproblemet
+
+
+Vill du guida högstadieklasser på KTH torsdag 13 oktober?
+Ta info:blad!
+
+
+
+
+Metod 2:    Giriga algoritmer   (Greedy algorithms)
+
+    Algoritmer som löser en bit av problemet i taget.
+
+    I varje steg görs det som ger bäst utdelning/kostar minst.
+
+Exempel 1:  Kortaste stig med Dijkstras algoritm:
+
+    En mängd S med hörn till vilka kortaste stigen är känd utvidgas girigt:
+
+        ”Utvidga S med det hörn som är märkt med det kortaste avståndet som uppdatera märkningen”
+
+Exempel 2:  Minimalt spännande träd med Prims algoritm:
+
+    Ett träd utvidgas girigt tills det spänner hela grafen:
+
+        ”Utvidga trädet med det hörn i grafen som har kortast avstånd till något hörn i taget”
+
+I dess fall hittar de giriga algoritmerna optimala lösningar, men för många andra problem ger
+giriga algoritmer inte optimala lösningar utan kanske hyfsade approximativa lösningar.
+
+
+
+
+Metod 3:    Totalsökning (Exhaustive search)
+
+− Gå igenom alla tänkbara lösningar och kolla om det är den sökta lösnngen. Detta görs med fördel rekursivt.
+
+Ofta är antalet tänkbara lösningar  exponentiellt många (till exempel 2↑n) och dår går det bara att använda
+för små n. Totalsökning är en metod man tar till i sista hand.
+
+Det svåraste med totalsökning är normalt att se till att man går igenom varje tänkbar lösning en (och helst
+inte mer än en) gång. Att sedan kolla om det är den sökta (eller optimala) lösningen brukar vara lätt.
+
+Ibland kan man redan innan en tänkbar lösning är färdig konstruerad se att den inte är möjlig som lösning.
+Då kan man strunta i att gå vidare med den och istället gå tillbaka och konstruera......................
+
+
+
+
+TSP-Handelsresandeproblemet (Traveling salesperson problem)
+
+...............
+
+Hitta kortaste turen som passerar alla städer en gång.
+
+Olika varianter av problemet:
+
+    Generell TSP
+
+        Probleminstans: graf med kantvikter
+
+    Euklidisk TSP i dimension d
+
+        Probleminstans: Städerna givna som koordinater i ℝ↑d
+
+NP-fullständiga
+
+
+
+
+Vilken permutation av talen 1..n motsvarar en tur
+
+                    2                       PERM = [4, 1, ¦ 6, 5, 2, 3]
+
+                                            VISITED[T, F, F ,T, F, F]
+            1       3      4
+
+
+               5        6
+
+CheckPerm(k, length)        — length – Längd av turen som hittils konstruerats
+                            —    k   – Index i PERM för staden att bestämma
+
+n! stycken permutationer
+
+
+
+............: TSP-kod :........................
+Lösning av generell TSP med totalsökning
+
+
+
+8-damsproblemet
+............................
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

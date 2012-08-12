@@ -1,0 +1,167 @@
+övning (efter redovisning)
+
+Transaktionshantering::
+
+T_1	  |	T_2	  |	T_3
+----------+---------------+-----------------
+Begin     |		  |
+Read(A)	  |		  |
+	  |	Begin	  |
+	  |	Read(B)	  |
+	  |		  |	Begin
+	  |		  |	Read(C)
+	  |	Write(C)  |
+	  |	Commit	  |
+Write(B)  |		  |
+Commit	  |		  |
+	  |		  |	Write(A)
+	  |		  |	Commit
+
+
+Vi bryr oss barar om read och write.
+Serialiserbar - går att utföra i serie utan att de krockar.
+
+De operationer som kon krocka är:
+
+   - Två olika transaktioner utför Write-operation til samma variabler
+   - Ena utför read, den andra utför Write till samma variabel.
+
+
+
+Resonera::
+
+T_1 kan ej exikveras först eftersom Write(B) kommer efter Read(B) i T_2
+(T_2 står i konflikt med T_1).
+
+T_2 }
+    } På liknande sätt
+T_3 }
+
+Inte serialiserbar
+
+
+Tillträdelsegraf
+
+	T_2  _
+	|   |\			(1):	T_2:Read(B), T_1:Write(B)
+	|      \ (3)		(2):	T_1:Read(A), T_3:Write(A)
+	|(1)     \		(3):	T_3:Read(C), T_2:Write(C)
+	V          \
+	T_1------->T_3
+	     (2)
+
+
+Lås::
+
+Exklusivt lås (Lock_x). Används vid skrivning.		Lock_x = Lock exclusive
+Låset för så att ingen annan transaktion får
+skriva eller läsa den variabel som är låst.
+
+Delat lås (Lock_s). Används vis	läsning.		Lock_s = Lock shared
+Ingen annan transaktion får skriva.
+
+
+
+-------------------+-------------------+-------------------+
+        T_1        |        T_2        |        T_3        |
+-------------------+-------------------+-------------------+
+ Begin             |                   |                   |
+ Lock_s(A)         |                   |                   |
+  Read(A)          |                   |                   |
+ Unlock(A)         |                   |                   |
+                   | Begin             |                   |
+                   | Lock_s(B)         |                   |
+                   |  Read(B)          |                   |
+                   | Unlock(C)         |                   |
+                   |                   | Begin             |
+                   |                   | Lock_s(C)         |
+                   |                   |  Read(C)          |
+                   |                   | Unlock(C)         |
+                   | Lock_x(C)         |                   |
+                   |  Write(C)         |                   |
+                   | Unlock(C)         |                   |
+   ....		   | 		       |		   |
+   		   |		       |    ....	   |
+-------------------+-------------------+-------------------+
+
+
+
+Två-faslåsning
+
+Låser upp alla låsningar i transaktionen
+när transaktionen avslutas.
+
+-------------------+-------------------+-------------------+
+        T_1        |        T_2        |        T_3        |
+-------------------+-------------------+-------------------+
+ Begin             |                   |                   |
+ Lock_s(A)         |                   |                   |
+ Read(A)           |                   |                   |
+                   | Begin             |                   |
+                   | Lock_s(B)         |                   |
+                   | Read(B)           |                   |
+                   |                   | Begin             |
+                   |                   | Lock_s(C)         |
+                   |                   | Read(C)           |
+                   | Wait(C, T_3)      |                   |
+ Wait(B, T_2)      |                   |                   |
+                   |                   | Wait(A, T_1)      |
+- - - - - - - - - -+- - - - - - - - - -+- - - - - - - - - -+
+			Deadlock
+
+Wait_Die
+
+Om yngre väntar på äldre så dö (die).
+Om äldre väntar på yngre så vänta (wait).
+
+
+-------------------+-------------------+-------------------+
+        T_1        |        T_2        |        T_3        |
+-------------------+-------------------+-------------------+
+ Begin             |                   |                   |
+ Lock_s(A)         |                   |                   |
+ Read(A)           |                   |                   |
+                   | Begin             |                   |
+                   | Lock_s(B)         |                   |
+                   | Read(B)           |                   |
+                   |                   | Begin             |
+                   |                   | Lock_s(C)         |
+                   |                   | Read(C)           |
+ Wiat(B, T_2)      |                   |                   |
+                   |                   | Die(A, T_1)       |
+                   | Lock_x(C)         +-------------------+
+                   | Wait(C)           |
+                   | Unlock(B)         |
+                   | Unlock(C)         |
+ Lock_x(B)         |                   |
+ Write(B)          |                   |
+ Unlock(A)         |                   |
+ Unlock(B)         |                   |
+-------------------+-------------------+
+
+
+Wound_Wait
+
+Transaktioner som är yngre väntar
+Transaktioner som är ändra skadar yngre
+så att den gör rollback.
+
+-------------------+-------------------+-------------------+
+        T_1        |        T_2        |        T_3        |
+-------------------+-------------------+-------------------+
+ Begin             |                   |                   |
+ Lock_s(A)         |                   |                   |
+ Read(A)           |                   |                   |
+                   | Begin             |                   |
+                   | Lock_s(B)         |                   |
+                   | Read(B)           |                   |
+                   |                   | Begin             |
+                   |                   | Lock_s(C)         |
+                   |                   | Read(C)           |
+                   | Wound(T_3)        +-------------------+
+                   |                   |
+                   | Lock_x(C)         |
+                   | Write(C)          |
+                   | Unlock(B)         |
+                   | Unlock(C)         |
+-------------------+-------------------+
