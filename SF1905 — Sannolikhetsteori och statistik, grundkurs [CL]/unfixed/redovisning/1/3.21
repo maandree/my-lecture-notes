@@ -1,0 +1,46 @@
+På en gatstump av längden 13m parkerar en bil av längden 5m helt på måfå.
+Vad är sannolikheten att yttligare en bil av samma längd får plats?
+
+Vi sätter vårat utfall till X som är avståndet mellan gatstumpens början
+till bilen.
+
+Gatstumpen är 13m och bilen 5m ⇒
+13m − 5m = 8m återstår när bilen har parkerat.
+Då sätter vi avståndet från bilen till slutet av gatstumpen till 8m − X.
+
+
+
+                                    13m
+        ┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+
+
+                            ┏━━━━━━━━━━━━━━━━━━┓
+        ◀━━━━━━━━━━━━━━━━━━▶┃                  ┃◀━━━━━━━━━━━━━━━━━━▶
+                  X         ┗━━━━━━━━━━━━━━━━━━┛       8m − X
+                                     5m
+
+
+
+Vi kan se att vårat s.v. X är likformigt fördelad på intervallet.
+0 ≤ x < 8
+
+Enligt definitionen på sida 59:
+
+    ƒ_X (x) = left lbrace matrix{1 over {b - a} # "om a < x < b" ## 0 # "f.ö."} right none
+
+I vårat fall är a = 0 och b = 8 ⇒ ƒ_X (h) = 1 over {8 - 0} = 1 over 8
+
+X > 5 om _X > 5_        betyder att om avståndet mellan början på gatstumpen och
+                        bilen är större än 5, får det plats en till bil (på X).
+
+8 − X > 5 om _X < 3_    betyder att om avståndet mellan början på gatstumpen och
+                        bilen är mindre än 3, får det plats en bil till (på X − 8).
+
+P(annan bil får plats) = P((X < 3) ∪ (X > 5)) = {disjunkta} = P(X < 3) + P(X > 5) =
+                       = P(X < 3) + P(X > 5) = {kontinuerligt} =
+                       = {size *1.25 from 0 to 3 ""} ƒ_X (x) `dx + {size *1.25 from 5 to 8 ""} ƒ_X (x) `dx =
+                       = left [ {h over 8} right ] sub 0 sup 3 + left [ {h over 8} right ] sub 5 sup 8 =
+                       = {3 over 8} - 0 + {8 over 8} - {5 over 8} = {6 over 8} = {3 over 4}
+
+
+

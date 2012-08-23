@@ -1,0 +1,171 @@
+Kontinuerliga s.v.                                                                      2011-(09)sep-07 (2)
+––––––––––––––––––                                                                      sannstat
+
+
+Diskret X:
+
+    ↑ p_X (k)
+    |
+    |                     o
+    |         o           |
+    |         |     o     |     o
+    |   o     |     |     |     |
+    |   |     |     |     |     |
+    +−−−+−−−−−+−−−−−+−−−−−+−−−−−+−−−−−−→ k
+        1     2     3     4     5
+
+
+Kontinuerligt X:
+
+    ↑                           sannolikhetsmassa, totalarea = 1
+    |                          /
+    |          __      ___    /
+    |         /  \    /   \  /
+    |     ___/    \__/     \/
+    | ___/                 /\
+    |/                       \
+    +−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−→ x
+
+
+
+Diskret X:
+
+    P(X :in: A) = Σ_{k :in: A} p_X k)
+
+
+Kontinuerligt X:
+
+    P(X :in: A) = ſ_[A] f_X(x) dx
+
+
+    Till exempel:
+
+        P(a ≤ X ≤ b) = ∫_[a → b] f_X(x) dx
+
+
+Observera!
+
+    P(X = x) = 0 för alla x om X är en kontinuerlig s.v.        ((egentligen, nästan helt osannoligt; infinitismalt))
+
+
+Notera!
+
+    f_X (x) ≥ 0     och    ∫_[-∞ .. ∞] f_X (x) dx = 1
+
+
+Exempel:
+
+    Likformigfördelning på ]a, b[:
+
+              { 1 / {b − a}         a < b < b
+    f_X (x) = {
+              { 0                   f.ö.
+
+
+
+            ↑ f_X (x)
+            |
+            |
+        1   |
+      ––––– |⋅⋅⋅⋅⋅⋅⋅⋅⋅+−−−−−−−−−−−+
+      b − a |         |           |
+            |         |           |
+            +−−−−−−−−−+−−−−−−−−−−−+−−−−−−−−−−−−→ x
+
+
+Exempel:
+
+    Exponentialfördelning med intensitet λ > 0.
+
+              { λe↑{−λx}    , x > 0
+    f_X (x) = {
+              { 0           , x ≤ 0
+
+
+    Vi skall se att E(X) = 1 / λ.
+
+
+    «bild på Bin mot Po, ”Sannolikhet foer …”»
+    «”Histogram foer avstaend mellan an rop till webserver, och anpassad exp–foerdelning”»
+
+
+
+Notera:
+
+    Om X :in: Exp(λ) och x > 0.
+
+    P(X > x) = ſ_[x → ∞] f_X(u) du = ſ_[x → ∞] λe↑{−λu} du =
+             = [−e↑{−λu}]_x^∞ = e↑{−λx}
+                                                        ____X − t___
+    Därför:                                            ╱    `⁻^⁻´   ╲
+                                        ┼–––––––––––––┼––––––––––––––┼→
+        P(X − t > x | X > t) =          0             t              X
+         /⁻⁻⁻⁻⁻
+        /                       P(X − t > x, X > t)     P(X − t > x)     e↑{−λ(t+x)}     −λx
+       ↙                     = ––––––––––––––––––––– = –––––––––––––– = ––––––––––––– = e          Minneslöshet!
+      återstående väntetid           P(X > t)             P(X > t)         e↑{−λt}
+
+
+
+Exempel:
+
+    Normalfördelning med väntevärde μ och varians σ²:
+
+                       1       −(x − μ)²/2σ²
+        f_X (x) = ––––––––––– e                 , −∞ < x < ∞
+                    r[2π] σ
+        
+    «Standardavvikelser»
+    «Gauss-fördelat historgram, event»
+    «Gauss-fördelat historgram, vikter»
+    «Betydsfördelning 1962–1994»
+    «”Relativa betyg baserade paa normalfoerdelning med vv 3 och stdavvikelse 1”»
+
+
+
+↑
+│
+│          __      ___
+│         ╱  ╲    ╱   ╲
+│     ___╱    ╲__╱     ╲
+│ ___╱                  ╲
+│╱                       ╲
+┼───────────┼──────────────────────→ x
+
+Väntevärde:
+
+    E(X) = ∫_[−∞ → ∞] x f_X (x) dx
+
+Om g(X) en funktion:
+
+    E[g(x)] = ∫_[−∞ → ∞] g(x) f_X (x) dx
+
+
+
+
+<PAUS>
+
+
+
+Exempel:
+
+    X :in: Exp(λ)
+
+    E(X) = ∫_[-∞ → ∞] x f_X (x) dx = ∫_[0 → ∞] x λe↑{−λx} dx =
+
+         = [x⋅(−e↑{−λx})]_0^oo − ∫_[0 → ∞] 1 ⋅ (−e↑{−λx}) dx =
+
+         = 0 + ∫_[0 → ∞] e↑{−λx} dx = [− 1/λ e↑{−λx}] = 1 / λ
+
+
+Varians:
+
+    V(X)            X − E(X)
+                   (X − E(X))²              ”nu har vi tagit bort tecknet”
+                   E[(X − E(X))²]           ”den förväntade kvadratiska avvikelse från väntevärdet”
+
+
+Standard avvikelse:
+
+    D(X) = r[V(X)]         Mäts på samma skala (enhet) som X.
+

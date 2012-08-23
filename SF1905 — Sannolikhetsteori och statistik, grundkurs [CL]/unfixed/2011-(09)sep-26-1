@@ -1,0 +1,125 @@
+12.8)       ((elevredovisning))
+
+    Vad menas med at ett konfidensintervall för en parameter θ har konfidgrad 95 %?
+
+
+    Mätning nr.         θ
+                        ┊
+        1           ├───┊───┤
+        2       ├───────┊───┤
+        3           ├───┊───────┤
+        4               ┊  ├───────┤
+        5        ├──────┊┤
+        ⋮               ⋮
+
+
+
+    ④ Det är 95 % chans att intervallet kommer hamna så att det innehåller θ.
+
+      Definition  P(θ ∈ I_θ(X₁, …, X_n)) = 1 − α        Sant!                           (((Sannolikheten att intervallet täcker över θ:  I_θ(X₁, …, X_n) ∋ θ  )))
+
+
+    ③ Minst 95 % av obeservationerna faller alltid i intervallet.
+
+      Intervallet I_θ(X₁, …, X_n) är konstruerat så att P(θ ∈ I_θ(X₁, …, X_n))
+      ej P(X ∈ I_θ(X₁, …, X_n)).                        Falskt!
+
+
+    ② I genomsnitt över många försök innehåller intervallet 95 % av observationerna.
+
+      Se ③                                              Falskt!
+
+
+    ① I det långa loppet innehåller intervallet θ i 95 % av försöken.
+
+      Enligt stora talens lag gäller det att andelen I_θ som täcker över θ
+      går mot P(θ ∈ I_θ(X₁, …, X_n)) = 1 − α då antalet observationer ökar.
+
+                                                        Sant!
+
+
+
+
+12.9)       ((elevredovisning))
+
+    X är N(µ, σ)                    Sökt: µ
+    X är avståndet + mätfel
+
+
+    Lösning:    Låt X₁, …, X_n beskriva resultatet av n stycken oberoende avståndsmätningar
+                med x₁, …, x_n. µ = E(X) skattas med x̅ som bestrivs av X̅.
+
+    X̅ ∈ N(µ, ο / √n̅)         Sats 6.51   s.152
+
+    Sannolikheten 1 − α
+
+    N(0, 1) ~ (x̅ − µ)/(σ / √n̅)
+
+    −λ_α/a ≤ (x̅ − µ)/(σ / √n̅) ≤ λ_α/2
+
+    x̅ − λ_α/2 Θ/√n̅ ≤ µ ≤ x̅ + λ_α/2 θ/√n̅
+
+    x̅ = 1/n Σ[i = 1 → n] x_i = 1132,155
+
+    95 %     1 − α = 0,95       α = 0,05
+
+
+    Tabell 2 i formelsamligen [ej Beta]:
+
+        λ_0,025 = 1,95                  0,025 ty α / 2 = 0,025
+
+    1132,155 − 1,96 ⋅ 5⋅10⁻³/√4̅ ≤ µ ≤ 1132,155 + 1,96 ⋅ 5⋅10⁻³/√4
+
+    1132,150 ≤ µ ≤ 1132,160
+
+
+
+
+12.12)      ((elevredovisning))
+
+    Givet:  n = 5
+            oberoende, normalfördelade s.v.
+            E(X) = µ
+            känd varians
+
+    I = x̅ ± λ_α/2 σ/√n̅                 s. 293,  s. 6 formelsamligen [ej Beta]
+
+    L_{1 − α, n}   bredd
+
+    L_{1 − α, n} = 2 λ_α/2 σ/√n̅             {{bild på λ och α}}
+
+
+    a)  90 % konfidensintervall och hälden å brett.
+
+        1 − α = 0,9 ⇒ λ_α/2 = λ_0,05 = 1,6449
+
+        L(0,9; n) = L(0,9; 5) / 2
+
+        2 λ_α/2 σ/√n̅ = (2 λ_α/2 σ/√5) / 2
+
+        √n̅ = 2√5 ⇒ n = 4⋅5 = 20         = 1/2 bredd
+
+        √n̅ = 10√5 ⇒ n = 100⋅5 = 500     = 1/10 bredd
+
+
+    b)  L(0,99; n) = L(0,9; 5)
+
+        2 λ_0,005 σ/√n̅ = 2 λ_0,05 σ/√5
+
+        √n̅ = √5 λ_0,005 / λ_0,05 ⇒ n = 5(λ_0,005 / λ_0,05)² = 12,26 ≈ 13
+
+
+    c)  sökt:   L(0,99; n) = L(0,9; 5) / 2
+
+        2 λ_0,005 σ/√n̅ = 2 λ_0,05 σ/√5) / 2
+
+        √n̅ = 2√5 (λ_0,005 / λ_0,05) ⇒ n = 4,5 (λ_0,005 / λ_0,05)² = 49,027 ≈ 50 stycken vid 1/2 bredd
+
+        L(0,99; n) = L(0,9; 5)/10
+
+        2 λ_0,005 σ/n = (2 λ_0,05 σ/√5) / 10
+
+        n = (10)²⋅5(λ_0,005 / λ_0,05)² = 1226,2 ≈ 1227 stycken vid 1/10: bredd
+
+
+

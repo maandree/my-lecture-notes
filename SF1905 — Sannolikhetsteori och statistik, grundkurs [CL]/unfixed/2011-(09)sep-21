@@ -1,0 +1,165 @@
+6,12)       ((elevredovisning))
+
+    Givet hiss   högst 10 personer
+                 eller 800 kg
+
+    X ∈ N(70, 10)           µ = 70, σ = 10
+
+    Sökt:   Sannolikheten för 10 personer ger överlast enligt andra kriteret
+
+        P(Z > 800)
+
+    Lösning:
+
+        Z = Σ[i = 1 → 10] X_i
+
+        Sats 5,11,2
+
+            E(Σ[i = 1 → n] X_i) = nµ
+
+            D(Σ[i = 1 → n] X_i) = σ√n
+
+        E(Z) = E(Σ[i = 1 → 10] X_i) = 10⋅70 = 700
+
+        D(Z) = D(Σ[i = 1 → 10] X_i) = 10√10
+
+        s. 147  (6,7)
+
+                    ⎛ x − µ ⎞
+        P(X ≤ x) = Φ⎜–––––––⎟
+                    ⎝   σ   ⎠
+
+                        ⎛ x − µ_Z ⎞
+        1 − P(X > z) = Φ⎜–––––––––⎟
+                        ⎝   σ_Z   ⎠
+
+                          ⎛ 800 − 700 ⎞        ⎛ 10 ⎞
+        P(Z > 800) = 1 − Φ⎜–––––––––––⎟ = 1 − Φ⎜––––⎟ = 1 − Φ(√10) ≈ 7,8⋅10⁻⁴
+                          ⎝   10√10   ⎠        ⎝√10 ⎠
+
+
+
+
+
+6,15)       ((elevredovisning))
+
+    Givet:  Två reläer utlöser efter varann enligt normalfördelningen:
+
+        X : N(1; 0,1)
+        Y : N(1,5; 0,2)             X och Y av varanda oberoende s.v.
+
+        Där X är tiden till relä 1 utlöses
+        och Y är tiden till relä 2 utlöses.
+
+        N(µ, σ), där
+            µ = E(X) = väntevärdet
+            σ = D(X) = standardvvikelsen
+
+
+    Sökt:   Sannolikheten för att relä 2 utlöser före relä 1.
+
+
+    Lösning:
+
+        Y < X ⇒ Y − X < 0               W := Y − X
+
+        µ = E(W) = E(Y − X) = E(Y) − E(X) = 1,5 − 1 = 0,5
+
+        σ² = V(W) = V(X) − V(Y) = {overoende, sats 5,7 s. 118} =
+           = 1²V(Y) + (−1)²V(X) = V(Y) + V(X) = 0,2² + 0,1² = 0,04 + 0,01 = 0,05
+
+        ∴ σ = √0,05
+
+                    ⎛W − µ   0 − µ⎞    ⎛−µ ⎞    ⎛−0,5 ⎞
+        P(W < 0) = P⎜––––– < –––––⎟ = Φ⎜–––⎟ = Φ⎜–––––⎟ = 1 − Φ(√5) = {tabell 1} ≈ 1 − 0,98713 = 0.01287
+                    ⎝  σ       σ  ⎠    ⎝ σ ⎠    ⎝√0,05⎠
+
+
+
+
+6,21)       ((elevredovisning))
+
+    Givet:  Sannolikheten för att en familj ska ha X = 0, 1, 2 respektive 4 barn
+
+        P_X(0) = 0,4        P_X(1) = 0,2
+
+        P_X(2) = 0,3        P_X(3) = 0,1
+
+
+    Sökt:   Daghemsplatser skall ha 90% sannolikhet att räck till 1000 familjer.
+
+
+
+    E(X) = Σ[k] k P(X = k) = 0⋅0,4 + 1⋅0,2 + 2⋅0,3 + 3⋅0,1 = 1,1
+
+    V(X) = E((X − E(X))²) = Σ[k] (k − 1,1)² P(X = k) = 1,09
+
+
+    Låt Y beskriva antalet barn i förskoleåldern med n = 1000.
+
+
+    µ = E(Y) = E(Σ[i = 1 → n] X_i) = n E(X) = 1000⋅1,1 = 1100
+
+    σ² = V(Y) = V(Σ[i = 1 → n] X_i) = n V(X) = 1090
+
+    D(Y) = √V(Y) = √1090
+
+
+    Enligt CGS (centrala-gränsvärde-satsen) är Y approximativt N(µ, σ) = N(1100, √1090)                 N = normalfördelning
+
+    Vi söker y så att P(Y < y) = 0,9
+
+                                                    ⎛Y − µ   y − µ⎞        ⎛y − µ⎞
+    1 − Φ(λ_0,1) ((= 1 − 0,9)) = 0,10 = P(Y > y) = P⎜––––– < –––––⎟ ≅ 1 − Φ⎜–––––⎟
+                                                    ⎝  σ       σ  ⎠        ⎝  σ  ⎠
+
+    y − µ
+    ––––– = λ_0,10 ⇒ y = μ + λ_0,10σ = 1100 + 1,2816⋅√1090 = 1142,3
+      σ
+
+
+    Svar:   Bygg 1143 platser.
+
+
+
+    (((CGS kan användas ty X_i:na är många, oberoende och lika fördelade se §5 i formelsamlingen.)))
+
+
+
+
+
+7,26)       ((elevredovisning))
+
+    a)
+
+        s.v. X = antalet vita boldkroppar
+
+        Givet:  Antalet vita blodkroppar i 1 mm³ blod
+                Poisson-fördelat enligt E(X) = λ
+                I detta fall λ = 6000
+
+        Söker:  Sannolikheten att 1 mm³ från personen innehåller färre än 600 vita blodkroppar.
+
+
+                                                4999  λ↑k
+        P(X < 5000) = Σ[k = 0 → 4999] P(X = k) =  Σ  ————— e↑−k = 1.1⋅10⁻⁴⁰
+                                                 k=0   k!
+
+
+    b)
+
+        Givet:  1 ml blodspäds till 1 liter. Vi tar en droppe ur denna lösning med volymen 1 mm³.
+
+        Söker:  Sannolikheten att denna 1 mm³ innehåller < 5 vita blodkroppar.
+
+
+        E(Y) = 1000λ
+
+        Om vi tar 1 mm³ ur lösningen så är sannolikheten att hitta en specifik blodkropp p = 10⁻⁶.
+
+        µ = (1000λ)p = 6
+                                                         µ↑k
+        P(Y < 5) = Σ[k = 0 → 4] P(Y = k) = Σ[k = 0 → 4] ––––– e↑−µ = 0,28506
+                                                          k!
+
+

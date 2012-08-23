@@ -1,0 +1,63 @@
+Föreläsning 9   Konfidensintervall (k.i.) för N-fördelade data
+Konstuktion av k.i.
+
+(i)     Skriv upp parameter att skatta
+(ii)    Hitta punktskattning
+(iii)   Bestäm fördelning av punktskattning.
+(iv)    Transformera punktskattre till en ny s.v. vars fördelning inte
+        beror på okända parametrar.
+(v)     Stäng in den transformerade s.v. mellan två kvantiler.
+(vi)    Skriv om för att få I_θ=(α_1(x), α_2(x))
+
+
+k.i. för σ i N-fördelade data.
+
+(i)         σ²
+(ii)        s² = 1 / (n − 1) ⋅ Σ[i = 1 → n](X_i − X̅)²
+(iii)-(iv)  1 / σ² Σ(X_i - X̅) ~ χ²(n − 1) om X_i ∈ N(µ, σ), i = 1, …, n     oberoende
+(v)         1 − α   konfidensgrad
+            >>> figur 1
+(vi)        I_σ² = (Q / [χ²_{α/2 (n−1)}], Q / [χ²_{1 − α/2 (n−1)}]),    Q = Σ[i = 0 → n](x_i − x̅)²
+            I_σ = (√[Q / [χ²_{α/2 (n−1)}]]; √[Q / [χ²_{1 − α/2 (n−1)}]])
+
+Två stickprov
+modell:
+    X₁, …, X_n ∈ N(µ₁, σ) ⎫
+                          ⎬ oberoende    σ är okänd
+    Y₁, …, Y_n ∈ N(µ₂, σ) ⎭
+
+    I_∆ = I_{µ₁ − µ₂} − ?
+
+
+(i)         ∆ = µ₁ − µ₂
+(ii)        ∆* = µ*₁ − µ*₂ = x̅̅ − y̅̅
+(iii)       ∆* = N(µ₁ − µ₂, σ√[1/n₁ + 1/n₂])            σ(!)
+
+(iv)        s² = [Q₁ + Q₂]/[(n₁ − 1) + (n₂ − 1)]
+
+                Q₁ = Σ[i = 1 → n₁](x_i − x̅̅)²
+                Q₂ = Σ[i = 1 → n₂](y_i − y̅̅)²
+
+            T = [∆* − ∆] / [s√(1/n₁ + 1/n₂)]
+
+            f = n₁ + n₂ − 2
+
+(v)-(vi)    I_∆ = I_{µ₁ − µ₂} = (∆*_obs ± t_{α/2} (f) s√[1/n₁ + 1/n₂])
+
+>>> figur 2
+
+
+
+Stickprov i par
+modell:
+
+        i      │    1   2   3   …   n      │    Observation av
+        ───────┼───────────────────────────┼──────────────────────────────
+        x_i    │    x₁  x₂  x₃      x_n    │    X_i ∈ N(µ_i, σ_x)
+        y_i    │    y₁  y₂  y₃      y_n    │    Y_i ∈ N(µ_i + ∆, σ_u)
+        ───────┼───────────────────────────┼──────────────────────────────
+        z_i =  │    z₁  z₂  z₃             │    >>> figur 0
+    = y_i − x_i│                           │
+
+
+

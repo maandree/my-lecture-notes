@@ -1,0 +1,14 @@
+Beräkna täthetsfunktionen för Y = 1/X om
+
+                  ⎧ 1/π ⋅ 2/(1 + x²)    om x > 0
+        ƒ_X (x) = ⎨
+                  ⎩ 0                   om x ≤ 0
+
+
+ƒ_Y (x) = (1/π ⋅ 2/(1 + x²))⁻¹          NaN för f.ö.
+
+ƒ_Y (x) = (2/π(1 + x²))⁻¹
+
+ƒ_Y (x) = ½π(1 + x²)
+
+

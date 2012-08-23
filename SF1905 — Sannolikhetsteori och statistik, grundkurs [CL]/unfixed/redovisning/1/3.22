@@ -1,0 +1,64 @@
+Livslängden i timmar för en viss transistortyp säga vara exponentialfördelad
+med λ = 10⁻⁴ (står inte men λ har en enhet som är /h).
+
+
+
+λ = 10⁻⁴/h
+
+Exponentialfördelning:  ƒ(x) = λe↑[−λx]
+                        Definierad på sida 60
+
+
+a)
+    Beräkna sannolikheten att en sådan transistor skall upphör att fungerar inom 6000 timmar.
+
+
+    P(6000h)    Vi integrerar täthetsfunktionen, ƒ(x), för att få fördelningsfunktionen.
+
+               ▲
+               ┃
+            λ ━┫\
+               ┃⋅----
+               ┃⋅⋅⋅⋅⋅\
+               ┃⋅⋅⋅⋅⋅⋅----|--
+               ┃⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅|  \---------
+               ╋━━━━━━━━━━╋━━━━━━━━━━━━━━━━▶
+                        6000
+
+
+    F_X(x) = {size *1.25 int from 0 to x ""} ƒ_X(u) `du = {size *1.25 int from 0 to x ""} λe^{-λu} `du =
+           = left [ -`{λ over λ} e^{-λu} right ] sub {u = 0} sup x = left [ - e^{-λu} right ] sub {u = 0} sup x =
+           = - e^{-λx} + e^{-λ0} = e^{-λ0} - e^{-λx} = 1 - e^{-λx}
+
+    P(X < 6000) = F_X(6000)
+                = 1 − e↑[−λx] =
+                = 1 − e↑[−10⁻⁴/h ⋅ 6000h] =
+                = 1 − e↑[−10⁻⁴ ⋅ 6000] =
+                = 1 − e↑[−0,6] ≈
+                ≈ 1 − 0,548811636 =
+                = 0,451188364
+
+
+
+b)
+    Man har 5 sådana transistorer i en apparat, som fungerar oberoende av varandra.
+    Beräkna sannolikheten att minst en av dem skall upphöra att fungerar inom 6000 timmar.
+
+
+    5 stycken
+    oberoende
+
+    P(någon fungerar inte) = P(A₁ ∪ A₂ ∪ A₃ ∪ A₄ ∪ A₅) =                    Sannolikheten att någon inte fungerar
+                           = {De Morgans lag} = 
+                           = P((A₁* ∩ A₂* ∩ A₃* ∩ A₄* ∩ A₅*)*) =            Sannolikheten att inte alla är fungerar
+                           = 1 − P(A₁* ∩ A₂* ∩ A₃* ∩ A₄* ∩ A₅*) =
+                           = {oberoende} =
+                           = 1 − P(A₁*)P(A₂*)P(A₃*)P(A₄*)P(A₅*) =
+                           = {A = A₁ = A₂ = A₃ = A₄ = A₅} =
+                           = 1 − P(A*)⁵ ≈
+                           ≈ {P(A*) ≈ {a)} ≈ 0,548811636} ≈
+                           ≈ 1 − 0,548811636⁵ ≈
+                           ≈ 1 − 0,049787068 =
+                           = 0,950212932
+
+

@@ -1,0 +1,16 @@
+Beräknar täthetsfunktionen för Y = 1/X om
+
+f_X (x) = left lbrace {alignl{matrix{{1 over pi} cdot {2 over {1 + x^2}} # "om x > 0" ## 0 # "om x <= 0"}}} right none
+
+Fördelningsfunktinen = P(Y <= y) = P left ({1 over X} <= y right) = P left ( X >= {1 over y} right ) = 1 - P left (X < {1 over y} right ) = 1 - F_X left ( 1 over y right )
+då {1 over y} > 0    (x > 0)
+
+
+f_Y (y) = "{sats, sida 57}" = {d over dy} F_Y (y) = {d over dy} left (1 - F_x left ( {1 over y} right ) right ) = -f_X left (1 over y right ) cdot {{-1} over {y^2}} =
+= {1 over {y^2}} cdot f_X left( 1 over right )
+
+Sätter in formen från uppgiften =>
+
+f_Y (y) = {1 over {y^2}} cdot {1 over pi} cdot {2 over {1 + left (1 over y right )^ 2}} = {2 over {pi(1 + y^2)}} = f_X (x)
+
+
