@@ -26,9 +26,98 @@
 
 
 
-@chapter Lorem ipsum
+@chapter Designmönster
 
-Lorem ipsum
+
+@table @bullet
+
+@item Façade (viktig)
+En klass ger ett enkelt gränssnitt till ett komplext system, som kan,
+men behöver inte, bestå av flera klasser.
+
+@item Template Method (viktig)
+I en superklass definieras en algoritms huvuddrag. Delar av algoritmen definie-
+ras i subklasser eller definieras om i subklasser.
+
+@item Proxy (viktig)
+Ett objekt kontrollerar åtkomsten till ett annat objekt. De båda implementerar
+samma gränssnitt.
+
+@item Iterator (viktig)
+Man får tillgång till ett antal objekt i sekvens, utan att behöva känna till hur
+de egentligen är organiserade.
+
+@item Strategy (viktig)
+En del av en algoritm är utbytbar medan programmet kör, ingen omkompilering
+behövs för att byta. Den utbytbara delen är inkapslad i ett objekt.
+
+@item Abstract Factory
+Grupperar objekt faktorier som har ett gemensamt tema.
+
+@item Factory Method (viktig)
+Skapar okjekt utan att man behöver specifiera exakt klass.
+
+@item Builder (ej viktig)
+Konstruerar komplexa object genom att separera konstruktion och representation.
+
+@item Prototype
+Skapar ett objekt genom att klona ett existerande objekt.
+
+@item Singleton (viktig)
+Begränsar klassen till att bara konstrueras en gång, gör det objektet
+åtkommit gör alla. Konstruktion sker när objektet hämtas för första gången.
+
+Singleton möstret bär endast användas om ett objekt faktiskt behövs.
+
+@item Adapter (ej viktig)
+Tillåter klasser med inkompatibelt gränssnitt att arbeta ihop genom att
+wrap:a dem med sitt egna gränssnitt.
+
+@item Bridge (ej viktig)
+Frikopplar en abstraktion från sin implementation so att de två kan variera obroende.
+
+@item Composite (viktig)
+Sammansätter noll eller fler liknande objekt so att de kan användas
+och manipuleras som ett objekt.
+
+@item Decorator
+Dynamiskt lägger till eller skriver över beteende till en existerande metod av ett
+objekt.
+
+@item Flyweight (ej viktig)
+Reducerar kostnad av att skapa och manipulera stora antal av liknande objekt.
+
+@item Chain of responsibility
+Delegerar instruktioner till en kedja av behandlande objekt.
+
+@item Command
+Skapar objekt som enkapsulerar händelser och parametrar.
+
+Detta brukar användas för att implementera undo och redo.
+
+@item Interpreter (ej viktig)
+Implementerar ett specialiserat språk.
+
+@item Mediator
+Tillåter lös koppling mellan klasser genom att vara den enda klassen som har
+detaljerad kännedom om deras metoder.
+
+@item Memento (ej viktig)
+Tillåter undansparning av tillstånd ett objekt så att man kan hoppa tillbaka
+till dem.
+
+@item Observer (viktig)
+Händelseaggregation som tillåter flera objekt att lyssna på en händelse.
+
+@item State
+Tillåter ett objekt ett ändra sitt beteende när dess interna tillstån ändras.
+
+@item Visitor (ej viktig)
+Separerar en algoritm från en objektstruktur genom att flytta hierarkin av
+metoder till ett annat objekt.
+
+
+@end table
 
 
 @bye
