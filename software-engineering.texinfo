@@ -11,19 +11,12 @@
 
 
 
-@ifnottex
-@node Top
-@top software engineering
-@end ifnottex
-
 @titlepage
 @title programutvecklingsteknik
 @author Mattias Andrée
 @end titlepage
 
 @contents
-
-
 
 
 
