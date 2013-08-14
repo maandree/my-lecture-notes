@@ -80,7 +80,7 @@ Frikopplar en abstraktion från sin implementation so att de två kan variera ob
 Sammansätter noll eller fler liknande objekt so att de kan användas
 och manipuleras som ett objekt.
 
-@item Decorator
+@item Decorator (viktig)
 Dynamiskt lägger till eller skriver över beteende till en existerande metod av ett
 objekt.
 
