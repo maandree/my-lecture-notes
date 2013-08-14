@@ -128,6 +128,10 @@ Dumt objekt som används för att testa en klass, utan att ett beroende
 är implementerat. Det är alltså en minimal implementation som inte
 används när programmet är klart.
 
+@item JUnit (unit testing)
+Java-ramverk för automatiserad testning som används bland annat inom
+Extreme Programming.
+
 @end table
 
 
