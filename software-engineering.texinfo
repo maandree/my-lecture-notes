@@ -131,6 +131,8 @@ Begränsar klassen till att bara konstrueras en gång, gör det objektet
 
 Singleton möstret bär endast användas om ett objekt faktiskt behövs.
 
+@code{enum} är ett enkelt sätt i Java för att göra singelton klasser.
+
 @item Adapter (ej viktig)
 Tillåter klasser med inkompatibelt gränssnitt att arbeta ihop genom att
 wrap:a dem med sitt egna gränssnitt.
