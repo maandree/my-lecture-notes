@@ -18,7 +18,7 @@
 
 @titlepage
 @title programutvecklingsteknik
-@author by Mattias Andrée
+@author Mattias Andrée
 @end titlepage
 
 @contents
