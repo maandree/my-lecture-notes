@@ -116,6 +116,17 @@ Tillåter ett objekt ett ändra sitt beteende när dess interna tillstån ändra
 Separerar en algoritm från en objektstruktur genom att flytta hierarkin av
 metoder till ett annat objekt.
 
+@end table
+
+
+@chapter Testning
+
+@table @bullet
+
+@item Mock Object
+Dumt objekt som används för att testa en klass, utan att ett beroende
+är implementerat. Det är alltså en minimal implementation som inte
+används när programmet är klart.
 
 @end table
 
