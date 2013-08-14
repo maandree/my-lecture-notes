@@ -70,6 +70,12 @@ med nyckel-ordet @code{implments}. Detta används för specifier
 att beteende som förväntas av klass och är inte begränsad i hur
 man som kan ärvas.
 
+@item lyssnarinterface (Java)
+Händelser i Java, framför allt i Graphical User Interface (GUI),
+skickar ett meddelande till en metod, den metoden i sin tur anropar
+alla registrerade objekt för den händelsen. Dessa objekt ärver
+ett viss @code{interface} för den händelsen.
+
 @end table
 
 
