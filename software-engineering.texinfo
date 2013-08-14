@@ -256,5 +256,23 @@ funktion) i taget och utvecklas i en interativ process.
 
 
 
+@chapter Trådning
+
+@table @bullet
+
+@item @code{synchronized}
+@code{synchronized} är ett keyword som vid användning associeras med ett object
+(en så kallad mutex (Mutually exklusive)). En tråd går är inne i an @code{synchronized}
+stoppas alla andra tråder när de går in a en @code{synchronized} med ett objekt
+som är upptaget av en annan tråd.
+
+Om @code{synchronized} ingår i en metod synkroniseras allt i metoden med @code{this}
+som mutex, men om metoden är @code{static} görs det på klassen (det vill säga
+@code{Class.class}.)
+
+@end table
+
+
+
 @bye
 
