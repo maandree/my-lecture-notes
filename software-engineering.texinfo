@@ -13,7 +13,7 @@
 
 @titlepage
 @title programutvecklingsteknik
-@author Mattias Andrée
+@author Delvis kompilerad av och delvis skriven av maandree
 @end titlepage
 
 @contents
@@ -109,6 +109,15 @@ Grupperar objekt faktorier som har ett gemensamt tema.
 
 @item Factory Method (viktig)
 Skapar okjekt utan att man behöver specifiera exakt klass.
+
+En fabriksmetod är en metod som returnerar ett objekt, antingen ett nyskapat
+eller ett som redan fanns. Fabriksmetoder används när man inte vill att användaren
+ska få bestämma vilka objekt som skapas med new och/eller eller vilka subtyper
+objekten har. Klassen där fabriksmetoden finns har denna kontroll. Fabriksmetoder
+finns till exempel i Singleton-klasser och motsvarande med fler än ett enda objekt
+och i flera klasser i API:n (Advanced Programming Interface), till exempel. de som
+har med lokala egenskaper som språk och tid att göra. Ytterligare ett exempel på
+när fabriksmetoder används är när man vill ha flera konstruktorer med samma signatur.
 
 @item Builder (ej viktig)
 Konstruerar komplexa object genom att separera konstruktion och representation.
@@ -220,7 +229,7 @@ tas emot.
 
 
 
-@section Utvecklingsmetoder
+@chapter Utvecklingsmetoder
 
 @table @bullet
 
