@@ -26,8 +26,55 @@
 
 
 
-@chapter Designmönster
 
+@chapter Begrepp
+
+@table @bullet
+@item klass
+Det som deklareras med nyckel-ordet @code{class}.
+Används för att klassifera objekt eller gruppera
+funktioner.
+
+@item typ
+Klass eller primitiv typ. @code{boolean}, @code{byte}, @code{short},
+@code{char}, @code{int}, @code{long}, @code{float} och @code{double},
+är primitiva typer.
+
+@item instansvariabel
+En variabel som tillhör en instans, inte en klass, funktion eller
+metod. (En metod är en funktion som arbetar på en ett objekt.)
+
+@item instansmetod
+En metod tillhörande en klass, men är inte @code{static} och kan
+bara nås genom en instans.
+
+@item konstruktor
+Funktion som anropas med nyckel-ordet @code{new}.
+
+@item objekt
+En instans av en klass, det som konstruktor ger ifrån sig.
+Med de är metoder det inte står static i signaturen på åtkomliga.
+
+@item klassvariabel
+Som klassvariabel, fast tillhörande en klass och inte en instans.
+
+@item klassmetod
+Som instansmetod, som är @code{static} och behöver inte (och bör inte)
+nås genom en instans.
+
+@item arv
+Klass hierarki, där en klass sägs ärva en annan om den använder
+nyckel-ordet @code{extends} för att implementera, och eventuellt
+overskriva, alla instansmetoder i den ärvda klassen, samt oftast
+implementar utökning av klassen. Den ärvande klassen kan alltid,
+förutan vad extrema explicita undantag, används istället för den
+ärvda klassen.
+
+@end table
+
+
+
+@chapter Designmönster
 
 @table @bullet
 
