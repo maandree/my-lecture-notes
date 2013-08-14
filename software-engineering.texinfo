@@ -149,7 +149,7 @@ Nummer på datorn som används för att identifera vilket program en anslutning
 sker till. En server sägs lyssna på en port, till exemple port 80 för om det
 är en Webb server.
 
-@item tård
+@item tråd
 En server behöver en tråd för varje klient. En server eller klient behöver
 dessutom en extra tråd per kontakt om kommunikations är fullt duplex (lyssnar
 och sänder parallellt.)
