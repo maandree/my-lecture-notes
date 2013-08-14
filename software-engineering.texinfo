@@ -63,6 +63,13 @@ implementar utökning av klassen. Den ärvande klassen kan alltid,
 förutan vad extrema explicita undantag, används istället för den
 ärvda klassen.
 
+@item @code{interface}
+En abstrakt klass utan konstruktor vars alla metoder är abstrakta
+och publika. Dessa ärvs (av klasser, men inte av andra interface)
+med nyckel-ordet @code{implments}. Detta används för specifier
+att beteende som förväntas av klass och är inte begränsad i hur
+man som kan ärvas.
+
 @end table
 
 
