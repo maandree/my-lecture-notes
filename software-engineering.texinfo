@@ -76,6 +76,20 @@ skickar ett meddelande till en metod, den metoden i sin tur anropar
 alla registrerade objekt för den händelsen. Dessa objekt ärver
 ett viss @code{interface} för den händelsen.
 
+@item dynamisk bindning
+I en superklass A, definieras en abstrakt metod m(). Definiera
+subklasser till A, definiera om metoden m() i varje subklass.
+Via referenser av typ A kan metoden m() anropas även för objekt
+av alla subklasser. Det är då subklassens typ som bestämmer vilken
+metod m() som exekveras, alla subklasserna har ju olika varianter.
+När anropet a.m(); kompileras går det inte att avgöra vilken metod
+som ska exekveras, det avgörs under programmets körning, dynamiskt.
+
+@item polymorfism
+Ojbekt av alla subklasser till A ``är A'' och alla har metoden m().
+Men objekten är olika och beter sig olika (subklasserna har olika
+implementationer av m()). A är mångformig, polymorf.
+
 @end table
 
 
