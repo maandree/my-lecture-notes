@@ -220,5 +220,30 @@ tas emot.
 
 
 
+@section Utvecklingsmetoder
+
+@table @bullet
+
+@item Testdriven programutveckling
+Testning sker ``kontinuerligt'', det vill säga man testar koden ofta, varje dag.
+
+@item Extreme Programming (XP)
+För varje ny programdel, skriv alla tester (testfall) innan kod skrivs.
+Man använder ett ramverk som möjliggör automatisk testning. Testen av
+den nya programdelen läggs till i testen av hela systemet.
+
+@item Refactoring
+Man ändrar i programkoden (förbättrar den) utan att den yttre funktionen ändras.
+
+@item Rapid Prototyping
+En prototyp är ett program där all funktionalitet ``syns'' men inte fungerar
+fullt ut. Man vill snabbt visa en icke-teknisk kund vad som går att göra.
+Från prototypen väljs en funktion (funktionalitet i programmet, ej kodmässig
+funktion) i taget och utvecklas i en interativ process.
+
+@end table
+
+
+
 @bye
 
