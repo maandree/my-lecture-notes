@@ -198,6 +198,26 @@ metoder till ett annat objekt.
 
 
 
+@chapter Programstrukturer
+
+@table @bullet
+
+@item Model-View-Control (MVC)
+
+@b{Model:} data och metoder (algoritmer) som representerar aktuellt problem.
+Det finns ingen grafik i Model.
+
+@b{View:} En grafisk bild av modellen. View har en referens till Model så att
+aktuella data kan hämtas och rätt ögonblicksbild ritas.
+
+@b{Control:} Interaktion med användaren, till exempel genom knappar, menyer,
+slidebars. Modellen uppdateras och View ritas om enligt direktiv som avkodas
+av Control-delen.
+
+@end table
+
+
+
 @chapter Testning
 
 @table @bullet
