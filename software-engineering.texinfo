@@ -229,6 +229,21 @@ aktuella data kan hämtas och rätt ögonblicksbild ritas.
 slidebars. Modellen uppdateras och View ritas om enligt direktiv som avkodas
 av Control-delen.
 
+@item Anonyma funktioner
+
+Ett objekt and en klass initieras med @code{new}, men som en namnlös subklass
+som definieras vid konstruktion. (Vid kompilering ges den ett namnet A$1 om det
+är den första anonyma klassen som deklareras innanför klassen A.)
+
+@cartouche
+@example
+integrator.setFunc(new Func() @{
+  public double func(double x) @{
+    return (x*x+37)/(1+x);
+  @}@});
+@end example
+@end cartouche
+
 @end table
 
 
