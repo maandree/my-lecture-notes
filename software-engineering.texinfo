@@ -215,36 +215,6 @@ Extreme Programming.
 
 
 
-@chapter Nätverksprogram
-
-@table @bullet
-
-@item server
-Ett program som tillåter att andra program kopplar upp sig till programmet.
-
-@item port
-Nummer på datorn som används för att identifera vilket program en anslutning
-sker till. En server sägs lyssna på en port, till exemple port 80 för om det
-är en Webb server.
-
-@item tråd
-En server behöver en tråd för varje klient. En server eller klient behöver
-dessutom en extra tråd per kontakt om kommunikations är fullt duplex (lyssnar
-och sänder parallellt.)
-
-@item socket
-varje ände av en uppkopplad förbindelse finns en socket. En server har en
-server socket för att lyssna efter nya anslutningar och en klient socket för
-varföra uppkoppling.
-
-@item ström
-En socket har två sröm objekt och genom dem kan information sändas respiktive
-tas emot.
-
-@end table
-
-
-
 @chapter Utvecklingsmetoder
 
 @table @bullet
@@ -272,6 +242,36 @@ En prototyp är ett program där all funktionalitet ``syns'' men inte fungerar
 fullt ut. Man vill snabbt visa en icke-teknisk kund vad som går att göra.
 Från prototypen väljs en funktion (funktionalitet i programmet, ej kodmässig
 funktion) i taget och utvecklas i en interativ process.
+
+@end table
+
+
+
+@chapter Nätverksprogram
+
+@table @bullet
+
+@item server
+Ett program som tillåter att andra program kopplar upp sig till programmet.
+
+@item port
+Nummer på datorn som används för att identifera vilket program en anslutning
+sker till. En server sägs lyssna på en port, till exemple port 80 för om det
+är en Webb server.
+
+@item tråd
+En server behöver en tråd för varje klient. En server eller klient behöver
+dessutom en extra tråd per kontakt om kommunikations är fullt duplex (lyssnar
+och sänder parallellt.)
+
+@item socket
+varje ände av en uppkopplad förbindelse finns en socket. En server har en
+server socket för att lyssna efter nya anslutningar och en klient socket för
+varföra uppkoppling.
+
+@item ström
+En socket har två sröm objekt och genom dem kan information sändas respiktive
+tas emot.
 
 @end table
 
