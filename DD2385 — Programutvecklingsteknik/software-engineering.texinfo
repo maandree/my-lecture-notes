@@ -358,6 +358,11 @@ Om @code{synchronized} ingår i en metod synkroniseras allt i metoden med @code{
 som mutex, men om metoden är @code{static} görs det på klassen (det vill säga
 @code{Class.class}.)
 
+@item trådsäkerhet
+En metod kallas trådsäker om den garanterar att fel inte kan uppstå för att två
+trådar arbetar med samma objekt samtidigt. Detta brukar implementeras med
+@code{synchronized}.
+
 @end table
 
 
