@@ -275,7 +275,7 @@ vilket ger extrem flexibilitet.)
 
 Klassen ska vara stängd för modification men öppen för utvidgning.
 
-@itemize
+@itemize @bullet
 
 @item
 Klientklass använder interface. Implementerade klasser står
@@ -286,6 +286,19 @@ Basklass definierar metoder. Subklass utvigear genom att
 definer om metoder och definer nya metoder.
 
 @end itemize
+
+@item Dependency–Inversion Principle (DIP)
+
+@itemize @bullet
+
+@item
+@item
+Högnivå moduler ska inte bero på lågnivå moduler. Båda
+ska bero på abstraktioner.
+
+@end itemize
+Abstraktioner ska ine berå på detaljs. Detaljer ska bero
+på abstraktioner.
 
 @end table
 
