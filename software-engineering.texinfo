@@ -22,7 +22,7 @@
 
 @chapter Begrepp
 
-@table @bullet
+@table @asis
 @item klass
 Det som deklareras med nyckel-ordet @code{class}.
 Används för att klassifera objekt eller gruppera
@@ -111,7 +111,7 @@ textrutor.
 
 @chapter Designmönster
 
-@table @bullet
+@table @asis
 
 @item Façade (viktig)
 En klass ger ett enkelt gränssnitt till ett komplext system, som kan,
@@ -215,7 +215,7 @@ metoder till ett annat objekt.
 
 @chapter Programstrukturer
 
-@table @bullet
+@table @asis
 
 @item Model-View-Control (MVC)
 
@@ -229,7 +229,7 @@ aktuella data kan hämtas och rätt ögonblicksbild ritas.
 slidebars. Modellen uppdateras och View ritas om enligt direktiv som avkodas
 av Control-delen.
 
-@item Anonyma funktioner
+@item Anonyma klasser
 
 Ett objekt and en klass initieras med @code{new}, men som en namnlös subklass
 som definieras vid konstruktion. (Vid kompilering ges den ett namnet A$1 om det
@@ -250,7 +250,7 @@ integrator.setFunc(new Func() @{
 
 @chapter Testning
 
-@table @bullet
+@table @asis
 
 @item Mock Object
 Dumt objekt som används för att testa en klass, utan att ett beroende
@@ -267,7 +267,7 @@ Extreme Programming.
 
 @chapter Utvecklingsmetoder
 
-@table @bullet
+@table @asis
 
 @item Vattenfallsmetoden
 Testning ger i slutet av projektet. I agila metoder sker testning kontinuerligt.
@@ -316,7 +316,7 @@ funktion) i taget och utvecklas i en interativ process.
 
 @chapter Nätverksprogram
 
-@table @bullet
+@table @asis
 
 @item server
 Ett program som tillåter att andra program kopplar upp sig till programmet.
@@ -346,7 +346,7 @@ tas emot.
 
 @chapter Trådning
 
-@table @bullet
+@table @asis
 
 @item @code{synchronized}
 @code{synchronized} är ett keyword som vid användning associeras med ett object
