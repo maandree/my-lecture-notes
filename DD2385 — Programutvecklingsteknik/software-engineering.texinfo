@@ -300,6 +300,11 @@ ska bero på abstraktioner.
 Abstraktioner ska ine berå på detaljs. Detaljer ska bero
 på abstraktioner.
 
+@item Interface–Segregation Principle
+
+Klienter ska inte tvingas att bero på metoder de inte
+använder.
+
 @end table
 
 
