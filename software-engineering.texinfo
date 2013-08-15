@@ -99,6 +99,12 @@ Ett bibliotek/paket med många klasser som kan användas tillsammans
 för någon kategori av tillämpningar. Exempel på Java-ramverk är AWT
 och Swing för grafik och @code{Collection} för objektsamlingar.
 
+@item komponent
+Grafiskt objekt som kan visas i ett fönster, en byggsten som kan
+användas i olika sammanhang och som har en egen funktion. Exempel
+på komponenter finns i grafikbiblioteken, till exempel knappar och
+textrutor.
+
 @end table
 
 
