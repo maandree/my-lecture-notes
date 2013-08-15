@@ -442,5 +442,25 @@ trådar arbetar med samma objekt samtidigt. Detta brukar implementeras med
 
 
 
+@chapter Se även
+
+@itemize @bullet
+
+@item
+@url{http://www.csc.kth.se/utbildning/kth/kurser/DD2385/prutt13/forelasningar/08/F8Bhand.pdf, Föreläsning 8B år 2013}
+
+@item
+@url{http://www.csc.kth.se/utbildning/kth/kurser/DD2385/prutt13/forelasningar/11/F11hand.pdf, Föreläsning 11 år 2013}
+
+@item
+@url{http://www.brighthubpm.com/agile/6549-a-quick-scrum-tutorial, A Quick Scrum Tutorial}
+
+@item
+@url{http://www.mountaingoatsoftware.com/blog/differences-between-scrum-and-extreme-programming, Differences Between Scrum and Extreme Programming}
+
+@end itemize
+
+
+
 @bye
 
