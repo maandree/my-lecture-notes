@@ -94,6 +94,11 @@ Ojbekt av alla subklasser till A ``är A'' och alla har metoden m().
 Men objekten är olika och beter sig olika (subklasserna har olika
 implementationer av m()). A är mångformig, polymorf.
 
+@item ramverk
+Ett bibliotek/paket med många klasser som kan användas tillsammans
+för någon kategori av tillämpningar. Exempel på Java-ramverk är AWT
+och Swing för grafik och @code{Collection} för objektsamlingar.
+
 @end table
 
 
