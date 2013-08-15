@@ -269,6 +269,23 @@ För varje ny programdel, skriv alla tester (testfall) innan kod skrivs.
 Man använder ett ramverk som möjliggör automatisk testning. Testen av
 den nya programdelen läggs till i testen av hela systemet.
 
+Sammanfattning av XP-reglerna:
+
+@itemize @bullet
+@item The planning game
+@item Small releases
+@item Metaphor
+@item Simple design
+@item Refactoring
+@item Pair programming
+@item Collective ownership
+@item Continuous integration
+@item On-site customer
+@item Coding standards
+@item Testing
+@item 40-hour week
+@end itemize
+
 @item Refactoring
 Man ändrar i programkoden (förbättrar den) utan att den yttre funktionen ändras.
 
