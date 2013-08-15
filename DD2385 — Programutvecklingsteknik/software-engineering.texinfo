@@ -292,13 +292,14 @@ definer om metoder och definer nya metoder.
 @itemize @bullet
 
 @item
-@item
 Högnivå moduler ska inte bero på lågnivå moduler. Båda
 ska bero på abstraktioner.
 
-@end itemize
+@item
 Abstraktioner ska ine berå på detaljs. Detaljer ska bero
 på abstraktioner.
+
+@end itemize
 
 @item Interface–Segregation Principle
 
