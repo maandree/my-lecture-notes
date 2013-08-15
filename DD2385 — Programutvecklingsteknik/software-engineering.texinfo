@@ -306,6 +306,19 @@ på abstraktioner.
 Klienter ska inte tvingas att bero på metoder de inte
 använder.
 
+@item Liskov Substitution Principle
+
+@itemize
+
+@item
+Subtyper måste vara utbytbara för deras bastyper.
+
+@item
+Ett objekt av en subklass ska kunna användas där
+objeket av superklassen används.
+
+@end itemize
+
 @end table
 
 
