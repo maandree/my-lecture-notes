@@ -255,17 +255,37 @@ integrator.setFunc(new Func() @{
 @item Single Responsibility Principle (SRP)
 
 @itemize @bullet
+
+@item
 En klass har en enda uppgift. En uppgift som den gör väl, och den
 gör ingenting annat.
 
+@item
 Klassen kan, troligtvis, beskrivas med 25 ord, utan `och' eller `eller'.
 
+@item
 Olika ansvarsområden karakteriseras av olika skäl till förändring.
 En klass ska ha endast en ``förändringsaxel''.
 @end itemize
 
 (Detta är hur program in Unix och Unix-liknande OS är uppbyggda,
 vilket ger extrem flexibilitet.)
+
+@item Open–Close Principle (OCP)
+
+Klassen ska vara stängd för modification men öppen för utvidgning.
+
+@itemize
+
+@item
+Klientklass använder interface. Implementerade klasser står
+för utvidgningarna.
+
+@item
+Basklass definierar metoder. Subklass utvigear genom att
+definer om metoder och definer nya metoder.
+
+@end itemize
 
 @end table
 
