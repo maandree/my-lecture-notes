@@ -1,0 +1,366 @@
+\input texinfo   @c -*-texinfo-*-
+
+@c %**start of header
+@setfilename software-engineering.info
+@settitle programutvecklingsteknik
+@afourpaper
+@documentencoding UTF-8
+@documentlanguage sv
+@finalout
+@c %**end of header
+
+
+
+@titlepage
+@title programutvecklingsteknik
+@author Delvis kompilerad av och delvis skriven av maandree
+@end titlepage
+
+@contents
+
+
+
+@chapter Begrepp
+
+@table @asis
+@item klass
+Det som deklareras med nyckel-ordet @code{class}.
+Används för att klassifera objekt eller gruppera
+funktioner.
+
+@item typ
+Klass eller primitiv typ. @code{boolean}, @code{byte}, @code{short},
+@code{char}, @code{int}, @code{long}, @code{float} och @code{double},
+är primitiva typer.
+
+@item instansvariabel
+En variabel som tillhör en instans, inte en klass, funktion eller
+metod. (En metod är en funktion som arbetar på en ett objekt.)
+
+@item instansmetod
+En metod tillhörande en klass, men är inte @code{static} och kan
+bara nås genom en instans.
+
+@item konstruktor
+Funktion som anropas med nyckel-ordet @code{new}.
+
+@item objekt
+En instans av en klass, det som konstruktor ger ifrån sig.
+Med de är metoder det inte står static i signaturen på åtkomliga.
+
+@item klassvariabel
+Som klassvariabel, fast tillhörande en klass och inte en instans.
+
+@item klassmetod
+Som instansmetod, som är @code{static} och behöver inte (och bör inte)
+nås genom en instans.
+
+@item arv
+Klass hierarki, där en klass sägs ärva en annan om den använder
+nyckel-ordet @code{extends} för att implementera, och eventuellt
+overskriva, alla instansmetoder i den ärvda klassen, samt oftast
+implementar utökning av klassen. Den ärvande klassen kan alltid,
+förutan vad extrema explicita undantag, används istället för den
+ärvda klassen.
+
+@item abstrakt klass
+En abstrakt klass går inte att instantiera. Inled klassdefinitionen
+med @code{abstract class Class}.
+
+@item @code{interface} (viktigt)
+En abstrakt klass utan konstruktor vars alla metoder är abstrakta
+och publika. Dessa ärvs (av klasser, men inte av andra interface)
+med nyckel-ordet @code{implments}. Detta används för specifier
+att beteende som förväntas av klass och är inte begränsad i hur
+man som kan ärvas.
+
+@item lyssnarinterface (Java)
+Händelser i Java, framför allt i Graphical User Interface (GUI),
+skickar ett meddelande till en metod, den metoden i sin tur anropar
+alla registrerade objekt för den händelsen. Dessa objekt ärver
+ett viss @code{interface} för den händelsen.
+
+@item dynamisk bindning
+I en superklass A, definieras en abstrakt metod m(). Definiera
+subklasser till A, definiera om metoden m() i varje subklass.
+Via referenser av typ A kan metoden m() anropas även för objekt
+av alla subklasser. Det är då subklassens typ som bestämmer vilken
+metod m() som exekveras, alla subklasserna har ju olika varianter.
+När anropet a.m(); kompileras går det inte att avgöra vilken metod
+som ska exekveras, det avgörs under programmets körning, dynamiskt.
+
+@item polymorfism
+Ojbekt av alla subklasser till A ``är A'' och alla har metoden m().
+Men objekten är olika och beter sig olika (subklasserna har olika
+implementationer av m()). A är mångformig, polymorf.
+
+@item ramverk
+Ett bibliotek/paket med många klasser som kan användas tillsammans
+för någon kategori av tillämpningar. Exempel på Java-ramverk är AWT
+och Swing för grafik och @code{Collection} för objektsamlingar.
+
+@item komponent
+Grafiskt objekt som kan visas i ett fönster, en byggsten som kan
+användas i olika sammanhang och som har en egen funktion. Exempel
+på komponenter finns i grafikbiblioteken, till exempel knappar och
+textrutor.
+
+@end table
+
+
+
+@chapter Designmönster
+
+@table @asis
+
+@item Façade (viktig)
+En klass ger ett enkelt gränssnitt till ett komplext system, som kan,
+men behöver inte, bestå av flera klasser.
+
+@item Template Method (viktig)
+I en superklass definieras en algoritms huvuddrag. Delar av algoritmen definie-
+ras i subklasser eller definieras om i subklasser.
+
+@item Proxy (viktig)
+Ett objekt kontrollerar åtkomsten till ett annat objekt. De båda implementerar
+samma gränssnitt.
+
+@item Iterator (viktig)
+Man får tillgång till ett antal objekt i sekvens, utan att behöva känna till hur
+de egentligen är organiserade.
+
+@item Strategy (viktig)
+En del av en algoritm är utbytbar medan programmet kör, ingen omkompilering
+behövs för att byta. Den utbytbara delen är inkapslad i ett objekt.
+
+@item Abstract Factory
+Grupperar objekt faktorier som har ett gemensamt tema.
+
+@item Factory Method (viktig)
+Skapar okjekt utan att man behöver specifiera exakt klass.
+
+En fabriksmetod är en metod som returnerar ett objekt, antingen ett nyskapat
+eller ett som redan fanns. Fabriksmetoder används när man inte vill att användaren
+ska få bestämma vilka objekt som skapas med new och/eller eller vilka subtyper
+objekten har. Klassen där fabriksmetoden finns har denna kontroll. Fabriksmetoder
+finns till exempel i Singleton-klasser och motsvarande med fler än ett enda objekt
+och i flera klasser i API:n (Advanced Programming Interface), till exempel. de som
+har med lokala egenskaper som språk och tid att göra. Ytterligare ett exempel på
+när fabriksmetoder används är när man vill ha flera konstruktorer med samma signatur.
+
+@item Builder (ej viktig)
+Konstruerar komplexa object genom att separera konstruktion och representation.
+
+@item Prototype
+Skapar ett objekt genom att klona ett existerande objekt.
+
+@item Singleton (viktig)
+Begränsar klassen till att bara konstrueras en gång, gör det objektet
+åtkommit gör alla. Konstruktion sker när objektet hämtas för första gången.
+
+Singleton möstret bär endast användas om ett objekt faktiskt behövs.
+
+@code{enum} är ett enkelt sätt i Java för att göra singelton klasser.
+
+@item Adapter (ej viktig)
+Tillåter klasser med inkompatibelt gränssnitt att arbeta ihop genom att
+wrap:a dem med sitt egna gränssnitt.
+
+@item Bridge (ej viktig)
+Frikopplar en abstraktion från sin implementation so att de två kan variera obroende.
+
+@item Composite (viktig)
+Sammansätter noll eller fler liknande objekt so att de kan användas
+och manipuleras som ett objekt.
+
+@item Decorator (viktig)
+Dynamiskt lägger till eller skriver över beteende till en existerande metod av ett
+objekt.
+
+@item Flyweight (ej viktig)
+Reducerar kostnad av att skapa och manipulera stora antal av liknande objekt.
+
+@item Chain of responsibility
+Delegerar instruktioner till en kedja av behandlande objekt.
+
+@item Command
+Skapar objekt som enkapsulerar händelser och parametrar.
+
+Detta brukar användas för att implementera undo och redo.
+
+@item Interpreter (ej viktig)
+Implementerar ett specialiserat språk.
+
+@item Mediator
+Tillåter lös koppling mellan klasser genom att vara den enda klassen som har
+detaljerad kännedom om deras metoder.
+
+@item Memento (ej viktig)
+Tillåter undansparning av tillstånd ett objekt så att man kan hoppa tillbaka
+till dem.
+
+@item Observer (viktig)
+Händelseaggregation som tillåter flera objekt att lyssna på en händelse.
+
+@item State
+Tillåter ett objekt ett ändra sitt beteende när dess interna tillstån ändras.
+
+@item Visitor (ej viktig)
+Separerar en algoritm från en objektstruktur genom att flytta hierarkin av
+metoder till ett annat objekt.
+
+@end table
+
+
+
+@chapter Programstrukturer
+
+@table @asis
+
+@item Model-View-Control (MVC)
+
+@b{Model:} data och metoder (algoritmer) som representerar aktuellt problem.
+Det finns ingen grafik i Model.
+
+@b{View:} En grafisk bild av modellen. View har en referens till Model så att
+aktuella data kan hämtas och rätt ögonblicksbild ritas.
+
+@b{Control:} Interaktion med användaren, till exempel genom knappar, menyer,
+slidebars. Modellen uppdateras och View ritas om enligt direktiv som avkodas
+av Control-delen.
+
+@item Anonyma klasser
+
+Ett objekt and en klass initieras med @code{new}, men som en namnlös subklass
+som definieras vid konstruktion. (Vid kompilering ges den ett namnet A$1 om det
+är den första anonyma klassen som deklareras innanför klassen A.)
+
+@cartouche
+@example
+integrator.setFunc(new Func() @{
+  public double func(double x) @{
+    return (x*x+37)/(1+x);
+  @}@});
+@end example
+@end cartouche
+
+@end table
+
+
+
+@chapter Testning
+
+@table @asis
+
+@item Mock Object
+Dumt objekt som används för att testa en klass, utan att ett beroende
+är implementerat. Det är alltså en minimal implementation som inte
+används när programmet är klart.
+
+@item JUnit (unit testing)
+Java-ramverk för automatiserad testning som används bland annat inom
+Extreme Programming.
+
+@end table
+
+
+
+@chapter Utvecklingsmetoder
+
+@table @asis
+
+@item Vattenfallsmetoden
+Testning ger i slutet av projektet. I agila metoder sker testning kontinuerligt.
+I vattenfallsmetoden är det svårt att ändra på redan utförda delar. Planering
+av projektet sker i början och planeringen följs, snarrare än att, som i de agila
+tekniker, ständigt vara beredd på ändrade krav som leder till ändringar i redan
+färdiga programdelar.
+
+@item Testdriven programutveckling
+Testning sker ``kontinuerligt'', det vill säga man testar koden ofta, varje dag.
+
+@item Extreme Programming (XP)
+För varje ny programdel, skriv alla tester (testfall) innan kod skrivs.
+Man använder ett ramverk som möjliggör automatisk testning. Testen av
+den nya programdelen läggs till i testen av hela systemet.
+
+Sammanfattning av XP-reglerna:
+
+@itemize @bullet
+@item The planning game
+@item Small releases
+@item Metaphor
+@item Simple design
+@item Refactoring
+@item Pair programming
+@item Collective ownership
+@item Continuous integration
+@item On-site customer
+@item Coding standards
+@item Testing
+@item 40-hour week
+@end itemize
+
+@item Refactoring
+Man ändrar i programkoden (förbättrar den) utan att den yttre funktionen ändras.
+
+@item Rapid Prototyping
+En prototyp är ett program där all funktionalitet ``syns'' men inte fungerar
+fullt ut. Man vill snabbt visa en icke-teknisk kund vad som går att göra.
+Från prototypen väljs en funktion (funktionalitet i programmet, ej kodmässig
+funktion) i taget och utvecklas i en interativ process.
+
+@end table
+
+
+
+@chapter Nätverksprogram
+
+@table @asis
+
+@item server
+Ett program som tillåter att andra program kopplar upp sig till programmet.
+
+@item port
+Nummer på datorn som används för att identifera vilket program en anslutning
+sker till. En server sägs lyssna på en port, till exemple port 80 för om det
+är en Webb server.
+
+@item tråd
+En server behöver en tråd för varje klient. En server eller klient behöver
+dessutom en extra tråd per kontakt om kommunikations är fullt duplex (lyssnar
+och sänder parallellt.)
+
+@item socket
+varje ände av en uppkopplad förbindelse finns en socket. En server har en
+server socket för att lyssna efter nya anslutningar och en klient socket för
+varföra uppkoppling.
+
+@item ström
+En socket har två sröm objekt och genom dem kan information sändas respiktive
+tas emot.
+
+@end table
+
+
+
+@chapter Trådning
+
+@table @asis
+
+@item @code{synchronized}
+@code{synchronized} är ett keyword som vid användning associeras med ett object
+(en så kallad mutex (Mutually exklusive)). En tråd går är inne i an @code{synchronized}
+stoppas alla andra tråder när de går in a en @code{synchronized} med ett objekt
+som är upptaget av en annan tråd.
+
+Om @code{synchronized} ingår i en metod synkroniseras allt i metoden med @code{this}
+som mutex, men om metoden är @code{static} görs det på klassen (det vill säga
+@code{Class.class}.)
+
+@end table
+
+
+
+@bye
+
