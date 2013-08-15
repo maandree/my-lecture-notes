@@ -248,6 +248,29 @@ integrator.setFunc(new Func() @{
 
 
 
+@chapter Designprinciper
+
+@table @asis
+
+@item Single Responsibility Principle (SRP)
+
+@itemize @bullet
+En klass har en enda uppgift. En uppgift som den gör väl, och den
+gör ingenting annat.
+
+Klassen kan, troligtvis, beskrivas med 25 ord, utan `och' eller `eller'.
+
+Olika ansvarsområden karakteriseras av olika skäl till förändring.
+En klass ska ha endast en ``förändringsaxel''.
+@end itemize
+
+(Detta är hur program in Unix och Unix-liknande OS är uppbyggda,
+vilket ger extrem flexibilitet.)
+
+@end table
+
+
+
 @chapter Testning
 
 @table @asis
