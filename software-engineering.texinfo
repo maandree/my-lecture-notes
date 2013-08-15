@@ -249,6 +249,13 @@ tas emot.
 
 @table @bullet
 
+@item Vattenfallsmetoden
+Testning ger i slutet av projektet. I agila metoder sker testning kontinuerligt.
+I vattenfallsmetoden är det svårt att ändra på redan utförda delar. Planering
+av projektet sker i början och planeringen följs, snarrare än att, som i de agila
+tekniker, ständigt vara beredd på ändrade krav som leder till ändringar i redan
+färdiga programdelar.
+
 @item Testdriven programutveckling
 Testning sker ``kontinuerligt'', det vill säga man testar koden ofta, varje dag.
 
