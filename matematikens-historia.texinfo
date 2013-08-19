@@ -160,6 +160,18 @@ Berlin-papyrusen, från runt 1300 f. Kr., visare att antika egypterna
 kunda lösa andra ordningens algebraiska ekvationer.
 
 
+@chapter Chou Pei Suan Ching — 300 f. Kr.(?)
+@cindex Chou Pei Suan Ching
+
+@cindex Secret book of Arithmics
+Secret book of Arithmics.
+
+@cindex Astronomiska ekvationer
+@cindex Rättvinkliga trianglar
+@cindex Bråk
+Astronomiska ekvationer, rättvinkliga trianglar och bråk.
+
+
 
 @c @chapter Karl @i{Weierstrass} — 1815–1897
 @c @cindex Karl Weierstrass
