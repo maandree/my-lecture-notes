@@ -154,6 +154,7 @@ Berlin-papyrusen, från runt 1300 f. Kr., visare att antika egypterna
 kunda lösa andra ordningens algebraiska ekvationer.
 
 
+
 @chapter Chou Pei Suan Ching — 300 f. Kr.(?)
 @cindex Chou Pei Suan Ching
 
@@ -164,6 +165,13 @@ Secret book of Arithmics.
 @cindex Rättvinkliga trianglar
 @cindex Bråk
 Astronomiska ekvationer, rättvinkliga trianglar och bråk.
+
+
+
+@chapter Chiu-chang Suan-shu — 250 f. Kr.
+@cindex Chiu-chang Suan-shu
+
+Arithmic in Nine Sections.
 
 
 
