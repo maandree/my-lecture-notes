@@ -5,7 +5,7 @@
 @settitle matematikens historia
 @afourpaper
 @documentencoding UTF-8
-@documentlanguage en
+@documentlanguage sv
 @finalout
 @c %**end of header
 
@@ -80,7 +80,58 @@ jämnt ut av många mindre tal.
 Denna talbas används västvärlden tills den senare
 romerska tiden.
 
-@c TODO
+@c TODO symboler för 1, 10 och 60
+
+
+
+@chapter Egyptierna
+@cindex Egyptierna
+
+@c TODO symboler för 1, 10 och 100
+
+@cindex Grekiska
+@cindex Hellenistiska perioden
+Med egyptiska matematisker menas matematik som skrivs på egyptiska.
+Från den hellenistiska perioden ersatts egyptiska med grekiska som
+det språk egyptierna använde.
+
+@cindex Arabiska
+@cindex Islamsk matematik
+Matematiska studier i Egypten fortsattes senare under det arabiska
+imperiumet som del av islamsk matematik när arabiska blev det skriva
+språket av egyptiska vetenskapsmän.
+
+@cindex Rhindpapyrusen
+@cindex Ahmes' papyrus
+@cindex Mellersta riket
+Den mest omfattande egyptiska matemtiska text en är Rhindpapyrusen,
+även kallade Ahmes' papyrus efter dess författare. Rhindpapyrusen
+skrivs runt 1650 f. Kr. men är troligen en kopia av ett äldre dokument
+från Mellersta riket från 2000–1800 f. Kr. Det är en instruktions
+@cindex Aritmetik
+@cindex Geometri
+@cindex Enhetsbråk
+@cindex Bråk, enhetsbråk
+@cindex Primtal
+manual för studenter i aritmetik och geometri. Rhindpapyrusen innehåller
+area formuler, metoder för multiplication, division och arbete med
+enhetsbråk and bevis på annan matematisk kunskap inklusive primtal och
+@cindex Medelsnitt
+@cindex Aritmetiska medelsnitt
+@cindex Geometriska medelsnitt
+@cindex Harmoniska medelsnitt
+sammansatta tal och aritmetiska, geometriska och harmoniska medelsnitt.
+@cindex Eratosthenes' sål
+@cindex Perfekta tal
+Den påvisar en på en simpel förståelse för Eratosthenes' sål och perfekt
+tal-teori, nämligen den av talet 6.
+@cindex Linjära ekvationer
+@cindex Första ordningens linjära ekvationer
+Den visare även hur man löser linjära ekvationer av första ordningen,
+@cindex Aritmetiska serier
+@cindex Geometriska serier
+och även aritmetiska och geometriska serier.
+
 
 
 
