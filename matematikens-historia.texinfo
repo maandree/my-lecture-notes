@@ -538,6 +538,22 @@ morgonstjärnan var den samma som kvällsstjärnan, Venus.
 
 
 
+@section Theaitetos från Aten — 417–369 f. Kr.
+@cindex Theaitetos från Aten
+@cindex Aten
+
+@cindex Eupalinos
+Theaitetos från Aten var troligen son till Euphronius,
+och var en klassisk grekisk matematiker.
+
+@cindex Ojämförbara kvantiter
+Theodorus hade studerat teorin om ojämförbara kvantiter,
+och Theaitetos fortsatt entusiasitskt studierna. Specifikt
+klassifierade han diverse former av irrationella tal efter
+sättet de uttrycktes som kvadrat rötter.
+
+
+
 @c @chapter Karl @i{Weierstrass} — 1815–1897
 @c @cindex Karl Weierstrass
 @c @cindex Weierstrass, Karl
