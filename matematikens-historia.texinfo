@@ -194,10 +194,12 @@ Sea Island Arithmetric Classic.
 
 @cindex Arithmetic classics of Sun-Tsu
 @cindex Sun Tzu's Mathematical Classic
-Endast känd genom Arithmetic classics of Sun-Tsu (Sun Tzu's Mathematical Classic).
+Endast känd för Arithmetic classics of Sun-Tsu (Sun Tzu's Mathematical Classic).
 
 @cindex Kinesiska restsatsen
 Första kända exemplet av den kinesiska restsatsen.
+
+Namnet Sun-Tsu Suan Ching är pseudonym.
 
 
 
