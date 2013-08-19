@@ -24,14 +24,8 @@ Texts. A copy of the license is included in the section entitled
 @end quotation
 @end copying
 
-@ifnottex
-@node Top
-@top Using Git
-@insertcopying
-@end ifnottex
-
 @titlepage
-@title Matematikens Historia
+@title Matematikens historia
 @author by Mattias Andrée (maandree)
 
 @page
