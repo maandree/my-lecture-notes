@@ -43,13 +43,28 @@ Texts. A copy of the license is included in the section entitled
 
 
 
+@chapter Henri @i{Poincaré} — 1854–1912
+@cindex Henri Poincaré
+@cindex Jules Henri Poincaré
+@cindex Poincaré, Henri
+@cindex Poincaré, Jules Henri
+
+@cindex Topologi
+@cindex Differential ekvationer
+Topologi. Differential ekvationer.
+
+Jules Henri Poincaré var en fransk matematiker, teoretisk
+fysiker, ingengör och vetenskapsfilosof.
+
+
+
 @chapter David @i{Hilbert} — 1862–1943
 @cindex David Hilbert
 @cindex Hilbert, David
 
-@cindex Integral equations
-@cindex Foundations of mathematics
-Integral equations. Foundations of mathematics.
+@cindex Integralekvationer
+@cindex Foundations of Mathematics
+Integralekvationer (Foundations of Mathematics).
 
 Tysk matematiker erkänd som en av de mest influensrika
 and universella matematikerna av 1800-talet och tidigit
