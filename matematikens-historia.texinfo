@@ -373,6 +373,7 @@ Nummeriska problem
 @cindex Deduktiv geometri
 Början av deduktiv geometri.
 
+@cindex Aristoteles
 Thales från Miletus var en för-Sokrateisk grekisk
 filosof från Miletus i Anatolien (Mindre Asien),
 och är en av de sju visa männen av Grekland.
@@ -381,11 +382,15 @@ honom att vara den första filosofen in den
 grekiska traditionen. Mycket av vad vi vet om
 Thales som filosof kommer från Aristoteles.
 
+@cindex vinkel–sida–vinkel
 @b{Thales utförde också geometrisk forskning och,
 genom at använda trianglar (vinkel–sida–vinkel),
 tillämpade hans förståelse av geometri för att
 beräkna avståndet från kusten från skäpp til havs.}
 
+@cindex Pythagoras
+@cindex Anaximanders
+@cindex Egypten
 Thales rådgivde Anaximanders student, Pythagoras,
 att besöka Egypten för att fortsätta sinna studiers
 inom matematik och filosofi.
@@ -394,6 +399,33 @@ När Thales var i Egypten kunde han förmodligen
 avgöra en pyramids höjd genom att mäta dess skuggas
 längd när längden av skuggan var den samma som
 dess höjd.
+
+@b{Thales tros stå för fem satser inom geometri:}
+
+@itemize @bullet
+@item
+@cindex Diameter
+En cirkel bisektioneras av dess diameter.
+@item
+@cindex Liksides triangelar
+Vinklarna vid basen av en liksides triangel är
+de samma.
+@item
+@cindex Motstående vinklar
+Om två räta linjer skärs så är motstående vinklar
+de samma.
+@item
+@cindex Identiska trianglar
+Om en triangel har två viklar och en sida lika
+som en annan triangel så är trianglarna identiska.
+@item
+@cindex Halvcirklar
+@cindex Thales' sats
+@cindex Rätvinklig triangel
+Thales' sats: Ändarna av en halvcirkel tillsammas
+med en arbiträr punkt på halvcirkeln bildar en
+rätvinklig triangel.
+@end itemize
 
 
 
