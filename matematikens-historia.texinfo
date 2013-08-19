@@ -274,6 +274,18 @@ Pascals triangel och summation av serier.
 
 
 
+@chapter Kuo Chou-ching — 1231–1316
+@cindex Kuo Chou-ching
+
+@cindex Chou-shih
+@cindex Calendar
+Chou-shih (Calendar.)
+
+@cindex Sfärisk trigonometri
+Sfärisk trigonometri.
+
+
+
 @c @chapter Karl @i{Weierstrass} — 1815–1897
 @c @cindex Karl Weierstrass
 @c @cindex Weierstrass, Karl
