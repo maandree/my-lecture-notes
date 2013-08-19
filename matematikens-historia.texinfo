@@ -321,6 +321,26 @@ Chi-ho Yaun-pen (Elements of Geoometry.)
 
 
 
+@chapter Romarna
+@cindex Romarna
+@c TODO när?
+
+1, 5, 10, 50, 100, 500, 1000 = I, V, X, L, C, D, M
+
+Streck runt om för 100 gånger, och streck ovan för 1000 gånger.
+Har även system för större tal.
+
+4 = IV (men IIII på klockor).
+
+1 … 5 = I, II, III, IV, V
+
+999 = (1000 − 100) + (100 − 10) + (10 − 1) = CMXCIX, inte IM.
+
+Det decimala positionssystemet, med större enheter först, är det
+underliggande system.
+
+
+
 @c @chapter Karl @i{Weierstrass} — 1815–1897
 @c @cindex Karl Weierstrass
 @c @cindex Weierstrass, Karl
