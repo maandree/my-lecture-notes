@@ -427,6 +427,16 @@ med en arbiträr punkt på halvcirkeln bildar en
 rätvinklig triangel.
 @end itemize
 
+@cindex Herodotos
+@cindex Solförmurkelse
+Herodotos noterade att Thales förespådde 585 f. Kr:s
+solförmurkelse, en anmärkningsvärd avancering för
+grekisk vetenskap. Aristoteles rapporterade att
+Thales använde sin kunskap att känna igen vädermönster
+för att förespå om nästa säsongs olivskörd skulle bli
+givmild. Han köpa alla olivprssarna i området och
+skapade en förmögenhet när förespåelsen var sann.
+
 
 
 @c @chapter Karl @i{Weierstrass} — 1815–1897
