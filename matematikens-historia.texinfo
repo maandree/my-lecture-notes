@@ -217,6 +217,18 @@ $ \pi \approx 355/113 $
 
 
 
+@chapter Wang Hs'iao-t'ung — 625
+@cindex Wang Hs'iao-t'ung
+
+@cindex Ch'i-ku Suan-ching
+@cindex Continuation of ancient mathematics
+Ch'i-ku Suan-ching (Continuation of ancient mathematics.)
+
+@cindex Kubiska ekvationer
+Kubiska ekvationer.
+
+
+
 @c @chapter Karl @i{Weierstrass} — 1815–1897
 @c @cindex Karl Weierstrass
 @c @cindex Weierstrass, Karl
