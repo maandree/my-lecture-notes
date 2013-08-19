@@ -439,6 +439,22 @@ skapade en förmögenhet när förespåelsen var sann.
 
 
 
+@section Eupalinos — 530
+@cindex Eupalinos
+
+@cindex Samons
+@cindex Pythagorion
+@cindex Polykartes
+Under 500-talet f. Kr. var vattenkällorna i staden
+av antika @b{Samons} — nu kallat @b{Pythagorion} —
+var inte tillräcklig för den växande välgången av
+standen och dess ökande befolkning. Så tyrranen
+Polykartes sysselsatte arkitekten Eupalinos med att
+bygga en akvadukt från the norra sidan av Mount
+Kastro (237 m) till staden.
+
+
+
 @c @chapter Karl @i{Weierstrass} — 1815–1897
 @c @cindex Karl Weierstrass
 @c @cindex Weierstrass, Karl
