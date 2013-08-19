@@ -157,7 +157,13 @@ kunda lösa andra ordningens algebraiska ekvationer.
 
 
 
-@chapter Chou Pei Suan Ching — 300 f. Kr.(?)
+@chapter Antika Kina
+@cindex Kina, antika
+@cindex Antika Kina
+
+
+
+@section Chou Pei Suan Ching — 300 f. Kr.(?)
 @cindex Chou Pei Suan Ching
 
 @cindex Secret book of Arithmics
@@ -170,7 +176,7 @@ Astronomiska ekvationer, rättvinkliga trianglar och bråk.
 
 
 
-@chapter Chiu-chang Suan-shu — 250 f. Kr.
+@section Chiu-chang Suan-shu — 250 f. Kr.
 @cindex Chiu-chang Suan-shu
 
 @cindex Arithmic in Nine Sections
@@ -178,7 +184,7 @@ Arithmic in Nine Sections.
 
 
 
-@chapter Lui Hui — 250
+@section Lui Hui — 250
 @cindex Lui Hui
 
 @cindex Sea Island Arithmetric Classic
@@ -186,7 +192,7 @@ Sea Island Arithmetric Classic.
 
 
 
-@chapter Sun-Tsu Suan Ching — 300
+@section Sun-Tsu Suan Ching — 300
 @cindex Sun-Tsu Suan Ching
 
 @cindex Sun Tzu Suan Ching
@@ -205,7 +211,7 @@ Namnet Sun-Tsu Suan Ching är pseudonym.
 
 
 
-@chapter Tsu Ch'ung-chih — 430–501
+@section Tsu Ch'ung-chih — 430–501
 @cindex Tsu Ch'ung-chih
 
 @cindex Chui-Shu
@@ -219,7 +225,7 @@ $ \pi \approx 355/113 $
 
 
 
-@chapter Wang Hs'iao-t'ung — 625
+@section Wang Hs'iao-t'ung — 625
 @cindex Wang Hs'iao-t'ung
 
 @cindex Ch'i-ku Suan-ching
@@ -231,7 +237,7 @@ Kubiska ekvationer.
 
 
 
-@chapter Ch'in Chiu-shau — 1247
+@section Ch'in Chiu-shau — 1247
 @cindex Ch'in Chiu-shau
 
 @cindex Qin Jiushao
@@ -247,7 +253,7 @@ Ekvationer av högre grader: Horners metod.
 
 
 
-@chapter Li Yeh — 1192–1279
+@section Li Yeh — 1192–1279
 @cindex Li Yeh
 
 @cindex T'se-yuan Hei Ching
@@ -260,7 +266,7 @@ Geometrika problem som leder ekvationer av högra grader.
 
 
 
-@chapter Chu Shih-chieng — 1303
+@section Chu Shih-chieng — 1303
 @cindex Chu Shih-chieng
 
 @cindex Szu-yuen Yu-chien
@@ -274,7 +280,7 @@ Pascals triangel och summation av serier.
 
 
 
-@chapter Kuo Chou-ching — 1231–1316
+@section Kuo Chou-ching — 1231–1316
 @cindex Kuo Chou-ching
 
 @cindex Chou-shih
@@ -286,7 +292,7 @@ Sfärisk trigonometri.
 
 
 
-@chapter Ch'eng Tai-wei — 1593
+@section Ch'eng Tai-wei — 1593
 @cindex Ch'eng Tai-wei
 
 @cindex Suan-fa T'ung-tsung
@@ -298,7 +304,7 @@ Suan-fa T'ung-tsung (A Systematrised Threatise on Aritmetric.)
 
 
 
-@chapter Matteo Ricci och Hsu Guangqi — 1607
+@section Matteo Ricci och Hsu Guangqi — 1607
 @cindex Matteo Ricci
 @cindex Ricci, Matteo
 @cindex Hsu Guangqil
