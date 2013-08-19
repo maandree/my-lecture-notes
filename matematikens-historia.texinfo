@@ -124,6 +124,8 @@ tal-teori, nämligen den av talet 6.
 Den visare även hur man löser linjära ekvationer av första ordningen,
 @cindex Aritmetiska serier
 @cindex Geometriska serier
+@cindex Serier, aritmetiska
+@cindex Serier, geometriska
 och även aritmetiska och geometriska serier.
 
 @cindex Moskva-papyrusen
@@ -255,6 +257,20 @@ T'se-yuan Hei Ching (The Sea Mirror of the Circle Measurements.)
 @cindex Geometrika problem
 @cindex Ekvationer av högra grader
 Geometrika problem som leder ekvationer av högra grader.
+
+
+
+@chapter Chu Shih-chieng — 1303
+@cindex Chu Shih-chieng
+
+@cindex Szu-yuen Yu-chien
+@cindex The Precious Mirror of Four Elements
+Szu-yuen Yu-chien (The Precious Mirror of Four Elements.)
+
+@cindex Pascals triangel
+@cindex Summation av serier
+@cindex Serier, summation
+Pascals triangel och summation av serier.
 
 
 
