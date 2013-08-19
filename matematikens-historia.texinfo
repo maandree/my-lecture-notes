@@ -362,6 +362,41 @@ Nummeriska problem
 
 
 
+@chapter Grekerna
+@cindex Grekerna
+
+
+
+@section Thales — 624–546 f. Kr.
+@cindex Thales från Miletus
+
+@cindex Deduktiv geometri
+Början av deduktiv geometri.
+
+Thales från Miletus var en för-Sokrateisk grekisk
+filosof från Miletus i Anatolien (Mindre Asien),
+och är en av de sju visa männen av Grekland.
+Många, mest anmärkningsvärt Aristoteles, anser
+honom att vara den första filosofen in den
+grekiska traditionen. Mycket av vad vi vet om
+Thales som filosof kommer från Aristoteles.
+
+@b{Thales utförde också geometrisk forskning och,
+genom at använda trianglar (vinkel–sida–vinkel),
+tillämpade hans förståelse av geometri för att
+beräkna avståndet från kusten från skäpp til havs.}
+
+Thales rådgivde Anaximanders student, Pythagoras,
+att besöka Egypten för att fortsätta sinna studiers
+inom matematik och filosofi.
+
+När Thales var i Egypten kunde han förmodligen
+avgöra en pyramids höjd genom att mäta dess skuggas
+längd när längden av skuggan var den samma som
+dess höjd.
+
+
+
 @c @chapter Karl @i{Weierstrass} — 1815–1897
 @c @cindex Karl Weierstrass
 @c @cindex Weierstrass, Karl
