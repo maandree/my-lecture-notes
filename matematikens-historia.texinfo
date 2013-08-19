@@ -347,6 +347,14 @@ underliggande system.
 
 
 
+@chapter Rhindpapyrusen — 1650 f. Kr.
+@cindex Rhindpapyrusen
+
+@cindex Nummeriska problem
+Nummeriska problem
+
+
+
 @c @chapter Karl @i{Weierstrass} — 1815–1897
 @c @cindex Karl Weierstrass
 @c @cindex Weierstrass, Karl
