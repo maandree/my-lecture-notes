@@ -439,7 +439,7 @@ skapade en förmögenhet när förespåelsen var sann.
 
 
 
-@section Eupalinos — 530
+@section Eupalinos — 530 f. Kr.
 @cindex Eupalinos
 
 @cindex Samos
@@ -467,6 +467,7 @@ konststyckena i den grekiska världen.
 
 @section Anaximander från Miletus — 611–546 f. Kr.
 @cindex Anaximander från Miletus
+@cindex Miletus
 
 @cindex Geometri
 Geometri.
@@ -480,6 +481,60 @@ världen som en cirkel, toppen av en cylinder.
 Den skulla ha Medelhavet i centrum och land till
 norr och säder, eftersom det var då den kända
 världen.
+
+
+
+@section Pythagoras från Samos — 570 – 495 f. Kr.
+@cindex Pythagoras från Samos
+@cindex Samos
+
+@cindex Geometri
+@cindex Aritmetik
+Geometri. Aritmetik.
+
+@cindex Elements
+Elements, 13 böcker.
+
+@cindex Pythagoranism
+Jonisk grekisk filosof, matematiker och grundare
+av den religösa rörelsen @b{Pythagoranism}. Han
+studerade odda och jämn tal, triangulära tal, och
+perfekta tal. Pythagoranernas arbete har hjälp
+oss att bättre behärska vinklar, trianglar, areor,
+proportioer, polygoner och polyedrar.
+
+Pythagoras är känd för:
+
+@itemize @bullet
+@item
+@cindex Triangelns vinkelsumma
+@b{Summan av vinklarna till i en triangel är lika med
+två rätta vinklar.}
+@item
+@cindex Pythagoras sats
+@b{Bevis av Pythagoras sats:}@footnote{Känt 1000
+tidigare av babylonerna} För en rätvinklig triangel
+är kvadraten av hypotenusan lika med summan av
+kvadraterna för de andra två sidorna.
+@item
+@cindex Irrationalla tal
+Pythagoranerna upptäckte de irrationalla talen, men
+det tycks osannoligt att det var Pythagoras idé
+eftersom det motsäger hans filosofi om att alla ting
+är tal, vilket han såg som kvotar av heltal.
+@item
+@b{De fem regelbundna kropparna} (tetraeder, kub,
+oktaeder, ikosaeder, dodekaeder.) Det tros att
+Pythagoras visste hur de tree första konstruerades,
+men inte de två sista.
+@item
+Pythagoras trodde att Jorden var en sfär i centrum
+av kosmos (universum), och att planeter, stjärnor
+och universion var sfäriska eftersom sfären är den
+mest perfekta kroppen. Han trodde också att banorna
+för planeterna var cirkulära. Pythagoras insåg att
+morgonstjärnan var den samma som kvällsstjärnan, Venus.
+@end itemize
 
 
 
