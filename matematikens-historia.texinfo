@@ -43,14 +43,48 @@ Texts. A copy of the license is included in the section entitled
 
 
 
-@menu
-* Blah::
-* GNU Free Documentation License::
-@end menu
+@chapter David @b{Hilbert} — 1862–1943
+@cindex David Hilbert
+@cindex Hilbert, David
+
+@cindex Integral equations
+@cindex Foundations of mathematics
+Integral equations. Foundations of mathematics.
+
+Tysk matematiker erkänd som en av de mest influensrika
+and universella matematikerna av 1800-talet och tidigit
+1900-tal.
 
 
 
-@chapter Blah
+@chapter Luitzen Egbertus Jan @b{Brouwer} — 1881–1966
+@cindex Luitzen Egbertus Jan Brouwer
+@cindex L. E. J. Brouwer
+@cindex Brouwer, Luitzen Egbertus Jan
+
+@cindex Topologi
+@cindex Konstruktivism
+Topologi. Konstruktivism.
+
+@cindex Bertus
+Nederländsk matematiker och filosof, kallad Bertus
+av sinna vänner.
+
+
+
+@chapter Whitehead Russell — 1910
+@cindex Whitehead Russell
+@cindex Russell, Whitehead
+
+@cindex Matematisk logik
+@cindex Principia Mathematica
+Matematisk logik (Principia Mathematica)
+
+
+
+@chapter Grigori Perelman
+@cindex Grigori Perelman
+@cindex Perelman, Grigori
 
 
 
