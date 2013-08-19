@@ -221,11 +221,25 @@ $ \pi \approx 355/113 $
 @cindex Wang Hs'iao-t'ung
 
 @cindex Ch'i-ku Suan-ching
-@cindex Continuation of ancient mathematics
-Ch'i-ku Suan-ching (Continuation of ancient mathematics.)
+@cindex Continuation of Ancient Mathematics
+Ch'i-ku Suan-ching (Continuation of Ancient Mathematics.)
 
 @cindex Kubiska ekvationer
 Kubiska ekvationer.
+
+
+
+@chapter Ch'in Chiu-shau — 1247
+@cindex Ch'in Chiu-shau
+
+@cindex Qin Jiushao
+Ch'in Chiu-shau är även transkriberat Qin Jiushao.
+
+@cindex Su-shu Chiu-chang
+@cindex Nine Chapters of Mathematics
+Su-shu Chiu-chang (Nine Chapters of Mathematics.)
+
+Ekvationer av högre grader: Horners metod.
 
 
 
