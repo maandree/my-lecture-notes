@@ -341,6 +341,12 @@ underliggande system.
 
 
 
+@chapter Matematiska plattor vid Nippur — 2200 f. Kr.
+@cindex Matematiska plattor vid Nippur
+@cindex Nippur, matematiska plattor
+
+
+
 @c @chapter Karl @i{Weierstrass} — 1815–1897
 @c @cindex Karl Weierstrass
 @c @cindex Weierstrass, Karl
