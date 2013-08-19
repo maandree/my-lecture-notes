@@ -341,13 +341,19 @@ underliggande system.
 
 
 
-@chapter Matematiska plattor vid Nippur — 2200 f. Kr.
+@chapter Matematisk skrifter
+@cindex Matematisk skrifter
+@cindex Skrifter
+
+
+
+@section Matematiska plattor vid Nippur — 2200 f. Kr.
 @cindex Matematiska plattor vid Nippur
 @cindex Nippur, matematiska plattor
 
 
 
-@chapter Rhindpapyrusen — 1650 f. Kr.
+@section Rhindpapyrusen — 1650 f. Kr.
 @cindex Rhindpapyrusen
 
 @cindex Nummeriska problem
