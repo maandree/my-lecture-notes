@@ -171,6 +171,7 @@ Astronomiska ekvationer, rättvinkliga trianglar och bråk.
 @chapter Chiu-chang Suan-shu — 250 f. Kr.
 @cindex Chiu-chang Suan-shu
 
+@cindex Arithmic in Nine Sections
 Arithmic in Nine Sections.
 
 
@@ -178,7 +179,25 @@ Arithmic in Nine Sections.
 @chapter Lui Hui — 250
 @cindex Lui Hui
 
+@cindex Sea Island Arithmetric Classic
 Sea Island Arithmetric Classic.
+
+
+
+@chapter Sun-Tsu Suan Ching — 300
+@cindex Sun-Tsu Suan Ching
+
+@cindex Sun Tzu Suan Ching
+@cindex Sunzi Suan Ching
+@cindex Sūn Zĭ Suàn Jīng
+Även transkiberat: Sun Tzu, Sunzi eller Sūn Zĭ, och Suàn Jīng.
+
+@cindex Arithmetic classics of Sun-Tsu
+@cindex Sun Tzu's Mathematical Classic
+Endast känd genom Arithmetic classics of Sun-Tsu (Sun Tzu's Mathematical Classic).
+
+@cindex Kinesiska restsatsen
+Första kända exemplet av den kinesiska restsatsen.
 
 
 
