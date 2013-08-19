@@ -388,8 +388,8 @@ genom at använda trianglar (vinkel–sida–vinkel),
 tillämpade hans förståelse av geometri för att
 beräkna avståndet från kusten från skäpp til havs.}
 
-@cindex Pythagoras
-@cindex Anaximanders
+@cindex Pythagoras från Samos
+@cindex Anaximander från Miletus
 @cindex Egypten
 Thales rådgivde Anaximanders student, Pythagoras,
 att besöka Egypten för att fortsätta sinna studiers
@@ -462,6 +462,24 @@ Vi vet detta från Herodotos som beskrev tunneln
 och akvadukten som ett av de största ingenjörsmessiga
 konststyckena i den grekiska världen.
 @c TODO
+
+
+
+@section Anaximander från Miletus — 611–546 f. Kr.
+@cindex Anaximander från Miletus
+
+@cindex Geometri
+Geometri.
+
+@cindex Världkarta
+@cindex Karta, världkarta
+Det verkas som att Anaximander var den första som
+försökta göra en karta över världen. Denna karta
+har dock inte bevarats, den måste dock har avbildat
+världen som en cirkel, toppen av en cylinder.
+Den skulla ha Medelhavet i centrum och land till
+norr och säder, eftersom det var då den kända
+världen.
 
 
 
