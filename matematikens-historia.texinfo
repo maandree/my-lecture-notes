@@ -43,6 +43,47 @@ Texts. A copy of the license is included in the section entitled
 
 
 
+@chapter Babylonierna (mesopotamierna)
+@cindex Babylonierna
+@cindex Mesopotamierna
+
+
+@cindex Stjärnhimmeln
+@cindex Solen
+Stjärnhimmeln: solen har alltid latitud 0.
+
+@cindex Astronomiska händelser
+Kartläggde och listade astronomiska händelser.
+@cindex Planeternas rörelser
+De hade listat planeternas rörelser.
+@cindex Plattor
+De hade tusentals astronomiska och matematiska plattor.
+De skrev advancerad algabra med kvadratiska ekvationer.
+
+@cindex 360°
+@cindex Grader
+@cindex Minuter
+@cindex Sekunder
+Babylonierna delade in cirkeln i 360°, men
+1° = 60' (minuter), och 1'  = 60'' (sekunder).
+@cindex Klockan
+@cindex Dygnet
+@cindex Dagen
+@cindex 12 timmar
+@cindex 24 timmar
+De delade in dygnad i två 12 timmars delar.
+@cindex 60-bas
+@cindex 12-bas
+12 och 60 var angelägen baser för att de delas
+jämnt ut av många mindre tal.
+@c TODO
+Denna talbas används västvärlden tills den senare
+romerska tiden.
+
+@c TODO
+
+
+
 @c @chapter Karl @i{Weierstrass} — 1815–1897
 @c @cindex Karl Weierstrass
 @c @cindex Weierstrass, Karl
