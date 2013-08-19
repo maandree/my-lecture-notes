@@ -132,6 +132,32 @@ Den visare även hur man löser linjära ekvationer av första ordningen,
 @cindex Geometriska serier
 och även aritmetiska och geometriska serier.
 
+@cindex Moskva-papyrusen
+Moskva-papyrusen är en annan signifikant egyptisk matematisk text.
+Den kommer också från Mellersta riket, runt 1890 f. Kr., och innehåller
+@cindex Ordproblem
+@cindex Berättelseproblem
+vad som idag kallas ordproblem eller berättelseproblem, vilka var
+avsädda som underhållning.
+Ett problem är av särskild betydelse då den ger en metod för att
+@cindex Avstympat parti
+@cindex Frustum
+hitta volymen av ett avstympat parti@footnote{Engelska: frustum}:
+
+@cartouche
+Om du är berättad: En avskuren pyramid med 6 som vertikal höjd,
+och 4 som bas och 2 som topp. Du ska kvadrera detta 4, resultat 16.
+Du ska dubblera 4, result 8. Du ska kvadrera 2, resultat 4.
+Du ska addera 16:en, 8:an, och 4:an, resultat 28. Du ska ta en
+tredjedel av 6, resultat 2. The ska ta 28 två gånger, resultat 56.
+Se, det är 56. Du finner detta att vara rätt.
+@end cartouche
+
+@cindex Berlin-papyrusen 
+@cindex Algebraiska ekvationer
+@cindex Andra ordningens algebraiska ekvationer
+Berlin-papyrusen, från runt 1300 f. Kr., visare att antika egypterna
+kunda lösa andra ordningens algebraiska ekvationer.
 
 
 
