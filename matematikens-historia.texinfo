@@ -43,7 +43,7 @@ Texts. A copy of the license is included in the section entitled
 
 
 
-@chapter David @b{Hilbert} — 1862–1943
+@chapter David @i{Hilbert} — 1862–1943
 @cindex David Hilbert
 @cindex Hilbert, David
 
@@ -57,7 +57,7 @@ and universella matematikerna av 1800-talet och tidigit
 
 
 
-@chapter Luitzen Egbertus Jan @b{Brouwer} — 1881–1966
+@chapter Luitzen Egbertus Jan @i{Brouwer} — 1881–1966
 @cindex Luitzen Egbertus Jan Brouwer
 @cindex L. E. J. Brouwer
 @cindex Brouwer, Luitzen Egbertus Jan
