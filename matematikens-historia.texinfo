@@ -40,6 +40,7 @@ Texts. A copy of the license is included in the section entitled
 @chapter Babylonierna (mesopotamierna)
 @cindex Babylonierna
 @cindex Mesopotamierna
+@c TODO när?
 
 
 @cindex Stjärnhimmeln
@@ -78,7 +79,7 @@ romerska tiden.
 
 
 
-@chapter Egyptierna
+@chapter Egyptierna — 2000–1300 f. Kr.
 @cindex Egyptierna
 
 @c TODO symboler för 1, 10 och 100
