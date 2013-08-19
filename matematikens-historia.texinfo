@@ -203,6 +203,20 @@ Namnet Sun-Tsu Suan Ching är pseudonym.
 
 
 
+@chapter Tsu Ch'ung-chih — 430–501
+@cindex Tsu Ch'ung-chih
+
+@cindex Chui-Shu
+@cindex Art of Mending
+Chui-Shu (Art of Mending).
+
+@cindex Pi
+@tex
+$ \pi \approx 355/113 $
+@end tex
+
+
+
 @c @chapter Karl @i{Weierstrass} — 1815–1897
 @c @cindex Karl Weierstrass
 @c @cindex Weierstrass, Karl
