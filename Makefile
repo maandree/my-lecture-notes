@@ -1,5 +1,5 @@
-PROGRAM = matematikens-history
-PKGNAME = matematikens-history
+PROGRAM = matematikens-historia
+PKGNAME = matematikens-historia
 TEXINFO_DIR = .
 
 PREFIX = /usr
@@ -34,17 +34,13 @@ clean:
 ## Texinfo manual section
 
 .PHONY: doc
-all: doc
-doc: info pdf ps dvi
+all: pdf
+doc: pdf ps dvi
 
-.PHONY: info pdf ps dvi
-info: $(PROGRAM).info.gz
+.PHONY: pdf ps dvi
 pdf: $(PROGRAM).pdf.gz
 ps: $(PROGRAM).ps.gz
 dvi: $(PROGRAM).dvi.gz
-
-%.info: $(TEXINFO_DIR)/%.texinfo
-	$(MAKEINFO) "$<"
 
 %.pdf: $(TEXINFO_DIR)/%.texinfo
 	texi2pdf "$<"
@@ -55,33 +51,9 @@ dvi: $(PROGRAM).dvi.gz
 %.ps: $(TEXINFO_DIR)/%.texinfo
 	texi2pdf --ps "$<"
 
-.PHONY: install-info
-install: install-info
-install-info: $(PROGRAM).info.gz
-	install -Dm644 "$<" -- "$(DESTDIR)$(PREFIX)$(DATA)/info/$(PKGNAME).info.gz"
-
-.PHONY: uninstall-info
-uninstall: uninstall-info
-uninstall-info:
-	-rm -- "$(DESTDIR)$(PREFIX)$(DATA)/info/$(PKGNAME).info.gz"
-
 .PHONY: clean-texinfo
 clean: clean-texinfo
 clean-texinfo:
 	-rm -- *.{info,pdf,ps,dvi}{,.gz,.bz2,.xz} 2>/dev/null
 	-rm -- *.{aux,cp,cps,fn,ky,log,pg,pgs,toc,tp,vr,vrs} 2>/dev/null
-
-### License section
-#
-#.PHONY: install-license
-#install: install-license
-#install-license:
-#	install -d -- "$(DESTDIR)$(PREFIX)$(DATA)/licenses/$(PKGNAME)"
-#	install -m644 LICENSE -- "$(DESTDIR)$(PREFIX)$(DATA)/licenses/$(PKGNAME)"
-#
-#.PHONY: uninstall-license
-#uninstall: uninstall-license
-#uninstall-license:
-#	-rm -- "$(DESTDIR)$(PREFIX)$(DATA)/licenses/$(PKGNAME)/LICENSE"
-#	-rmdir -- "$(DESTDIR)$(PREFIX)$(DATA)/licenses/$(PKGNAME)"
 
