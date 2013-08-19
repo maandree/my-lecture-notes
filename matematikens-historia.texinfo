@@ -298,6 +298,23 @@ Suan-fa T'ung-tsung (A Systematrised Threatise on Aritmetric.)
 
 
 
+@chapter Matteo Ricci och Hsu Guangqi — 1607
+@cindex Matteo Ricci
+@cindex Ricci, Matteo
+@cindex Hsu Guangqil
+
+@cindex Xu Guangqil
+Hsu Guangqil transkiberas även Xu Guangqil.
+
+@cindex Chi-ho Yaun-pen
+@cindex Elements of Geoometry
+Chi-ho Yaun-pen (Elements of Geoometry.)
+
+@cindex Euclid
+Översättning av Euclid.
+
+
+
 @c @chapter Karl @i{Weierstrass} — 1815–1897
 @c @cindex Karl Weierstrass
 @c @cindex Weierstrass, Karl
