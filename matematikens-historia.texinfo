@@ -175,6 +175,13 @@ Arithmic in Nine Sections.
 
 
 
+@chapter Lui Hui — 250
+@cindex Lui Hui
+
+Sea Island Arithmetric Classic.
+
+
+
 @c @chapter Karl @i{Weierstrass} — 1815–1897
 @c @cindex Karl Weierstrass
 @c @cindex Weierstrass, Karl
