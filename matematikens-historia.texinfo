@@ -442,16 +442,26 @@ skapade en förmögenhet när förespåelsen var sann.
 @section Eupalinos — 530
 @cindex Eupalinos
 
-@cindex Samons
+@cindex Samos
 @cindex Pythagorion
 @cindex Polykartes
 Under 500-talet f. Kr. var vattenkällorna i staden
-av antika @b{Samons} — nu kallat @b{Pythagorion} —
+av antika @b{Samos} — nu kallat @b{Pythagorion} —
 var inte tillräcklig för den växande välgången av
 standen och dess ökande befolkning. Så tyrranen
 Polykartes sysselsatte arkitekten Eupalinos med att
 bygga en akvadukt från the norra sidan av Mount
 Kastro (237 m) till staden.
+
+@cindex Naustrafos
+@cindex Herodotos
+@cindex Megara
+Eupalinos var son till Naustrafos och var född i
+Megara som ligger mellan antika Korinth och Aten.
+Vi vet detta från Herodotos som beskrev tunneln
+och akvadukten som ett av de största ingenjörsmessiga
+konststyckena i den grekiska världen.
+@c TODO
 
 
 
@@ -478,7 +488,7 @@ Kastro (237 m) till staden.
 Topologi. Differential ekvationer.
 
 Jules Henri Poincaré var en fransk matematiker, teoretisk
-fysiker, ingengör och vetenskapsfilosof.
+fysiker, ingenjör och vetenskapsfilosof.
 
 
 
