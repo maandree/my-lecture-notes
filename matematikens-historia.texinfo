@@ -286,6 +286,18 @@ Sfärisk trigonometri.
 
 
 
+@chapter Ch'eng Tai-wei — 1593
+@cindex Ch'eng Tai-wei
+
+@cindex Suan-fa T'ung-tsung
+@cindex A Systematrised Threatise on Aritmetric
+Suan-fa T'ung-tsung (A Systematrised Threatise on Aritmetric.)
+
+@cindex Abakus
+Äldsta, ännu existerande, värket som diskuterar abakusen.
+
+
+
 @c @chapter Karl @i{Weierstrass} — 1815–1897
 @c @cindex Karl Weierstrass
 @c @cindex Weierstrass, Karl
