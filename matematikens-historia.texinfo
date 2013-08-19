@@ -157,9 +157,9 @@ kunda lösa andra ordningens algebraiska ekvationer.
 
 
 
-@chapter Antika Kina
-@cindex Kina, antika
-@cindex Antika Kina
+@chapter Antika kineserna
+@cindex Kineserna, antika
+@cindex Antika kineserna
 
 
 
