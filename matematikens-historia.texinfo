@@ -239,7 +239,22 @@ Ch'in Chiu-shau är även transkriberat Qin Jiushao.
 @cindex Nine Chapters of Mathematics
 Su-shu Chiu-chang (Nine Chapters of Mathematics.)
 
+@cindex Ekvationer av högre grader
+@cindex Horners metod
 Ekvationer av högre grader: Horners metod.
+
+
+
+@chapter Li Yeh — 1192–1279
+@cindex Li Yeh
+
+@cindex T'se-yuan Hei Ching
+@cindex The Sea Mirror of the Circle Measurements
+T'se-yuan Hei Ching (The Sea Mirror of the Circle Measurements.)
+
+@cindex Geometrika problem
+@cindex Ekvationer av högra grader
+Geometrika problem som leder ekvationer av högra grader.
 
 
 
