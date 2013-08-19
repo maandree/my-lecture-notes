@@ -43,6 +43,18 @@ Texts. A copy of the license is included in the section entitled
 
 
 
+@c @chapter Karl @i{Weierstrass} — 1815–1897
+@c @cindex Karl Weierstrass
+@c @cindex Weierstrass, Karl
+@c 
+@c @cindex Reell och komplex analys
+@c Reell och komplex analys.
+@c 
+@c Karl Theodor Wilhelm Weierstrass var en tysk matematiker
+@c som ofta klassas ’fadern av fodern analys’.
+
+
+
 @chapter Henri @i{Poincaré} — 1854–1912
 @cindex Henri Poincaré
 @cindex Jules Henri Poincaré
