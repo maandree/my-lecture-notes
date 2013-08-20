@@ -552,6 +552,60 @@ och Theaitetos fortsatt entusiasitskt studierna. Specifikt
 klassifierade han diverse former av irrationella tal efter
 sättet de uttrycktes som kvadrat rötter.
 
+@cindex Platonska kroppar
+Theaitetos upptäckte troligen ikosaedern och dodekaedern.
+
+
+
+@section Platon (Plato) — 427–347 f. Kr.
+@cindex Platon
+
+@cindex Plato's texts
+Plato's texts.
+
+@cindex Pythagoras från Samos
+Platon var en filosofi i klassiska Grekland, och var
+inspirerad av Pythagoras. Hand var också en matemaiker,
+stdent till Sokrates, författare av filosofiska dialoger,
+and @b{grundare av Akademien i Aten, den första
+institutionen för högre utbildning i västvärlden.}
+
+@b{Platon som matematiker är troligen bäst känd för
+hans identification av de 5 regelbundna symmetriska
+3-dimensionella kropparna, som nu kallas de platonska
+kropparna}. Han trodde att dessa var grunden av
+hella universum.
+
+@itemize
+@item
+Tetraedern: 4 liksides trianglar,
+representerade eld för Platon
+@item
+Oktaedern: 8 liksides trianglar,
+representerade luft för Platon
+@item
+Kuben: 6 kvadrater,
+representerade jord för Platon
+@item
+Ikosaedern: 20 liksides trianglar,
+representerade vatten för Platon
+@item
+Dodekaedern: 12 regelbundna pentagoner,
+Platon beskrev denna som “guden använde
+för att arrangera stjärnhimmlen och
+hela himmelen.”
+@end itemize
+
+@cindex Pythagoras från Samos
+@b{Tetraedern}, kuben och dodekaedern var
+troligen kända av Pythagoras, och oktaedern
+och ikosahedern var troligen
+@cindex Theaitetos från Aten
+upptäckta av Theaitetos, som levde samtidigt
+som Platon.
+
+
+
 
 
 @c @chapter Karl @i{Weierstrass} — 1815–1897
