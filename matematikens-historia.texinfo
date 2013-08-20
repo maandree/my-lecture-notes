@@ -604,6 +604,14 @@ och ikosahedern var troligen
 upptäckta av Theaitetos, som levde samtidigt
 som Platon.
 
+@cindex Euklides
+Euklides, 500 år senare, bevisade att dess
+är de ända möjliga konvexa regelbundna
+polyedrarna, men de blev trots detta ändå
+kända som de platonska kropparna och
+inspirerade matematiker och geometriker
+många århundraden att komma.
+
 
 
 
