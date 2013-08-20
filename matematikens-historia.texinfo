@@ -687,6 +687,44 @@ dubbla volymen av en given kub.}
 
 
 
+@section Hippokrates från Chíos — 460–370 f. Kr.
+@cindex Hippokrates från Chíos
+@cindex Chíos
+
+Antik grekisk matematisker och astronom, och
+@b{geometriker} som kompilerade den första kända
+arbetet om element från geometri nästan 100 år
+@cindex Euklides
+@cindex Euklides' Element
+innan Euklides. Trots at denna inte har levt kvar
+kan Euklides ha använd den som model för hans
+Element.
+
+@cindex Diameter
+@cindex Radie
+@cindex Area, cirkel
+@cindex Cirkels area
+Hippokrates baserad sitt arbete på satsen om att
+@b{arean av två cirklar har samma förhållande som
+kvadraten av deras radier}. Han upptäckte även
+@cindex Kubdubblering
+@cindex Volymdubblering
+@cindex Dubblering av en kubs volym
+att @b{givet en kubs sida @math{a}, en kub med
+dubbla dess volym kan konstrueras om två
+medelproportioner, @math{x} och @math{y}, kan
+fastslås sådant att @math{a:x = x:y = y:2a}}.
+
+@emph{Det tros generellt även att} @b{Hippokrates
+introducerade tekniken av reducera ett komplex
+problem till mer spårbara eller enklare problem}.
+Hans reduktion av problemet att @b{dubblera en kub
+(tredimensionell kvantitet) till att finna två
+länder (endimensionella kvantiteter)} passer
+denna beskrivning.
+
+
+
 @c @chapter Karl @i{Weierstrass} — 1815–1897
 @c @cindex Karl Weierstrass
 @c @cindex Weierstrass, Karl
