@@ -220,9 +220,7 @@ Namnet Sun-Tsu Suan Ching är pseudonym.
 Chui-Shu (Art of Mending).
 
 @cindex Pi
-@tex
-$ \pi \approx 355/113 $
-@end tex
+@math{\pi \approx 355/113}
 
 
 
@@ -651,6 +649,38 @@ Eudoxos' teori om @b{ojämförbara magnituder}
 och @b{uttömningsmetoden} influerade bökerna X
 @cindex Euklides' Element
 respektive XII av Euklides' Element.
+
+@cindex On the Sphere and Cylinder and in the Method
+I ”On the Sphere and Cylinder and in the Method”,
+@cindex Arkimedes från Syrakusa
+pekar Arkimedes ut, för beröm, två av Eudoxos' bevis
+@cindex Pyramider
+@cindex Koner
+baserade på @b{uttömningsmetoden: att volymen av
+pyramider och koner är en tredjedel av volymen för
+prismer respektive cylindrar med samma bas och höjd.}
+Spår tyder på att Eudoxos' bevis av den senare började
+genom att anta att koner och cylinder är jämförbara,
+innan fallet minskas att konen och cylindern är
+ojämförbara till det jämförbara fallet. Eftersom den
+moderna föreställningen om en reella talen är analog
+med det gamla begreppet av förhållanden, kan detta
+tillvägagångssätt jämfört med 1900-talets definitioner
+av de reella talen i form av rationella tal.
+@cindex Diameter
+@cindex Area, cirkel
+@cindex Cirkels area
+@b{Eudoxos bevisade även att arean av en cirkel är
+proportionell mot kvadraten av dess diameter.}
+
+@cindex Irrationella magnituder
+Eudoxus är troligen till stor del ansvarig för teorin
+om irrationella magnituder på formen @math{a \pm b}.
+@cindex Eratostenes från Kyrene
+Enligt Eratostenes från Kyrene, 276–194 f. Kr.,
+Eudoxos bidrog till lösning till dubblering av kuben,
+det vill säga, att konstruera en kub med dubbla volymen
+av en given kub.
 
 
 
