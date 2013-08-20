@@ -614,6 +614,37 @@ många århundraden att komma.
 
 
 
+@section Euxodos från Knidos — 408–347 f. Kr.
+@cindex Euxodos från Knidos
+@cindex Knidos
+
+@cindex Euklides' Element
+Bok V influerar bökerna X och XII av Euklides' Element.
+
+@cindex Platon
+Grekisk astronom, matematiker, vetenskapsman och
+student till Platon. Inga av hans arbeten finns
+kvar och kunskap vi har av honom kommer från
+@cindex Aratos' dikter
+sekundära källor såsom Aratos' dikter om astronomi.
+
+@cindex Proportioner
+Euxodos' bidrag till tidigare teorier om
+@b{proportioner (lika förhållanden)} ger grunden
+för dess generella framställning i bok V av
+Euklides' Element. Tidigare bevis för proportioner
+krävde separata behandlingar av linjer, ytor, och
+kroppar, Eudoxos gav @b{allmänna bevis}. Det är
+emellertid okänt hur mycket senare matematiker kan
+ha bidragit till den form som finns i Elements.
+
+@cindex Bisektionsprincipen
+@cindex Tudelningsprincipen
+Euxodos formulerade @b{bisektionsprincipen} som säger
+att av två storheter av samma slag kan man kontinuerligt
+den söttre av minst halva för att bygga en del som
+är mindre än den mindre.
+
 
 
 @c @chapter Karl @i{Weierstrass} — 1815–1897
