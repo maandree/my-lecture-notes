@@ -614,8 +614,8 @@ många århundraden att komma.
 
 
 
-@section Euxodos från Knidos — 408–347 f. Kr.
-@cindex Euxodos från Knidos
+@section Eudoxos från Knidos — 408–347 f. Kr.
+@cindex Eudoxos från Knidos
 @cindex Knidos
 
 @cindex Euklides' Element
@@ -629,7 +629,7 @@ kvar och kunskap vi har av honom kommer från
 sekundära källor såsom Aratos' dikter om astronomi.
 
 @cindex Proportioner
-Euxodos' bidrag till tidigare teorier om
+Eudoxos' bidrag till tidigare teorier om
 @b{proportioner (lika förhållanden)} ger grunden
 för dess generella framställning i bok V av
 Euklides' Element. Tidigare bevis för proportioner
@@ -640,10 +640,18 @@ ha bidragit till den form som finns i Elements.
 
 @cindex Bisektionsprincipen
 @cindex Tudelningsprincipen
-Euxodos formulerade @b{bisektionsprincipen} som säger
+Eudoxos formulerade @b{bisektionsprincipen} som säger
 att av två storheter av samma slag kan man kontinuerligt
 den söttre av minst halva för att bygga en del som
 är mindre än den mindre.
+
+@cindex Ojämförbara magnituder
+Eudoxos' teori om @b{ojämförbara magnituder}
+@footnote{Magnituder utan gemensamma enheter}
+@cindex Uttömningsmetoden
+och @b{uttömningsmetoden} influerade bökerna X
+@cindex Euklides' Element
+respektive XII av Euklides' Element.
 
 
 
