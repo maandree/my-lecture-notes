@@ -715,6 +715,7 @@ dubbla dess volym kan konstrueras om två
 medelproportioner, @math{x} och @math{y}, kan
 fastslås sådant att @math{a:x = x:y = y:2a}}.
 
+@cindex Reduktion
 @emph{Det tros generellt även att} @b{Hippokrates
 introducerade tekniken av reducera ett komplex
 problem till mer spårbara eller enklare problem}.
