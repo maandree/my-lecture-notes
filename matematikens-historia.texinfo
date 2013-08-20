@@ -678,9 +678,9 @@ Eudoxus är troligen till stor del ansvarig för teorin
 om irrationella magnituder på formen @math{a \pm b}.
 @cindex Eratostenes från Kyrene
 Enligt Eratostenes från Kyrene, 276–194 f. Kr.,
-Eudoxos bidrog till lösning till dubblering av kuben,
-det vill säga, att konstruera en kub med dubbla volymen
-av en given kub.
+@b{Eudoxos bidrog till lösning till dubblering av
+kuben, det vill säga, att konstruera en kub med
+dubbla volymen av en given kub.}
 
 
 
