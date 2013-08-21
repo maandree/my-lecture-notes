@@ -1,0 +1,826 @@
+\input texinfo   @c -*-texinfo-*-
+
+@c %**start of header
+@setfilename matematikens-historia.info
+@settitle matematikens historia
+@afourpaper
+@documentencoding UTF-8
+@documentlanguage sv
+@finalout
+@c %**end of header
+
+
+
+@copying
+Copyright @copyright{} 2013 Mattias Andrée
+
+@quotation
+Permission is granted to copy, distribute and/or modify this document
+under the terms of the GNU Free Documentation License, Version 1.3 or
+any later version published by the Free Software Foundation; with no
+Invariant Sections, with no Front-Cover Texts, and with no Back-Cover
+Texts. A copy of the license is included in the section entitled
+``GNU Free Documentation License''.
+@end quotation
+@end copying
+
+@titlepage
+@title Matematikens historia
+@author av Mattias Andrée (maandree)
+
+@page
+@vskip 0pt plus 1filll
+@insertcopying
+@end titlepage
+
+@contents
+
+
+
+@chapter Babylonierna (mesopotamierna)
+@cindex Babylonierna
+@cindex Mesopotamierna
+@c TODO när?
+
+
+@cindex Stjärnhimmeln
+@cindex Solen
+Stjärnhimmeln: solen har alltid latitud 0.
+
+@cindex Astronomiska händelser
+Kartläggde och listade astronomiska händelser.
+@cindex Planeternas rörelser
+De hade listat planeternas rörelser.
+@cindex Plattor
+De hade tusentals astronomiska och matematiska plattor.
+De skrev advancerad algabra med kvadratiska ekvationer.
+
+@cindex 360°
+@cindex Grader
+@cindex Minuter
+@cindex Sekunder
+Babylonierna delade in cirkeln i 360°, men
+1° = 60' (minuter), och 1'  = 60'' (sekunder).
+@cindex Klockan
+@cindex Dygnet
+@cindex Dagen
+@cindex 12 timmar
+@cindex 24 timmar
+De delade in dygnad i två 12 timmars delar.
+@cindex 60-bas
+@cindex 12-bas
+12 och 60 var angelägen baser för att de delas
+jämnt ut av många mindre tal.
+Denna talbas används västvärlden tills den senare
+romerska tiden.
+
+@c TODO symboler för 1, 10 och 60
+
+
+
+@chapter Egyptierna — 2000–1300 f. Kr.
+@cindex Egyptierna
+
+@c TODO symboler för 1, 10 och 100
+
+@cindex Grekiska
+@cindex Hellenistiska perioden
+Med egyptiska matematisker menas matematik som skrivs på egyptiska.
+Från den hellenistiska perioden ersatts egyptiska med grekiska som
+det språk egyptierna använde.
+
+@cindex Arabiska
+@cindex Islamsk matematik
+Matematiska studier i Egypten fortsattes senare under det arabiska
+imperiumet som del av islamsk matematik när arabiska blev det skriva
+språket av egyptiska vetenskapsmän.
+
+@cindex Rhindpapyrusen
+@cindex Ahmes' papyrus
+@cindex Mellersta riket
+Den mest omfattande egyptiska matemtiska text en är Rhindpapyrusen,
+även kallade Ahmes' papyrus efter dess författare. Rhindpapyrusen
+skrivs runt 1650 f. Kr. men är troligen en kopia av ett äldre dokument
+från Mellersta riket från 2000–1800 f. Kr. Det är en instruktions
+@cindex Aritmetik
+@cindex Geometri
+@cindex Enhetsbråk
+@cindex Bråk, enhetsbråk
+@cindex Primtal
+manual för studenter i aritmetik och geometri. Rhindpapyrusen innehåller
+area formuler, metoder för multiplication, division och arbete med
+enhetsbråk and bevis på annan matematisk kunskap inklusive primtal och
+@cindex Medelsnitt
+@cindex Aritmetiska medelsnitt
+@cindex Geometriska medelsnitt
+@cindex Harmoniska medelsnitt
+sammansatta tal och aritmetiska, geometriska och harmoniska medelsnitt.
+@cindex Eratosthenes' sål
+@cindex Perfekta tal
+Den påvisar en på en simpel förståelse för Eratosthenes' sål och perfekt
+tal-teori, nämligen den av talet 6.
+@cindex Linjära ekvationer
+@cindex Första ordningens linjära ekvationer
+Den visare även hur man löser linjära ekvationer av första ordningen,
+@cindex Aritmetiska serier
+@cindex Geometriska serier
+@cindex Serier, aritmetiska
+@cindex Serier, geometriska
+och även aritmetiska och geometriska serier.
+
+@cindex Moskva-papyrusen
+Moskva-papyrusen är en annan signifikant egyptisk matematisk text.
+Den kommer också från Mellersta riket, runt 1890 f. Kr., och innehåller
+@cindex Ordproblem
+@cindex Berättelseproblem
+vad som idag kallas ordproblem eller berättelseproblem, vilka var
+avsädda som underhållning.
+Ett problem är av särskild betydelse då den ger en metod för att
+@cindex Avstympat parti
+@cindex Frustum
+hitta volymen av ett avstympat parti@footnote{Engelska: frustum}:
+
+@cartouche
+Om du är berättad: En avskuren pyramid med 6 som vertikal höjd,
+och 4 som bas och 2 som topp. Du ska kvadrera detta 4, resultat 16.
+Du ska dubblera 4, result 8. Du ska kvadrera 2, resultat 4.
+Du ska addera 16:en, 8:an, och 4:an, resultat 28. Du ska ta en
+tredjedel av 6, resultat 2. The ska ta 28 två gånger, resultat 56.
+Se, det är 56. Du finner detta att vara rätt.
+@end cartouche
+
+@cindex Berlin-papyrusen 
+@cindex Algebraiska ekvationer
+@cindex Andra ordningens algebraiska ekvationer
+Berlin-papyrusen, från runt 1300 f. Kr., visare att antika egypterna
+kunda lösa andra ordningens algebraiska ekvationer.
+
+
+
+@chapter Antika kineserna
+@cindex Kineserna, antika
+@cindex Antika kineserna
+
+
+
+@section Chou Pei Suan Ching — 300 f. Kr.(?)
+@cindex Chou Pei Suan Ching
+
+@cindex Secret book of Arithmics
+Secret book of Arithmics.
+
+@cindex Astronomiska ekvationer
+@cindex Rättvinkliga trianglar
+@cindex Bråk
+Astronomiska ekvationer, rättvinkliga trianglar och bråk.
+
+
+
+@section Chiu-chang Suan-shu — 250 f. Kr.
+@cindex Chiu-chang Suan-shu
+
+@cindex Arithmic in Nine Sections
+Arithmic in Nine Sections.
+
+
+
+@section Lui Hui — 250
+@cindex Lui Hui
+
+@cindex Sea Island Arithmetric Classic
+Sea Island Arithmetric Classic.
+
+
+
+@section Sun-Tsu Suan Ching — 300
+@cindex Sun-Tsu Suan Ching
+
+@cindex Sun Tzu Suan Ching
+@cindex Sunzi Suan Ching
+@cindex Sūn Zĭ Suàn Jīng
+Även transkiberat: Sun Tzu, Sunzi eller Sūn Zĭ, och Suàn Jīng.
+
+@cindex Arithmetic classics of Sun-Tsu
+@cindex Sun Tzu's Mathematical Classic
+Endast känd för Arithmetic classics of Sun-Tsu (Sun Tzu's Mathematical Classic).
+
+@cindex Kinesiska restsatsen
+Första kända exemplet av den kinesiska restsatsen.
+
+Namnet Sun-Tsu Suan Ching är pseudonym.
+
+
+
+@section Tsu Ch'ung-chih — 430–501
+@cindex Tsu Ch'ung-chih
+
+@cindex Chui-Shu
+@cindex Art of Mending
+Chui-Shu (Art of Mending).
+
+@cindex Pi
+@math{\pi \approx 355/113}
+
+
+
+@section Wang Hs'iao-t'ung — 625
+@cindex Wang Hs'iao-t'ung
+
+@cindex Ch'i-ku Suan-ching
+@cindex Continuation of Ancient Mathematics
+Ch'i-ku Suan-ching (Continuation of Ancient Mathematics.)
+
+@cindex Kubiska ekvationer
+Kubiska ekvationer.
+
+
+
+@section Ch'in Chiu-shau — 1247
+@cindex Ch'in Chiu-shau
+
+@cindex Qin Jiushao
+Ch'in Chiu-shau är även transkriberat Qin Jiushao.
+
+@cindex Su-shu Chiu-chang
+@cindex Nine Chapters of Mathematics
+Su-shu Chiu-chang (Nine Chapters of Mathematics.)
+
+@cindex Ekvationer av högre grader
+@cindex Horners metod
+Ekvationer av högre grader: Horners metod.
+
+
+
+@section Li Yeh — 1192–1279
+@cindex Li Yeh
+
+@cindex T'se-yuan Hei Ching
+@cindex The Sea Mirror of the Circle Measurements
+T'se-yuan Hei Ching (The Sea Mirror of the Circle Measurements.)
+
+@cindex Geometrika problem
+@cindex Ekvationer av högra grader
+Geometrika problem som leder ekvationer av högra grader.
+
+
+
+@section Chu Shih-chieng — 1303
+@cindex Chu Shih-chieng
+
+@cindex Szu-yuen Yu-chien
+@cindex The Precious Mirror of Four Elements
+Szu-yuen Yu-chien (The Precious Mirror of Four Elements.)
+
+@cindex Pascals triangel
+@cindex Summation av serier
+@cindex Serier, summation
+Pascals triangel och summation av serier.
+
+
+
+@section Kuo Chou-ching — 1231–1316
+@cindex Kuo Chou-ching
+
+@cindex Chou-shih
+@cindex Calendar
+Chou-shih (Calendar.)
+
+@cindex Sfärisk trigonometri
+Sfärisk trigonometri.
+
+
+
+@section Ch'eng Tai-wei — 1593
+@cindex Ch'eng Tai-wei
+
+@cindex Suan-fa T'ung-tsung
+@cindex A Systematrised Threatise on Aritmetric
+Suan-fa T'ung-tsung (A Systematrised Threatise on Aritmetric.)
+
+@cindex Abakus
+Äldsta, ännu existerande, värket som diskuterar abakusen.
+
+
+
+@section Matteo Ricci och Hsu Guangqi — 1607
+@cindex Matteo Ricci
+@cindex Ricci, Matteo
+@cindex Hsu Guangqil
+
+@cindex Xu Guangqil
+Hsu Guangqil transkiberas även Xu Guangqil.
+
+@cindex Chi-ho Yaun-pen
+@cindex Elements of Geoometry
+Chi-ho Yaun-pen (Elements of Geoometry.)
+
+@cindex Euclid
+Översättning av Euclid.
+
+
+
+@chapter Romarna
+@cindex Romarna
+@c TODO när?
+
+1, 5, 10, 50, 100, 500, 1000 = I, V, X, L, C, D, M
+
+Streck runt om för 100 gånger, och streck ovan för 1000 gånger.
+Har även system för större tal.
+
+4 = IV (men IIII på klockor).
+
+1 … 5 = I, II, III, IV, V
+
+999 = (1000 − 100) + (100 − 10) + (10 − 1) = CMXCIX, inte IM.
+
+Det decimala positionssystemet, med större enheter först, är det
+underliggande system.
+
+
+
+@chapter Matematisk skrifter
+@cindex Matematisk skrifter
+@cindex Skrifter
+
+
+
+@section Matematiska plattor vid Nippur — 2200 f. Kr.
+@cindex Matematiska plattor vid Nippur
+@cindex Nippur, matematiska plattor
+
+
+
+@section Rhindpapyrusen — 1650 f. Kr.
+@cindex Rhindpapyrusen
+
+@cindex Nummeriska problem
+Nummeriska problem
+
+
+
+@chapter Grekerna
+@cindex Grekerna
+
+
+
+@section Thales — 624–546 f. Kr.
+@cindex Thales från Miletus
+
+@cindex Deduktiv geometri
+Början av deduktiv geometri.
+
+@cindex Aristoteles
+Thales från Miletus var en för-Sokrateisk grekisk
+filosof från Miletus i Anatolien (Mindre Asien),
+och är en av de sju visa männen av Grekland.
+Många, mest anmärkningsvärt Aristoteles, anser
+honom att vara den första filosofen in den
+grekiska traditionen. Mycket av vad vi vet om
+Thales som filosof kommer från Aristoteles.
+
+@cindex vinkel–sida–vinkel
+@b{Thales utförde också geometrisk forskning och,
+genom at använda trianglar (vinkel–sida–vinkel),
+tillämpade hans förståelse av geometri för att
+beräkna avståndet från kusten från skäpp til havs.}
+
+@cindex Pythagoras från Samos
+@cindex Anaximander från Miletus
+@cindex Egypten
+Thales rådgivde Anaximanders student, Pythagoras,
+att besöka Egypten för att fortsätta sinna studiers
+inom matematik och filosofi.
+
+När Thales var i Egypten kunde han förmodligen
+avgöra en pyramids höjd genom att mäta dess skuggas
+längd när längden av skuggan var den samma som
+dess höjd.
+
+@b{Thales tros stå för fem satser inom geometri:}
+
+@itemize @bullet
+@item
+@cindex Diameter
+En cirkel bisektioneras av dess diameter.
+@item
+@cindex Liksides triangelar
+Vinklarna vid basen av en liksides triangel är
+de samma.
+@item
+@cindex Motstående vinklar
+Om två räta linjer skärs så är motstående vinklar
+de samma.
+@item
+@cindex Identiska trianglar
+Om en triangel har två viklar och en sida lika
+som en annan triangel så är trianglarna identiska.
+@item
+@cindex Halvcirklar
+@cindex Thales' sats
+@cindex Rätvinklig triangel
+Thales' sats: Ändarna av en halvcirkel tillsammas
+med en arbiträr punkt på halvcirkeln bildar en
+rätvinklig triangel.
+@end itemize
+
+@cindex Herodotos
+@cindex Solförmurkelse
+Herodotos noterade att Thales förespådde 585 f. Kr:s
+solförmurkelse, en anmärkningsvärd avancering för
+grekisk vetenskap. Aristoteles rapporterade att
+Thales använde sin kunskap att känna igen vädermönster
+för att förespå om nästa säsongs olivskörd skulle bli
+givmild. Han köpa alla olivprssarna i området och
+skapade en förmögenhet när förespåelsen var sann.
+
+
+
+@section Eupalinos — 530 f. Kr.
+@cindex Eupalinos
+
+@cindex Samos
+@cindex Pythagorion
+@cindex Polykartes
+Under 500-talet f. Kr. var vattenkällorna i staden
+av antika @b{Samos} — nu kallat @b{Pythagorion} —
+var inte tillräcklig för den växande välgången av
+standen och dess ökande befolkning. Så tyrranen
+Polykartes sysselsatte arkitekten Eupalinos med att
+bygga en akvadukt från the norra sidan av Mount
+Kastro (237 m) till staden.
+
+@cindex Naustrafos
+@cindex Herodotos
+@cindex Megara
+Eupalinos var son till Naustrafos och var född i
+Megara som ligger mellan antika Korinth och Aten.
+Vi vet detta från Herodotos som beskrev tunneln
+och akvadukten som ett av de största ingenjörsmessiga
+konststyckena i den grekiska världen.
+
+
+
+@section Anaximander från Miletus — 611–546 f. Kr.
+@cindex Anaximander från Miletus
+@cindex Miletus
+
+@cindex Geometri
+Geometri.
+
+@cindex Världkarta
+@cindex Karta, världkarta
+Det verkas som att Anaximander var den första som
+försökta göra en karta över världen. Denna karta
+har dock inte bevarats, den måste dock har avbildat
+världen som en cirkel, toppen av en cylinder.
+Den skulla ha Medelhavet i centrum och land till
+norr och säder, eftersom det var då den kända
+världen.
+
+
+
+@section Pythagoras från Samos — 570 – 495 f. Kr.
+@cindex Pythagoras från Samos
+@cindex Samos
+
+@cindex Geometri
+@cindex Aritmetik
+Geometri. Aritmetik.
+
+@cindex Elements
+Elements, 13 böcker.
+
+@cindex Pythagoranism
+Jonisk grekisk filosof, matematiker och grundare
+av den religösa rörelsen @b{Pythagoranism}. Han
+studerade odda och jämn tal, triangulära tal, och
+perfekta tal. Pythagoranernas arbete har hjälp
+oss att bättre behärska vinklar, trianglar, areor,
+proportioer, polygoner och polyedrar.
+
+Pythagoras är känd för:
+
+@itemize @bullet
+@item
+@cindex Triangelns vinkelsumma
+@b{Summan av vinklarna till i en triangel är lika med
+två rätta vinklar.}
+@item
+@cindex Pythagoras sats
+@b{Bevis av Pythagoras sats:}@footnote{Känt 1000
+tidigare av babylonerna} För en rätvinklig triangel
+är kvadraten av hypotenusan lika med summan av
+kvadraterna för de andra två sidorna.
+@item
+@cindex Irrationalla tal
+Pythagoranerna upptäckte de irrationalla talen, men
+det tycks osannoligt att det var Pythagoras idé
+eftersom det motsäger hans filosofi om att alla ting
+är tal, vilket han såg som kvotar av heltal.
+@item
+@b{De fem regelbundna kropparna} (tetraeder, kub,
+oktaeder, ikosaeder, dodekaeder.) Det tros att
+Pythagoras visste hur de tree första konstruerades,
+men inte de två sista.
+@item
+Pythagoras trodde att Jorden var en sfär i centrum
+av kosmos (universum), och att planeter, stjärnor
+och universion var sfäriska eftersom sfären är den
+mest perfekta kroppen. Han trodde också att banorna
+för planeterna var cirkulära. Pythagoras insåg att
+morgonstjärnan var den samma som kvällsstjärnan, Venus.
+@end itemize
+
+
+
+@section Theaitetos från Aten — 417–369 f. Kr.
+@cindex Theaitetos från Aten
+@cindex Aten
+
+@cindex Eupalinos
+Theaitetos från Aten var troligen son till Euphronius,
+och var en klassisk grekisk matematiker.
+
+@cindex Ojämförbara kvantiter
+Theodorus hade studerat teorin om ojämförbara kvantiter,
+och Theaitetos fortsatt entusiasitskt studierna. Specifikt
+klassifierade han diverse former av irrationella tal efter
+sättet de uttrycktes som kvadrat rötter.
+
+@cindex Platonska kroppar
+Theaitetos upptäckte troligen ikosaedern och dodekaedern.
+
+
+
+@section Platon (Plato) — 427–347 f. Kr.
+@cindex Platon
+
+@cindex Plato's texts
+Plato's texts.
+
+@cindex Pythagoras från Samos
+Platon var en filosofi i klassiska Grekland, och var
+inspirerad av Pythagoras. Hand var också en matemaiker,
+stdent till Sokrates, författare av filosofiska dialoger,
+and @b{grundare av Akademien i Aten, den första
+institutionen för högre utbildning i västvärlden.}
+
+@b{Platon som matematiker är troligen bäst känd för
+hans identification av de 5 regelbundna symmetriska
+3-dimensionella kropparna, som nu kallas de platonska
+kropparna}. Han trodde att dessa var grunden av
+hella universum.
+
+@itemize
+@item
+Tetraedern: 4 liksides trianglar,
+representerade eld för Platon
+@item
+Oktaedern: 8 liksides trianglar,
+representerade luft för Platon
+@item
+Kuben: 6 kvadrater,
+representerade jord för Platon
+@item
+Ikosaedern: 20 liksides trianglar,
+representerade vatten för Platon
+@item
+Dodekaedern: 12 regelbundna pentagoner,
+Platon beskrev denna som “guden använde
+för att arrangera stjärnhimmlen och
+hela himmelen.”
+@end itemize
+
+@cindex Pythagoras från Samos
+@b{Tetraedern}, kuben och dodekaedern var
+troligen kända av Pythagoras, och oktaedern
+och ikosahedern var troligen
+@cindex Theaitetos från Aten
+upptäckta av Theaitetos, som levde samtidigt
+som Platon.
+
+@cindex Euklides
+Euklides, 500 år senare, bevisade att dess
+är de ända möjliga konvexa regelbundna
+polyedrarna, men de blev trots detta ändå
+kända som de platonska kropparna och
+inspirerade matematiker och geometriker
+många århundraden att komma.
+
+
+
+@section Eudoxos från Knidos — 408–347 f. Kr.
+@cindex Eudoxos från Knidos
+@cindex Knidos
+
+@cindex Euklides' Element
+Bok V influerar bökerna X och XII av Euklides' Element.
+
+@cindex Platon
+Grekisk astronom, matematiker, vetenskapsman och
+student till Platon. Inga av hans arbeten finns
+kvar och kunskap vi har av honom kommer från
+@cindex Aratos' dikter
+sekundära källor såsom Aratos' dikter om astronomi.
+
+@cindex Proportioner
+Eudoxos' bidrag till tidigare teorier om
+@b{proportioner (lika förhållanden)} ger grunden
+för dess generella framställning i bok V av
+Euklides' Element. Tidigare bevis för proportioner
+krävde separata behandlingar av linjer, ytor, och
+kroppar, Eudoxos gav @b{allmänna bevis}. Det är
+emellertid okänt hur mycket senare matematiker kan
+ha bidragit till den form som finns i Elements.
+
+@cindex Bisektionsprincipen
+@cindex Tudelningsprincipen
+Eudoxos formulerade @b{bisektionsprincipen} som säger
+att av två storheter av samma slag kan man kontinuerligt
+den söttre av minst halva för att bygga en del som
+är mindre än den mindre.
+
+@cindex Ojämförbara magnituder
+Eudoxos' teori om @b{ojämförbara magnituder}
+@footnote{Magnituder utan gemensamma enheter}
+@cindex Uttömningsmetoden
+och @b{uttömningsmetoden} influerade bökerna X
+@cindex Euklides' Element
+respektive XII av Euklides' Element.
+
+@cindex On the Sphere and Cylinder and in the Method
+I ”On the Sphere and Cylinder and in the Method”,
+@cindex Arkimedes från Syrakusa
+pekar Arkimedes ut, för beröm, två av Eudoxos' bevis
+@cindex Pyramider
+@cindex Koner
+baserade på @b{uttömningsmetoden: att volymen av
+pyramider och koner är en tredjedel av volymen för
+prismer respektive cylindrar med samma bas och höjd.}
+Spår tyder på att Eudoxos' bevis av den senare började
+genom att anta att koner och cylinder är jämförbara,
+innan fallet minskas att konen och cylindern är
+ojämförbara till det jämförbara fallet. Eftersom den
+moderna föreställningen om en reella talen är analog
+med det gamla begreppet av förhållanden, kan detta
+tillvägagångssätt jämfört med 1900-talets definitioner
+av de reella talen i form av rationella tal.
+@cindex Diameter
+@cindex Area, cirkel
+@cindex Cirkels area
+@b{Eudoxos bevisade även att arean av en cirkel är
+proportionell mot kvadraten av dess diameter.}
+
+@cindex Irrationella magnituder
+Eudoxus är troligen till stor del ansvarig för teorin
+om irrationella magnituder på formen @math{a \pm b}.
+@cindex Eratostenes från Kyrene
+Enligt Eratostenes från Kyrene, 276–194 f. Kr.,
+@cindex Kubdubblering
+@cindex Volymdubblering
+@cindex Dubblering av en kubs volym
+@b{Eudoxos bidrog till lösning till dubblering av
+kuben, det vill säga, att konstruera en kub med
+dubbla volymen av en given kub.}
+
+
+
+@section Hippokrates från Chíos — 460–370 f. Kr.
+@cindex Hippokrates från Chíos
+@cindex Chíos
+
+Antik grekisk matematisker och astronom, och
+@b{geometriker} som kompilerade den första kända
+arbetet om element från geometri nästan 100 år
+@cindex Euklides
+@cindex Euklides' Element
+innan Euklides. Trots at denna inte har levt kvar
+kan Euklides ha använd den som model för hans
+Element.
+
+@cindex Diameter
+@cindex Radie
+@cindex Area, cirkel
+@cindex Cirkels area
+Hippokrates baserad sitt arbete på satsen om att
+@b{arean av två cirklar har samma förhållande som
+kvadraten av deras radier}. Han upptäckte även
+@cindex Kubdubblering
+@cindex Volymdubblering
+@cindex Dubblering av en kubs volym
+att @b{givet en kubs sida @math{a}, en kub med
+dubbla dess volym kan konstrueras om två
+medelproportioner, @math{x} och @math{y}, kan
+fastslås sådant att @math{a:x = x:y = y:2a}}.
+
+@cindex Reduktion
+@emph{Det tros generellt även att} @b{Hippokrates
+introducerade tekniken av reducera ett komplex
+problem till mer spårbara eller enklare problem}.
+Hans reduktion av problemet att @b{dubblera en kub
+(tredimensionell kvantitet) till att finna två
+länder (endimensionella kvantiteter)} passer
+denna beskrivning.
+
+
+
+@section Aristoteles — 384–322 f. Kr.
+@cindex Aristoteles
+
+@cindex Platon
+Student till Platon.
+
+@cindex Lykeum i Aten
+@cindex Aten
+Aristoteles grundade sin egen skola: Lykeum i Aten.
+
+@cindex Metafysik
+Aristoteles definierade metafysik som ’kunskapen
+om immatteriella företelser,’ eller ’företelser i
+den högsta graden av abstraktion.’
+
+@c Aristoteles är känd för ett flertal satser:
+
+
+
+@chapter Karl @i{Weierstrass} — 1815–1897
+@cindex Karl Weierstrass
+@cindex Weierstrass, Karl
+
+@cindex Reell och komplex analys
+Reell och komplex analys.
+
+Karl Theodor Wilhelm Weierstrass var en tysk matematiker
+som ofta klassas ’fadern av fodern analys’.
+
+
+
+@chapter Henri @i{Poincaré} — 1854–1912
+@cindex Henri Poincaré
+@cindex Jules Henri Poincaré
+@cindex Poincaré, Henri
+@cindex Poincaré, Jules Henri
+
+@cindex Topologi
+@cindex Differential ekvationer
+Topologi. Differential ekvationer.
+
+Jules Henri Poincaré var en fransk matematiker, teoretisk
+fysiker, ingenjör och vetenskapsfilosof.
+
+
+
+@chapter David @i{Hilbert} — 1862–1943
+@cindex David Hilbert
+@cindex Hilbert, David
+
+@cindex Integralekvationer
+@cindex Foundations of Mathematics
+Integralekvationer (Foundations of Mathematics).
+
+Tysk matematiker erkänd som en av de mest influensrika
+and universella matematikerna av 1800-talet och tidigit
+1900-tal.
+
+
+
+@chapter Luitzen Egbertus Jan @i{Brouwer} — 1881–1966
+@cindex Luitzen Egbertus Jan Brouwer
+@cindex L. E. J. Brouwer
+@cindex Brouwer, Luitzen Egbertus Jan
+
+@cindex Topologi
+@cindex Konstruktivism
+Topologi. Konstruktivism.
+
+@cindex Bertus
+Nederländsk matematiker och filosof, kallad Bertus
+av sinna vänner.
+
+
+
+@chapter Whitehead Russell — 1910
+@cindex Whitehead Russell
+@cindex Russell, Whitehead
+
+@cindex Matematisk logik
+@cindex Principia Mathematica
+Matematisk logik (Principia Mathematica)
+
+
+
+@chapter Grigori Perelman
+@cindex Grigori Perelman
+@cindex Perelman, Grigori
+
+
+
+@appendix GNU Free Documentation License
+@include fdl.texinfo
+
+@appendix Concept index
+@printindex cp
+
+@bye
+
