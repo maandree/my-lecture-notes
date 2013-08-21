@@ -26,7 +26,7 @@ Texts. A copy of the license is included in the section entitled
 
 @titlepage
 @title Matematikens historia
-@author by Mattias Andrée (maandree)
+@author av Mattias Andrée (maandree)
 
 @page
 @vskip 0pt plus 1filll
@@ -71,7 +71,6 @@ De delade in dygnad i två 12 timmars delar.
 @cindex 12-bas
 12 och 60 var angelägen baser för att de delas
 jämnt ut av många mindre tal.
-@c TODO
 Denna talbas används västvärlden tills den senare
 romerska tiden.
 
@@ -726,15 +725,34 @@ denna beskrivning.
 
 
 
-@c @chapter Karl @i{Weierstrass} — 1815–1897
-@c @cindex Karl Weierstrass
-@c @cindex Weierstrass, Karl
-@c 
-@c @cindex Reell och komplex analys
-@c Reell och komplex analys.
-@c 
-@c Karl Theodor Wilhelm Weierstrass var en tysk matematiker
-@c som ofta klassas ’fadern av fodern analys’.
+@section Aristoteles — 384–322 f. Kr.
+@cindex Aristoteles
+
+@cindex Platon
+Student till Platon.
+
+@cindex Lykeum i Aten
+@cindex Aten
+Aristoteles grundade sin egen skola: Lykeum i Aten.
+
+@cindex Metafysik
+Aristoteles definierade metafysik som ’kunskapen
+om immatteriella företelser,’ eller ’företelser i
+den högsta graden av abstraktion.’
+
+@c Aristoteles är känd för ett flertal satser:
+
+
+
+@chapter Karl @i{Weierstrass} — 1815–1897
+@cindex Karl Weierstrass
+@cindex Weierstrass, Karl
+
+@cindex Reell och komplex analys
+Reell och komplex analys.
+
+Karl Theodor Wilhelm Weierstrass var en tysk matematiker
+som ofta klassas ’fadern av fodern analys’.
 
 
 
